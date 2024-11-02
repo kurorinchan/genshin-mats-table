@@ -1,0 +1,3935 @@
+{
+    "version": "2022-09-13",
+    "data": [{
+        "object_type": "item",
+        "name": "Primogem",
+        "type": "Common Currency",
+        "rarity": 5,
+        "thumbnail": "Item_Primogem.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Primogem"
+    }, {
+        "object_type": "item",
+        "name": "Mora",
+        "type": "Common Currency",
+        "rarity": 3,
+        "thumbnail": "Icon_Mora.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mora"
+    }, {
+        "object_type": "item",
+        "name": "Wanderer's Advice",
+        "type": "Character EXP Material",
+        "category": "Character Development Items",
+        "rarity": 2,
+        "points": 1000,
+        "thumbnail": "Item_Wanderer's_Advice.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Wanderer's_Advice"
+    }, {
+        "object_type": "item",
+        "name": "Adventurer's Experience",
+        "type": "Character EXP Material",
+        "category": "Character Development Items",
+        "rarity": 3,
+        "points": 5000,
+        "thumbnail": "Item_Adventurer's_Experience.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Adventurer's_Experience"
+    }, {
+        "object_type": "item",
+        "name": "Hero's Wit",
+        "type": "Character EXP Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "points": 20000,
+        "thumbnail": "Item_Hero's_Wit.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Hero's_Wit"
+    }, {
+        "object_type": "item",
+        "name": "Enhancement Ore",
+        "type": "Weapon Enhancement Materials",
+        "category": "Weapons Materials",
+        "rarity": 1,
+        "points": 400,
+        "thumbnail": "Item_Enhancement_Ore.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Enhancement_Ore"
+    }, {
+        "object_type": "item",
+        "name": "Fine Enhancement Ore",
+        "type": "Weapon Enhancement Materials",
+        "category": "Weapons Materials",
+        "rarity": 2,
+        "points": 2000,
+        "thumbnail": "Item_Fine_Enhancement_Ore.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fine_Enhancement_Ore"
+    }, {
+        "object_type": "item",
+        "name": "Mystic Enhancement Ore",
+        "type": "Weapon Enhancement Materials",
+        "category": "Weapons Materials",
+        "rarity": 3,
+        "points": 10000,
+        "thumbnail": "Item_Mystic_Enhancement_Ore.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mystic_Enhancement_Ore"
+    }, {
+        "object_type": "item",
+        "name": "Brilliant Diamond Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Brilliant Diamond",
+        "rarity": 2,
+        "thumbnail": "Item_Brilliant_Diamond_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Brilliant_Diamond_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Brilliant Diamond Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Brilliant Diamond",
+        "rarity": 3,
+        "thumbnail": "Item_Brilliant_Diamond_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Brilliant_Diamond_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Brilliant Diamond Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Brilliant Diamond",
+        "rarity": 4,
+        "thumbnail": "Item_Brilliant_Diamond_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Brilliant_Diamond_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Brilliant Diamond Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Brilliant Diamond",
+        "rarity": 5,
+        "thumbnail": "Item_Brilliant_Diamond_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Brilliant_Diamond_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Agnidus Agate Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Agnidus Agate",
+        "rarity": 2,
+        "thumbnail": "Item_Agnidus_Agate_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Agnidus_Agate_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Agnidus Agate Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Agnidus Agate",
+        "rarity": 3,
+        "thumbnail": "Item_Agnidus_Agate_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Agnidus_Agate_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Agnidus Agate Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Agnidus Agate",
+        "rarity": 4,
+        "thumbnail": "Item_Agnidus_Agate_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Agnidus_Agate_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Agnidus Agate Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Agnidus Agate",
+        "rarity": 5,
+        "thumbnail": "Item_Agnidus_Agate_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Agnidus_Agate_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Varunada Lazurite Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Varunada Lazurite",
+        "rarity": 2,
+        "thumbnail": "Item_Varunada_Lazurite_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Varunada_Lazurite_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Varunada Lazurite Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Varunada Lazurite",
+        "rarity": 3,
+        "thumbnail": "Item_Varunada_Lazurite_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Varunada_Lazurite_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Varunada Lazurite Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Varunada Lazurite",
+        "rarity": 4,
+        "thumbnail": "Item_Varunada_Lazurite_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Varunada_Lazurite_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Varunada Lazurite Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Varunada Lazurite",
+        "rarity": 5,
+        "thumbnail": "Item_Varunada_Lazurite_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Varunada_Lazurite_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Vajrada Amethyst Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vajrada Amethyst",
+        "rarity": 2,
+        "thumbnail": "Item_Vajrada_Amethyst_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vajrada_Amethyst_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Vajrada Amethyst Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vajrada Amethyst",
+        "rarity": 3,
+        "thumbnail": "Item_Vajrada_Amethyst_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vajrada_Amethyst_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Vajrada Amethyst Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vajrada Amethyst",
+        "rarity": 4,
+        "thumbnail": "Item_Vajrada_Amethyst_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vajrada_Amethyst_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Vajrada Amethyst Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vajrada Amethyst",
+        "rarity": 5,
+        "thumbnail": "Item_Vajrada_Amethyst_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vajrada_Amethyst_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Vayuda Turquoise Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vayuda Turquoise",
+        "rarity": 2,
+        "thumbnail": "Item_Vayuda_Turquoise_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vayuda_Turquoise_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Vayuda Turquoise Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vayuda Turquoise",
+        "rarity": 3,
+        "thumbnail": "Item_Vayuda_Turquoise_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vayuda_Turquoise_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Vayuda Turquoise Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vayuda Turquoise",
+        "rarity": 4,
+        "thumbnail": "Item_Vayuda_Turquoise_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vayuda_Turquoise_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Vayuda Turquoise Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Vayuda Turquoise",
+        "rarity": 5,
+        "thumbnail": "Item_Vayuda_Turquoise_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Vayuda_Turquoise_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Shivada Jade Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Shivada Jade",
+        "rarity": 2,
+        "thumbnail": "Item_Shivada_Jade_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shivada_Jade_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Shivada Jade Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Shivada Jade",
+        "rarity": 3,
+        "thumbnail": "Item_Shivada_Jade_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shivada_Jade_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Shivada Jade Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Shivada Jade",
+        "rarity": 4,
+        "thumbnail": "Item_Shivada_Jade_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shivada_Jade_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Shivada Jade Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Shivada Jade",
+        "rarity": 5,
+        "thumbnail": "Item_Shivada_Jade_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shivada_Jade_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Prithiva Topaz Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Prithiva Topaz",
+        "rarity": 2,
+        "thumbnail": "Item_Prithiva_Topaz_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Prithiva_Topaz_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Prithiva Topaz Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Prithiva Topaz",
+        "rarity": 3,
+        "thumbnail": "Item_Prithiva_Topaz_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Prithiva_Topaz_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Prithiva Topaz Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Prithiva Topaz",
+        "rarity": 4,
+        "thumbnail": "Item_Prithiva_Topaz_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Prithiva_Topaz_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Prithiva Topaz Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Prithiva Topaz",
+        "rarity": 5,
+        "thumbnail": "Item_Prithiva_Topaz_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Prithiva_Topaz_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Nagadus Emerald Sliver",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Nagadus Emerald",
+        "rarity": 2,
+        "thumbnail": "Item_Nagadus_Emerald_Sliver.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Nagadus_Emerald_Sliver"
+    }, {
+        "object_type": "item",
+        "name": "Nagadus Emerald Fragment",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Nagadus Emerald",
+        "rarity": 3,
+        "thumbnail": "Item_Nagadus_Emerald_Fragment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Nagadus_Emerald_Fragment"
+    }, {
+        "object_type": "item",
+        "name": "Nagadus Emerald Chunk",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Nagadus Emerald",
+        "rarity": 4,
+        "thumbnail": "Item_Nagadus_Emerald_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Nagadus_Emerald_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Nagadus Emerald Gemstone",
+        "type": "Character Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Nagadus Emerald",
+        "rarity": 5,
+        "thumbnail": "Item_Nagadus_Emerald_Gemstone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Nagadus_Emerald_Gemstone"
+    }, {
+        "object_type": "item",
+        "name": "Hurricane Seed",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Mondstadt",
+        "source": ["Anemo Hypostasis"],
+        "thumbnail": "Item_Hurricane_Seed.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Hurricane_Seed"
+    }, {
+        "object_type": "item",
+        "name": "Lightning Prism",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Mondstadt",
+        "source": ["Electro Hypostasis"],
+        "thumbnail": "Item_Lightning_Prism.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lightning_Prism"
+    }, {
+        "object_type": "item",
+        "name": "Basalt Pillar",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Liyue",
+        "source": ["Geo Hypostasis"],
+        "thumbnail": "Item_Basalt_Pillar.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Basalt_Pillar"
+    }, {
+        "object_type": "item",
+        "name": "Crystalline Bloom",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Mondstadt",
+        "source": ["Cryo Hypostasis"],
+        "thumbnail": "Item_Crystalline_Bloom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Crystalline_Bloom"
+    }, {
+        "object_type": "item",
+        "name": "Smoldering Pearl",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Inazuma",
+        "source": ["Pyro Hypostases"],
+        "thumbnail": "Item_Smoldering_Pearl.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Smoldering_Pearl"
+    }, {
+        "object_type": "item",
+        "name": "Dew of Repudiation",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Inazuma",
+        "source": ["Hydro Hypostases"],
+        "thumbnail": "Item_Dew_of_Repudiation.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dew_of_Repudiation"
+    }, {
+        "object_type": "item",
+        "name": "Quelled Creeper",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Sumeru",
+        "source": ["Dendro Hypostases"],
+        "thumbnail": "Item_Quelled_Creeper.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Quelled_Creeper"
+    }, {
+        "object_type": "item",
+        "name": "Hoarfrost Core",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Mondstadt",
+        "source": ["Pyro Regisvines"],
+        "thumbnail": "Item_Hoarfrost_Core.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Hoarfrost_Core"
+    }, {
+        "object_type": "item",
+        "name": "Everflame Seed",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Liyue",
+        "source": ["Pyro Regisvines"],
+        "thumbnail": "Item_Everflame_Seed.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Everflame_Seed"
+    }, {
+        "object_type": "item",
+        "name": "Thunderclap Fruitcore",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Liyue",
+        "source": ["Electro Regisvines"],
+        "thumbnail": "Item_Thunderclap_Fruitcore.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Thunderclap_Fruitcore"
+    }, {
+        "object_type": "item",
+        "name": "Cleansing Heart",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Liyue",
+        "source": ["Oceanids"],
+        "thumbnail": "Item_Cleansing_Heart.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Cleansing_Heart"
+    }, {
+        "object_type": "item",
+        "name": "Dragonheir's False Fin",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Inazuma",
+        "source": ["Bathysmal Vishap Herds"],
+        "thumbnail": "Item_Dragonheir's_False_Fin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dragonheir's_False_Fin"
+    }, {
+        "object_type": "item",
+        "name": "Juvenile Jade",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Liyue",
+        "source": ["Primo Geovishaps"],
+        "thumbnail": "Item_Juvenile_Jade.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Juvenile_Jade"
+    }, {
+        "object_type": "item",
+        "name": "Marionette Core",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Inazuma",
+        "source": ["Maguu Kenki"],
+        "thumbnail": "Item_Marionette_Core.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Marionette_Core"
+    }, {
+        "object_type": "item",
+        "name": "Perpetual Heart",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Inazuma",
+        "source": ["Perpetual Mechanical Arrays"],
+        "thumbnail": "Item_Perpetual_Heart.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Perpetual_Heart"
+    }, {
+        "object_type": "item",
+        "name": "Riftborn Regalia",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Inazuma",
+        "source": ["Golden Wolflords"],
+        "thumbnail": "Item_Riftborn_Regalia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Riftborn_Regalia"
+    }, {
+        "object_type": "item",
+        "name": "Runic Fang",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Liyue",
+        "source": ["Ruin Serpent"],
+        "thumbnail": "Item_Runic_Fang.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Runic_Fang"
+    }, {
+        "object_type": "item",
+        "name": "Storm Beads",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Inazuma",
+        "source": ["Thunder Manifestations"],
+        "thumbnail": "Item_Storm_Beads.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Storm_Beads"
+    }, {
+        "object_type": "item",
+        "name": "Majestic Hooked Beak",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Sumeru",
+        "source": ["Jadeplume Terrorshroom"],
+        "thumbnail": "Item_Majestic_Hooked_Beak.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Majestic_Hooked_Beak"
+    }, {
+        "object_type": "item",
+        "name": "Pseudo-Stamens",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Sumeru",
+        "source": ["Setekh Wenut"],
+        "thumbnail": "Item_Pseudo-Stamens.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Pseudo-Stamens"
+    }, {
+        "object_type": "item",
+        "name": "Light Guiding Tetrahedron",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Sumeru",
+        "source": ["Algorithm of Semi-Intransient Matrix of Overseer Network"],
+        "thumbnail": "Item_Light_Guiding_Tetrahedron.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Light_Guiding_Tetrahedron"
+    }, {
+        "object_type": "item",
+        "name": "Perpetual Caliber",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Sumeru",
+        "source": ["Aeonblight Drake"],
+        "thumbnail": "Item_Perpetual_Caliber.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Perpetual_Caliber"
+    }, {
+        "object_type": "item",
+        "name": "Evergloom Ring",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Sumeru",
+        "source": ["Iniquitous Baptist"],
+        "thumbnail": "Item_Evergloom_Ring.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Evergloom_Ring"
+    }, {
+        "object_type": "item",
+        "name": "Artificed Spare Clockwork Component — Coppelia",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["Icewind Suite: Dirge of Coppelia"],
+        "thumbnail": "Item_Artificed_Spare_Clockwork_Component_—_Coppelia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Artificed_Spare_Clockwork_Component_—_Coppelia"
+    }, {
+        "object_type": "item",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["Icewind Suite: Dirge of Coppelius"],
+        "thumbnail": "Item_Artificed_Spare_Clockwork_Component_—_Coppelius.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Artificed_Spare_Clockwork_Component_—_Coppelius"
+    }, {
+        "object_type": "item",
+        "name": "Emperor's Resolution",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["Emperor of Fire and Iron"],
+        "thumbnail": "Item_Emperor's_Resolution.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Emperor's_Resolution"
+    }, {
+        "object_type": "item",
+        "name": "Fontemer Unihorn",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["Millennial Pearl Seahorse"],
+        "thumbnail": "Item_Fontemer_Unihorn.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fontemer_Unihorn"
+    }, {
+        "object_type": "item",
+        "name": "\"Tourbillon Device\"",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["Experimental Field Generator"],
+        "thumbnail": "Item_Tourbillon_Device.png",
+        "link": "https://genshin-impact.fandom.com/wiki/\"Tourbillon_Device\""
+    }, {
+        "object_type": "item",
+        "name": "Water That Failed To Transcend",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["Hydro Tulpa"],
+        "thumbnail": "Item_Water_That_Failed_To_Transcend.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Water_That_Failed_To_Transcend"
+    }, {
+        "object_type": "item",
+        "name": "Cloudseam Scale",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Liyue",
+        "source": ["Solitary Suanni"],
+        "thumbnail": "Item_Cloudseam_Scale.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Cloudseam_Scale"
+    }, {
+        "object_type": "item",
+        "name": "Fragment of a Golden Melody",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["\"Statue of Marble and Brass\""],
+        "thumbnail": "Item_Fragment_of_a_Golden_Melody.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fragment_of_a_Golden_Melody"
+    }, {
+        "object_type": "item",
+        "name": "Mark of the Binding Blessing",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Natlan",
+        "source": ["\"Statue of Marble and Brass\""],
+        "thumbnail": "Item_Mark_of_the_Binding_Blessing.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mark_of_the_Binding_Blessing"
+    }, {
+        "object_type": "item",
+        "name": "Overripe Flamegranate",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Fontaine",
+        "source": ["\"Statue of Marble and Brass\""],
+        "thumbnail": "Item_Overripe_Flamegranate.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Overripe_Flamegranate"
+    }, {
+        "object_type": "item",
+        "name": "Gold-Inscribed Secret Source Core",
+        "type": "Boss Material",
+        "category": "Character Development Items",
+        "rarity": 4,
+        "region": "Natlan",
+        "source": ["Secret Source Automaton: Configuration Device"],
+        "thumbnail": "Item_Gold-Inscribed_Secret_Source_Core.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Gold-Inscribed_Secret_Source_Core"
+    }, {
+        "object_type": "item",
+        "name": "Amakumo Fruit",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Amakumo_Fruit.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Amakumo_Fruit"
+    }, {
+        "object_type": "item",
+        "name": "Beryl Conch",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Beryl_Conch.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Beryl_Conch"
+    }, {
+        "object_type": "item",
+        "name": "Brilliant Chrysanthemum",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Natlan",
+        "thumbnail": "Item_Brilliant_Chrysanthemum.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Brilliant_Chrysanthemum"
+    }, {
+        "object_type": "item",
+        "name": "Calla Lily",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Calla_Lily.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Calla_Lily"
+    }, {
+        "object_type": "item",
+        "name": "Cecilia",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Cecilia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Cecilia"
+    }, {
+        "object_type": "item",
+        "name": "Clearwater Jade",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Clearwater_Jade.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Clearwater_Jade"
+    }, {
+        "object_type": "item",
+        "name": "Cor Lapis",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Cor_Lapis.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Cor_Lapis"
+    }, {
+        "object_type": "item",
+        "name": "Crystal Marrow",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Crystal_Marrow.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Crystal_Marrow"
+    }, {
+        "object_type": "item",
+        "name": "Dandelion Seed",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Dandelion_Seed.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dandelion_Seed"
+    }, {
+        "object_type": "item",
+        "name": "Dendrobium",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Dendrobium.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dendrobium"
+    }, {
+        "object_type": "item",
+        "name": "Fluorescent Fungus",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Fluorescent_Fungus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fluorescent_Fungus"
+    }, {
+        "object_type": "item",
+        "name": "Glaze Lily",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Glaze_Lily.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Glaze_Lily"
+    }, {
+        "object_type": "item",
+        "name": "Henna Berry",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Henna_Berry.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Henna_Berry"
+    }, {
+        "object_type": "item",
+        "name": "Jueyun Chili",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Jueyun_Chili.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Jueyun_Chili"
+    }, {
+        "object_type": "item",
+        "name": "Kalpalata Lotus",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Kalpalata_Lotus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Kalpalata_Lotus"
+    }, {
+        "object_type": "item",
+        "name": "Lakelight Lily",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Lakelight_Lily.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lakelight_Lily"
+    }, {
+        "object_type": "item",
+        "name": "Lumidouce Bell",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Lumidouce_Bell.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lumidouce_Bell"
+    }, {
+        "object_type": "item",
+        "name": "Lumitoile",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Lumitoile.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lumitoile"
+    }, {
+        "object_type": "item",
+        "name": "Marcotte",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Marcotte.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Marcotte"
+    }, {
+        "object_type": "item",
+        "name": "Mourning Flower",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Mourning_Flower.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mourning_Flower"
+    }, {
+        "object_type": "item",
+        "name": "Naku Weed",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Naku_Weed.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Naku_Weed"
+    }, {
+        "object_type": "item",
+        "name": "Nilotpala Lotus",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Nilotpala_Lotus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Nilotpala_Lotus"
+    }, {
+        "object_type": "item",
+        "name": "Noctilucous Jade",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Noctilucous_Jade.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Noctilucous_Jade"
+    }, {
+        "object_type": "item",
+        "name": "Onikabuto",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Onikabuto.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Onikabuto"
+    }, {
+        "object_type": "item",
+        "name": "Padisarah",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Padisarah.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Padisarah"
+    }, {
+        "object_type": "item",
+        "name": "Philanemo Mushroom",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Philanemo_Mushroom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philanemo_Mushroom"
+    }, {
+        "object_type": "item",
+        "name": "Qingxin",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Qingxin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Qingxin"
+    }, {
+        "object_type": "item",
+        "name": "Quenepa Berry",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Natlan",
+        "thumbnail": "Item_Quenepa_Berry.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Quenepa_Berry"
+    }, {
+        "object_type": "item",
+        "name": "Rainbow Rose",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Rainbow_Rose.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Rainbow_Rose"
+    }, {
+        "object_type": "item",
+        "name": "Romaritime Flower",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Romaritime_Flower.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Romaritime_Flower"
+    }, {
+        "object_type": "item",
+        "name": "Rukkhashava Mushrooms",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Rukkhashava_Mushrooms.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Rukkhashava_Mushrooms"
+    }, {
+        "object_type": "item",
+        "name": "Sakura Bloom",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Sakura_Bloom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sakura_Bloom"
+    }, {
+        "object_type": "item",
+        "name": "Sand Grease Pupa",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Sand_Grease_Pupa.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sand_Grease_Pupa"
+    }, {
+        "object_type": "item",
+        "name": "Sango Pearl",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Sango_Pearl.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sango_Pearl"
+    }, {
+        "object_type": "item",
+        "name": "Scarab",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Scarab.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Scarab"
+    }, {
+        "object_type": "item",
+        "name": "Sea Ganoderma",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Inazuma",
+        "thumbnail": "Item_Sea_Ganoderma.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sea_Ganoderma"
+    }, {
+        "object_type": "item",
+        "name": "Silk Flower",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Silk_Flower.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Silk_Flower"
+    }, {
+        "object_type": "item",
+        "name": "Small Lamp Grass",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Small_Lamp_Grass.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Small_Lamp_Grass"
+    }, {
+        "object_type": "item",
+        "name": "Sprayfeather Gill",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Sprayfeather_Gill.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sprayfeather_Gill"
+    }, {
+        "object_type": "item",
+        "name": "Spring of the First Dewdrop",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Spring_of_the_First_Dewdrop.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Spring_of_the_First_Dewdrop"
+    }, {
+        "object_type": "item",
+        "name": "Starconch",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Starconch.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Starconch"
+    }, {
+        "object_type": "item",
+        "name": "Subdetection Unit",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Fontaine",
+        "thumbnail": "Item_Subdetection_Unit.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Subdetection_Unit"
+    }, {
+        "object_type": "item",
+        "name": "Trishiraite",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Sumeru",
+        "thumbnail": "Item_Trishiraite.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Trishiraite"
+    }, {
+        "object_type": "item",
+        "name": "Valberry",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Valberry.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Valberry"
+    }, {
+        "object_type": "item",
+        "name": "Violetgrass",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Liyue",
+        "thumbnail": "Item_Violetgrass.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Violetgrass"
+    }, {
+        "object_type": "item",
+        "name": "Windwheel Aster",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Windwheel_Aster.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Windwheel_Aster"
+    }, {
+        "object_type": "item",
+        "name": "Wolfhook",
+        "type": "Local Specialties",
+        "category": "Materials",
+        "region": "Mondstadt",
+        "thumbnail": "Item_Wolfhook.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Wolfhook"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Freedom",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Freedom Book",
+        "rarity": 2,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 1,
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Freedom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Freedom"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Freedom",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Freedom Book",
+        "rarity": 3,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 2,
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Freedom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Freedom"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Freedom",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Freedom Book",
+        "rarity": 4,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 4,
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Freedom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Freedom"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Resistance",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Resistance Book",
+        "rarity": 2,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 1,
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Resistance.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Resistance"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Resistance",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Resistance Book",
+        "rarity": 3,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 2,
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Resistance.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Resistance"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Resistance",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Resistance Book",
+        "rarity": 4,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 4,
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Resistance.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Resistance"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Ballad",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Ballad Book",
+        "rarity": 2,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 1,
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Ballad.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Ballad"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Ballad",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Ballad Book",
+        "rarity": 3,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 2,
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Ballad.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Ballad"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Ballad",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Ballad Book",
+        "rarity": 4,
+        "region": "Mondstadt",
+        "source": ["Forsaken Rift"],
+        "domainLevel": 4,
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Ballad.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Ballad"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Prosperity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Prosperity Book",
+        "rarity": 2,
+        "region": "Liyue",
+        "domainLevel": 1,
+        "source": ["Taishan Mansion"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Prosperity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Prosperity"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Prosperity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Prosperity Book",
+        "rarity": 3,
+        "region": "Liyue",
+        "domainLevel": 2,
+        "source": ["Taishan Mansion"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Prosperity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Prosperity"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Prosperity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Prosperity Book",
+        "rarity": 4,
+        "region": "Liyue",
+        "domainLevel": 4,
+        "source": ["Taishan Mansion"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Prosperity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Prosperity"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Diligence",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Diligence Book",
+        "rarity": 2,
+        "region": "Liyue",
+        "domainLevel": 1,
+        "source": ["Taishan Mansion"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Diligence.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Diligence"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Diligence",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Diligence Book",
+        "rarity": 3,
+        "region": "Liyue",
+        "domainLevel": 2,
+        "source": ["Taishan Mansion"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Diligence.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Diligence"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Diligence",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Diligence Book",
+        "rarity": 4,
+        "region": "Liyue",
+        "domainLevel": 4,
+        "source": ["Taishan Mansion"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Diligence.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Diligence"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Gold",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Gold Book",
+        "rarity": 2,
+        "region": "Liyue",
+        "domainLevel": 1,
+        "source": ["Taishan Mansion"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Gold.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Gold"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Gold",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Gold Book",
+        "rarity": 3,
+        "region": "Liyue",
+        "domainLevel": 2,
+        "source": ["Taishan Mansion"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Gold.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Gold"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Gold",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Gold Book",
+        "rarity": 4,
+        "region": "Liyue",
+        "domainLevel": 4,
+        "source": ["Taishan Mansion"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Gold.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Gold"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Transience",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Transience Book",
+        "rarity": 2,
+        "region": "Inazuma",
+        "domainLevel": 1,
+        "source": ["Violet Court"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Transience.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Transience"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Transience",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Transience Book",
+        "rarity": 3,
+        "region": "Inazuma",
+        "domainLevel": 2,
+        "source": ["Violet Court"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Transience.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Transience"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Transience",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Transience Book",
+        "rarity": 4,
+        "region": "Inazuma",
+        "domainLevel": 4,
+        "source": ["Violet Court"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Transience.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Transience"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Elegance",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Elegance Book",
+        "rarity": 2,
+        "region": "Inazuma",
+        "domainLevel": 1,
+        "source": ["Violet Court"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Elegance.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Elegance"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Elegance",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Elegance Book",
+        "rarity": 3,
+        "region": "Inazuma",
+        "domainLevel": 2,
+        "source": ["Violet Court"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Elegance.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Elegance"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Elegance",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Elegance Book",
+        "rarity": 4,
+        "region": "Inazuma",
+        "domainLevel": 4,
+        "source": ["Violet Court"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Elegance.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Elegance"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Light",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Light Book",
+        "rarity": 2,
+        "region": "Inazuma",
+        "domainLevel": 1,
+        "source": ["Violet Court"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Light.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Light"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Light",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Light Book",
+        "rarity": 3,
+        "region": "Inazuma",
+        "domainLevel": 2,
+        "source": ["Violet Court"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Light.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Light"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Light",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Light Book",
+        "rarity": 4,
+        "region": "Inazuma",
+        "domainLevel": 4,
+        "source": ["Violet Court"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Light.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Light"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Admonition",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Admonition Book",
+        "rarity": 2,
+        "region": "Sumeru",
+        "domainLevel": 1,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Admonition.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Admonition"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Admonition",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Admonition Book",
+        "rarity": 3,
+        "region": "Sumeru",
+        "domainLevel": 2,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Admonition.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Admonition"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Admonition",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Admonition Book",
+        "rarity": 4,
+        "region": "Sumeru",
+        "domainLevel": 4,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Admonition.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Admonition"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Ingenuity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Ingenuity Book",
+        "rarity": 2,
+        "region": "Sumeru",
+        "domainLevel": 1,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Ingenuity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Ingenuity"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Ingenuity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Ingenuity Book",
+        "rarity": 3,
+        "region": "Sumeru",
+        "domainLevel": 2,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Ingenuity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Ingenuity"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Ingenuity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Ingenuity Book",
+        "rarity": 4,
+        "region": "Sumeru",
+        "domainLevel": 4,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Ingenuity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Ingenuity"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Praxis",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Praxis Book",
+        "rarity": 2,
+        "region": "Sumeru",
+        "domainLevel": 1,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Praxis.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Praxis"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Praxis",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Praxis Book",
+        "rarity": 3,
+        "region": "Sumeru",
+        "domainLevel": 2,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Praxis.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Praxis"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Praxis",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Praxis Book",
+        "rarity": 4,
+        "region": "Sumeru",
+        "domainLevel": 4,
+        "source": ["Steeple of Ignorance"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Praxis.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Praxis"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Equity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Equity Book",
+        "rarity": 2,
+        "region": "Fontaine",
+        "domainLevel": 1,
+        "source": ["Rhyming Rhythm"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Equity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Equity"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Equity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Equity Book",
+        "rarity": 3,
+        "region": "Fontaine",
+        "domainLevel": 2,
+        "source": ["Rhyming Rhythm"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Equity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Equity"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Equity",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Equity Book",
+        "rarity": 4,
+        "region": "Fontaine",
+        "domainLevel": 4,
+        "source": ["Rhyming Rhythm"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Equity.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Equity"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Justice",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Justice Book",
+        "rarity": 2,
+        "region": "Fontaine",
+        "domainLevel": 1,
+        "source": ["Admonishing Engraving"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Justice.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Justice"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Justice",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Justice Book",
+        "rarity": 3,
+        "region": "Fontaine",
+        "domainLevel": 2,
+        "source": ["Admonishing Engraving"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Justice.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Justice"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Justice",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Justice Book",
+        "rarity": 4,
+        "region": "Fontaine",
+        "domainLevel": 4,
+        "source": ["Admonishing Engraving"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Justice.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Justice"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Order",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Order Book",
+        "rarity": 2,
+        "region": "Fontaine",
+        "domainLevel": 1,
+        "source": ["Chiming Recitation"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Order.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Order"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Order",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Order Book",
+        "rarity": 3,
+        "region": "Fontaine",
+        "domainLevel": 2,
+        "source": ["Chiming Recitation"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Order.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Order"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Order",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Order Book",
+        "rarity": 4,
+        "region": "Fontaine",
+        "domainLevel": 4,
+        "source": ["Chiming Recitation"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Order.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Order"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Contention",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Contention Book",
+        "rarity": 2,
+        "region": "Natlan",
+        "domainLevel": 1,
+        "source": ["Blazing Ruins"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Contention.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Contention"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Contention",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Contention Book",
+        "rarity": 3,
+        "region": "Natlan",
+        "domainLevel": 2,
+        "source": ["Blazing Ruins"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Contention.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Contention"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Contention",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Contention Book",
+        "rarity": 4,
+        "region": "Natlan",
+        "domainLevel": 4,
+        "source": ["Blazing Ruins"],
+        "days": ["Monday", "Thursday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Contention.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Contention"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Kindling",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Kindling Book",
+        "rarity": 2,
+        "region": "Natlan",
+        "domainLevel": 1,
+        "source": ["Blazing Ruins"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Kindling.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Kindling"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Kindling",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Kindling Book",
+        "rarity": 3,
+        "region": "Natlan",
+        "domainLevel": 2,
+        "source": ["Blazing Ruins"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Kindling.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Kindling"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Kindling",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Kindling Book",
+        "rarity": 4,
+        "region": "Natlan",
+        "domainLevel": 4,
+        "source": ["Blazing Ruins"],
+        "days": ["Tuesday", "Friday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Kindling.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Kindling"
+    }, {
+        "object_type": "item",
+        "name": "Teachings of Conflict",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Conflict Book",
+        "rarity": 2,
+        "region": "Natlan",
+        "domainLevel": 1,
+        "source": ["Blazing Ruins"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Teachings_of_Conflict.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Teachings_of_Conflict"
+    }, {
+        "object_type": "item",
+        "name": "Guide to Conflict",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Conflict Book",
+        "rarity": 3,
+        "region": "Natlan",
+        "domainLevel": 2,
+        "source": ["Blazing Ruins"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Guide_to_Conflict.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Guide_to_Conflict"
+    }, {
+        "object_type": "item",
+        "name": "Philosophies of Conflict",
+        "type": "Talent Level-Up Material",
+        "category": "Character Development Items",
+        "group": "Conflict Book",
+        "rarity": 4,
+        "region": "Natlan",
+        "domainLevel": 4,
+        "source": ["Blazing Ruins"],
+        "days": ["Wednesday", "Saturday", "Sunday"],
+        "thumbnail": "Item_Philosophies_of_Conflict.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Philosophies_of_Conflict"
+    }, {
+        "object_type": "item",
+        "name": "Slime Condensate",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Slime Material",
+        "rarity": 1,
+        "source": ["Slimes"],
+        "thumbnail": "Item_Slime_Condensate.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Slime_Condensate"
+    }, {
+        "object_type": "item",
+        "name": "Slime Secretions",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Slime Material",
+        "rarity": 2,
+        "source": ["Slimes"],
+        "thumbnail": "Item_Slime_Secretions.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Slime_Secretions"
+    }, {
+        "object_type": "item",
+        "name": "Slime Concentrate",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Slime Material",
+        "rarity": 3,
+        "source": ["Slimes"],
+        "thumbnail": "Item_Slime_Concentrate.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Slime_Concentrate"
+    }, {
+        "object_type": "item",
+        "name": "Damaged Mask",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Hilicurl Mask",
+        "rarity": 1,
+        "source": ["Hilicurls", "Ranged Hilicurls", "Samachurls", "Large Hilicurls"],
+        "thumbnail": "Item_Damaged_Mask.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Damaged_Mask"
+    }, {
+        "object_type": "item",
+        "name": "Stained Mask",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Hilicurl Mask",
+        "rarity": 2,
+        "source": ["Hilicurls", "Ranged Hilicurls", "Samachurls", "Large Hilicurls"],
+        "thumbnail": "Item_Stained_Mask.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Stained_Mask"
+    }, {
+        "object_type": "item",
+        "name": "Ominous Mask",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Hilicurl Mask",
+        "rarity": 3,
+        "source": ["Hilicurls", "Ranged Hilicurls", "Samachurls", "Large Hilicurls"],
+        "thumbnail": "Item_Ominous_Mask.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ominous_Mask"
+    }, {
+        "object_type": "item",
+        "name": "Divining Scroll",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Samachurl Scroll",
+        "rarity": 1,
+        "source": ["Samachurls"],
+        "thumbnail": "Item_Divining_Scroll.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Divining_Scroll"
+    }, {
+        "object_type": "item",
+        "name": "Sealed Scroll",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Samachurl Scroll",
+        "rarity": 2,
+        "source": ["Samachurls"],
+        "thumbnail": "Item_Sealed_Scroll.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sealed_Scroll"
+    }, {
+        "object_type": "item",
+        "name": "Forbidden Curse Scroll",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Samachurl Scroll",
+        "rarity": 3,
+        "source": ["Samachurls"],
+        "thumbnail": "Item_Forbidden_Curse_Scroll.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Forbidden_Curse_Scroll"
+    }, {
+        "object_type": "item",
+        "name": "Firm Arrowhead",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Arrowhead",
+        "rarity": 1,
+        "source": ["Hilichurl Shooter"],
+        "thumbnail": "Item_Firm_Arrowhead.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Firm_Arrowhead"
+    }, {
+        "object_type": "item",
+        "name": "Sharp Arrowhead",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Arrowhead",
+        "rarity": 2,
+        "source": ["Hilichurl Shooter"],
+        "thumbnail": "Item_Sharp_Arrowhead.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sharp_Arrowhead"
+    }, {
+        "object_type": "item",
+        "name": "Weathered Arrowhead",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Arrowhead",
+        "rarity": 3,
+        "source": ["Hilichurl Shooter"],
+        "thumbnail": "Item_Weathered_Arrowhead.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Weathered_Arrowhead"
+    }, {
+        "object_type": "item",
+        "name": "Recruit's Insignia",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fatui Insignia",
+        "rarity": 1,
+        "source": ["Fatui"],
+        "thumbnail": "Item_Recruit's_Insignia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Recruit's_Insignia"
+    }, {
+        "object_type": "item",
+        "name": "Sergeant's Insignia",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fatui Insignia",
+        "rarity": 2,
+        "source": ["Fatui"],
+        "thumbnail": "Item_Sergeant's_Insignia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sergeant's_Insignia"
+    }, {
+        "object_type": "item",
+        "name": "Lieutenant's Insignia",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fatui Insignia",
+        "rarity": 3,
+        "source": ["Fatui"],
+        "thumbnail": "Item_Lieutenant's_Insignia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lieutenant's_Insignia"
+    }, {
+        "object_type": "item",
+        "name": "Treasure Hoarder Insignia",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Treasure Hoarder Insignia",
+        "rarity": 1,
+        "source": ["Treasure Hoarders"],
+        "thumbnail": "Item_Treasure_Hoarder_Insignia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Treasure_Hoarder_Insignia"
+    }, {
+        "object_type": "item",
+        "name": "Silver Raven Insignia",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Treasure Hoarder Insignia",
+        "rarity": 2,
+        "source": ["Treasure Hoarders"],
+        "thumbnail": "Item_Silver_Raven_Insignia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Silver_Raven_Insignia"
+    }, {
+        "object_type": "item",
+        "name": "Golden Raven Insignia",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Treasure Hoarder Insignia",
+        "rarity": 3,
+        "source": ["Treasure Hoarders"],
+        "thumbnail": "Item_Golden_Raven_Insignia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Golden_Raven_Insignia"
+    }, {
+        "object_type": "item",
+        "name": "Whopperflower Nectar",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Whopperflower Nectar",
+        "rarity": 1,
+        "source": ["Whopperflower"],
+        "thumbnail": "Item_Whopperflower_Nectar.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Whopperflower_Nectar"
+    }, {
+        "object_type": "item",
+        "name": "Shimmering Nectar",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Whopperflower Nectar",
+        "rarity": 2,
+        "source": ["Whopperflower"],
+        "thumbnail": "Item_Shimmering_Nectar.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shimmering_Nectar"
+    }, {
+        "object_type": "item",
+        "name": "Energy Nectar",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Whopperflower Nectar",
+        "rarity": 3,
+        "source": ["Whopperflower"],
+        "thumbnail": "Item_Energy_Nectar.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Energy_Nectar"
+    }, {
+        "object_type": "item",
+        "name": "Old Handguard",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Handguard",
+        "rarity": 1,
+        "source": ["Nobushi", "Kairagi"],
+        "thumbnail": "Item_Old_Handguard.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Old_Handguard"
+    }, {
+        "object_type": "item",
+        "name": "Kageuchi Handguard",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Handguard",
+        "rarity": 2,
+        "source": ["Nobushi", "Kairagi"],
+        "thumbnail": "Item_Kageuchi_Handguard.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Kageuchi_Handguard"
+    }, {
+        "object_type": "item",
+        "name": "Famed Handguard",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Handguard",
+        "rarity": 3,
+        "source": ["Nobushi", "Kairagi"],
+        "thumbnail": "Item_Famed_Handguard.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Famed_Handguard"
+    }, {
+        "object_type": "item",
+        "name": "Spectral Husk",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Spectral",
+        "rarity": 1,
+        "source": ["Specters"],
+        "thumbnail": "Item_Spectral_Husk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Spectral_Husk"
+    }, {
+        "object_type": "item",
+        "name": "Spectral Heart",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Spectral",
+        "rarity": 2,
+        "source": ["Specters"],
+        "thumbnail": "Item_Spectral_Heart.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Spectral_Heart"
+    }, {
+        "object_type": "item",
+        "name": "Spectral Nucleus",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Spectral",
+        "rarity": 3,
+        "source": ["Specters"],
+        "thumbnail": "Item_Spectral_Nucleus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Spectral_Nucleus"
+    }, {
+        "object_type": "item",
+        "name": "Fungal Spores",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fungal Spore Powder",
+        "rarity": 1,
+        "source": ["Floating Fungi", "Floating Hydro Fungus"],
+        "thumbnail": "Item_Fungal_Spores.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fungal_Spores"
+    }, {
+        "object_type": "item",
+        "name": "Luminescent Pollen",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fungal Spore Powder",
+        "rarity": 2,
+        "source": ["Floating Fungi", "Floating Hydro Fungus"],
+        "thumbnail": "Item_Luminescent_Pollen.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Luminescent_Pollen"
+    }, {
+        "object_type": "item",
+        "name": "Crystalline Cyst Dust",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fungal Spore Powder",
+        "rarity": 3,
+        "source": ["Floating Fungi", "Floating Hydro Fungus"],
+        "thumbnail": "Item_Crystalline_Cyst_Dust.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Crystalline_Cyst_Dust"
+    }, {
+        "object_type": "item",
+        "name": "Faded Red Satin",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Red Cloth",
+        "rarity": 1,
+        "source": ["Eremites"],
+        "thumbnail": "Item_Faded_Red_Satin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Faded_Red_Satin"
+    }, {
+        "object_type": "item",
+        "name": "Trimmed Red Silk",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Red Cloth",
+        "rarity": 2,
+        "source": ["Eremites"],
+        "thumbnail": "Item_Trimmed_Red_Silk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Trimmed_Red_Silk"
+    }, {
+        "object_type": "item",
+        "name": "Rich Red Brocade",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Red Cloth",
+        "rarity": 3,
+        "source": ["Eremites"],
+        "thumbnail": "Item_Rich_Red_Brocade.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Rich_Red_Brocade"
+    }, {
+        "object_type": "item",
+        "name": "Meshing Gear",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Clockwork Meka",
+        "rarity": 1,
+        "source": ["Clockwork Meka"],
+        "thumbnail": "Item_Meshing_Gear.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Meshing_Gear"
+    }, {
+        "object_type": "item",
+        "name": "Mechanical Spur Gear",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Clockwork Meka",
+        "rarity": 2,
+        "source": ["Clockwork Meka"],
+        "thumbnail": "Item_Mechanical_Spur_Gear.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mechanical_Spur_Gear"
+    }, {
+        "object_type": "item",
+        "name": "Artificed Dynamic Gear",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Clockwork Meka",
+        "rarity": 3,
+        "source": ["Clockwork Meka"],
+        "thumbnail": "Item_Artificed_Dynamic_Gear.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Artificed_Dynamic_Gear"
+    }, {
+        "object_type": "item",
+        "name": "Transoceanic Pearl",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "",
+        "rarity": 1,
+        "source": [],
+        "thumbnail": "Item_Transoceanic_Pearl.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Transoceanic_Pearl"
+    }, {
+        "object_type": "item",
+        "name": "Transoceanic Chunk",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "",
+        "rarity": 2,
+        "source": [],
+        "thumbnail": "Item_Transoceanic_Chunk.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Transoceanic_Chunk"
+    }, {
+        "object_type": "item",
+        "name": "Xenochromatic Crystal",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "",
+        "rarity": 3,
+        "source": [],
+        "thumbnail": "Item_Xenochromatic_Crystal.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Xenochromatic_Crystal"
+    }, {
+        "object_type": "item",
+        "name": "Sentry's Wooden Whistle",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "",
+        "rarity": 1,
+        "source": ["Sauroform Tribal Warriors"],
+        "thumbnail": "Item_Sentry's_Wooden_Whistle.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sentry's_Wooden_Whistle"
+    }, {
+        "object_type": "item",
+        "name": "Warrior's Metal Whistle",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "",
+        "rarity": 2,
+        "source": ["Sauroform Tribal Warriors"],
+        "thumbnail": "Item_Warrior's_Metal_Whistle.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Warrior's_Metal_Whistle"
+    }, {
+        "object_type": "item",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "",
+        "rarity": 3,
+        "source": ["Sauroform Tribal Warriors"],
+        "thumbnail": "Item_Saurian-Crowned_Warrior's_Golden_Whistle.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Saurian-Crowned_Warrior's_Golden_Whistle"
+    }, {
+        "object_type": "item",
+        "name": "Juvenile Fang",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Saurians Fang",
+        "rarity": 1,
+        "source": ["Natlan Saurians"],
+        "thumbnail": "Item_Juvenile_Fang.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Juvenile_Fang"
+    }, {
+        "object_type": "item",
+        "name": "Seasoned Fang",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Saurians Fang",
+        "rarity": 2,
+        "source": ["Natlan Saurians"],
+        "thumbnail": "Item_Seasoned_Fang.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Seasoned_Fang"
+    }, {
+        "object_type": "item",
+        "name": "Tyrant's Fang",
+        "type": "Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Saurians Fang",
+        "rarity": 3,
+        "source": ["Natlan Saurians"],
+        "thumbnail": "Item_Tyrant's_Fang.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Tyrant's_Fang"
+    }, {
+        "object_type": "item",
+        "name": "Heavy Horn",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Horn",
+        "rarity": 2,
+        "source": ["Mitachurls"],
+        "thumbnail": "Item_Heavy_Horn.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Heavy_Horn"
+    }, {
+        "object_type": "item",
+        "name": "Black Bronze Horn",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Horn",
+        "rarity": 3,
+        "source": ["Mitachurls"],
+        "thumbnail": "Item_Black_Bronze_Horn.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Black_Bronze_Horn"
+    }, {
+        "object_type": "item",
+        "name": "Black Crystal Horn",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Horn",
+        "rarity": 4,
+        "source": ["Mitachurls"],
+        "thumbnail": "Item_Black_Crystal_Horn.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Black_Crystal_Horn"
+    }, {
+        "object_type": "item",
+        "name": "Dead Ley Line Branch",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ley Line Material",
+        "rarity": 2,
+        "source": ["Abyss Mages"],
+        "thumbnail": "Item_Dead_Ley_Line_Branch.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dead_Ley_Line_Branch"
+    }, {
+        "object_type": "item",
+        "name": "Dead Ley Line Leaves",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ley Line Material",
+        "rarity": 3,
+        "source": ["Abyss Mages"],
+        "thumbnail": "Item_Dead_Ley_Line_Leaves.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dead_Ley_Line_Leaves"
+    }, {
+        "object_type": "item",
+        "name": "Ley Line Sprout",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ley Line Material",
+        "rarity": 4,
+        "source": ["Abyss Mages"],
+        "thumbnail": "Item_Ley_Line_Sprout.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ley_Line_Sprout"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Device",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Machines Material",
+        "rarity": 2,
+        "source": ["Ruin Guard", "Ruin Hunter", "Ruin Grader"],
+        "thumbnail": "Item_Chaos_Device.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Device"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Circuit",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Machines Material",
+        "rarity": 3,
+        "source": ["Ruin Guard", "Ruin Hunter", "Ruin Grader"],
+        "thumbnail": "Item_Chaos_Circuit.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Circuit"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Core",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Machines Material",
+        "rarity": 4,
+        "source": ["Ruin Guard", "Ruin Hunter", "Ruin Grader"],
+        "thumbnail": "Item_Chaos_Core.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Core"
+    }, {
+        "object_type": "item",
+        "name": "Mist Grass Pollen",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Mist Grass",
+        "rarity": 2,
+        "source": ["Fatui Cicin Mages"],
+        "thumbnail": "Item_Mist_Grass_Pollen.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mist_Grass_Pollen"
+    }, {
+        "object_type": "item",
+        "name": "Mist Grass",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Mist Grass",
+        "rarity": 3,
+        "source": ["Fatui Cicin Mages"],
+        "thumbnail": "Item_Mist_Grass.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mist_Grass"
+    }, {
+        "object_type": "item",
+        "name": "Mist Grass Wick",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Mist Grass",
+        "rarity": 4,
+        "source": ["Fatui Cicin Mages"],
+        "thumbnail": "Item_Mist_Grass_Wick.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mist_Grass_Wick"
+    }, {
+        "object_type": "item",
+        "name": "Hunter's Sacrificial Knife",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Sacrificial Knife",
+        "rarity": 2,
+        "source": ["Fatui Agents"],
+        "thumbnail": "Item_Hunter's_Sacrificial_Knife.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Hunter's_Sacrificial_Knife"
+    }, {
+        "object_type": "item",
+        "name": "Agent's Sacrificial Knife",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Sacrificial Knife",
+        "rarity": 3,
+        "source": ["Fatui Agents"],
+        "thumbnail": "Item_Agent's_Sacrificial_Knife.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Agent's_Sacrificial_Knife"
+    }, {
+        "object_type": "item",
+        "name": "Inspector's Sacrificial Knife",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Sacrificial Knife",
+        "rarity": 4,
+        "source": ["Fatui Agents"],
+        "thumbnail": "Item_Inspector's_Sacrificial_Knife.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Inspector's_Sacrificial_Knife"
+    }, {
+        "object_type": "item",
+        "name": "Fragile Bone Shard",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Geovishap Bone",
+        "rarity": 2,
+        "source": ["Geovishaps"],
+        "thumbnail": "Item_Fragile_Bone_Shard.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fragile_Bone_Shard"
+    }, {
+        "object_type": "item",
+        "name": "Sturdy Bone Shard",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Geovishap Bone",
+        "rarity": 3,
+        "source": ["Geovishaps"],
+        "thumbnail": "Item_Sturdy_Bone_Shard.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sturdy_Bone_Shard"
+    }, {
+        "object_type": "item",
+        "name": "Fossilized Bone Shard",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Geovishap Bone",
+        "rarity": 4,
+        "source": ["Geovishaps"],
+        "thumbnail": "Item_Fossilized_Bone_Shard.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fossilized_Bone_Shard"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Gear",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Sentinels Material",
+        "rarity": 2,
+        "source": ["Ruin Sentinels"],
+        "thumbnail": "Item_Chaos_Gear.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Gear"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Axis",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Sentinels Material",
+        "rarity": 3,
+        "source": ["Ruin Sentinels"],
+        "thumbnail": "Item_Chaos_Axis.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Axis"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Oculus",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Sentinels Material",
+        "rarity": 4,
+        "source": ["Ruin Sentinels"],
+        "thumbnail": "Item_Chaos_Oculus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Oculus"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Storage",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Drakes Material",
+        "rarity": 2,
+        "source": ["Ruin Drakes"],
+        "thumbnail": "Item_Chaos_Storage.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Storage"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Module",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Drakes Material",
+        "rarity": 3,
+        "source": ["Ruin Drakes"],
+        "thumbnail": "Item_Chaos_Module.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Module"
+    }, {
+        "object_type": "item",
+        "name": "Chaos Bolt",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ruin Drakes Material",
+        "rarity": 4,
+        "source": ["Ruin Drakes"],
+        "thumbnail": "Item_Chaos_Bolt.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chaos_Bolt"
+    }, {
+        "object_type": "item",
+        "name": "Dismal Prism",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Mirror Maidens Prism",
+        "rarity": 2,
+        "source": ["Mirror Maidens"],
+        "thumbnail": "Item_Dismal_Prism.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dismal_Prism"
+    }, {
+        "object_type": "item",
+        "name": "Crystal Prism",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Mirror Maidens Prism",
+        "rarity": 3,
+        "source": ["Mirror Maidens"],
+        "thumbnail": "Item_Crystal_Prism.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Crystal_Prism"
+    }, {
+        "object_type": "item",
+        "name": "Polarizing Prism",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Mirror Maidens Prism",
+        "rarity": 4,
+        "source": ["Mirror Maidens"],
+        "thumbnail": "Item_Polarizing_Prism.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Polarizing_Prism"
+    }, {
+        "object_type": "item",
+        "name": "Concealed Claw",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Rifthounds",
+        "rarity": 2,
+        "source": ["Rifthounds"],
+        "thumbnail": "Item_Concealed_Claw.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Concealed_Claw"
+    }, {
+        "object_type": "item",
+        "name": "Concealed Unguis",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Rifthounds",
+        "rarity": 3,
+        "source": ["Rifthounds"],
+        "thumbnail": "Item_Concealed_Unguis.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Concealed_Unguis"
+    }, {
+        "object_type": "item",
+        "name": "Concealed Talon",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Rifthounds",
+        "rarity": 4,
+        "source": ["Rifthounds"],
+        "thumbnail": "Item_Concealed_Talon.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Concealed_Talon"
+    }, {
+        "object_type": "item",
+        "name": "Gloomy Statuette",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Abyss Elites",
+        "rarity": 2,
+        "source": ["Abyss Heralds", "Abyss Lectors"],
+        "thumbnail": "Item_Gloomy_Statuette.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Gloomy_Statuette"
+    }, {
+        "object_type": "item",
+        "name": "Dark Statuette",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Abyss Elites",
+        "rarity": 3,
+        "source": ["Abyss Heralds", "Abyss Lectors"],
+        "thumbnail": "Item_Dark_Statuette.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dark_Statuette"
+    }, {
+        "object_type": "item",
+        "name": "Deathly Statuette",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Abyss Elites",
+        "rarity": 4,
+        "source": ["Abyss Heralds", "Abyss Lectors"],
+        "thumbnail": "Item_Deathly_Statuette.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Deathly_Statuette"
+    }, {
+        "object_type": "item",
+        "name": "Inactivated Fungal Nucleus",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fungi",
+        "rarity": 2,
+        "source": ["Fungi"],
+        "thumbnail": "Item_Inactivated_Fungal_Nucleus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Inactivated_Fungal_Nucleus"
+    }, {
+        "object_type": "item",
+        "name": "Dormant Fungal Nucleus",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fungi",
+        "rarity": 3,
+        "source": ["Fungi"],
+        "thumbnail": "Item_Dormant_Fungal_Nucleus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dormant_Fungal_Nucleus"
+    }, {
+        "object_type": "item",
+        "name": "Robust Fungal Nucleus",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fungi",
+        "rarity": 4,
+        "source": ["Fungi"],
+        "thumbnail": "Item_Robust_Fungal_Nucleus.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Robust_Fungal_Nucleus"
+    }, {
+        "object_type": "item",
+        "name": "Damaged Prism",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Primal Construct Prisms",
+        "rarity": 2,
+        "source": ["Primal Constructs"],
+        "thumbnail": "Item_Damaged_Prism.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Damaged_Prism"
+    }, {
+        "object_type": "item",
+        "name": "Turbid Prism",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Primal Construct Prisms",
+        "rarity": 3,
+        "source": ["Primal Constructs"],
+        "thumbnail": "Item_Turbid_Prism.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Turbid_Prism"
+    }, {
+        "object_type": "item",
+        "name": "Radiant Prism",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Primal Construct Prisms",
+        "rarity": 4,
+        "source": ["Primal Constructs"],
+        "thumbnail": "Item_Radiant_Prism.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Radiant_Prism"
+    }, {
+        "object_type": "item",
+        "name": "Desiccated Shell",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Consecrated Beasts",
+        "rarity": 2,
+        "source": ["Consecrated Fanged Beast", "Consecrated Flying Serpent", "Consecrated Horned Crocodile", "Consecrated Red Vulture", "Consecrated Scorpion"],
+        "thumbnail": "Item_Desiccated_Shell.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Desiccated_Shell"
+    }, {
+        "object_type": "item",
+        "name": "Sturdy Shell",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Consecrated Beasts",
+        "rarity": 3,
+        "source": ["Consecrated Fanged Beast", "Consecrated Flying Serpent", "Consecrated Horned Crocodile", "Consecrated Red Vulture", "Consecrated Scorpion"],
+        "thumbnail": "Item_Sturdy_Shell.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sturdy_Shell"
+    }, {
+        "object_type": "item",
+        "name": "Marked Shell",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Consecrated Beasts",
+        "rarity": 4,
+        "source": ["Consecrated Fanged Beast", "Consecrated Flying Serpent", "Consecrated Horned Crocodile", "Consecrated Red Vulture", "Consecrated Scorpion"],
+        "thumbnail": "Item_Marked_Shell.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Marked_Shell"
+    }, {
+        "object_type": "item",
+        "name": "A Flower Yet to Bloom",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Hilichurl Rogues",
+        "rarity": 2,
+        "source": ["Anemo Hilichurl Rogue", "Hydro Hilichurl Rogue"],
+        "thumbnail": "Item_A_Flower_Yet_to_Bloom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/A_Flower_Yet_to_Bloom"
+    }, {
+        "object_type": "item",
+        "name": "Treasured Flower",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Hilichurl Rogues",
+        "rarity": 3,
+        "source": ["Anemo Hilichurl Rogue", "Hydro Hilichurl Rogue"],
+        "thumbnail": "Item_Treasured_Flower.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Treasured_Flower"
+    }, {
+        "object_type": "item",
+        "name": "Wanderer's Blooming Flower",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Hilichurl Rogues",
+        "rarity": 4,
+        "source": ["Anemo Hilichurl Rogue", "Hydro Hilichurl Rogue"],
+        "thumbnail": "Item_Wanderer's_Blooming_Flower.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Wanderer's_Blooming_Flower"
+    }, {
+        "object_type": "item",
+        "name": "Drop of Tainted Water",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Tainted Hydro Phantasm",
+        "rarity": 2,
+        "source": ["Tainted Hydro Phantasms"],
+        "thumbnail": "Item_Drop_of_Tainted_Water.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Drop_of_Tainted_Water"
+    }, {
+        "object_type": "item",
+        "name": "Scoop of Tainted Water",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Tainted Hydro Phantasm",
+        "rarity": 3,
+        "source": ["Tainted Hydro Phantasms"],
+        "thumbnail": "Item_Scoop_of_Tainted_Water.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Scoop_of_Tainted_Water"
+    }, {
+        "object_type": "item",
+        "name": "Newborn Tainted Hydro Phantasm",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Tainted Hydro Phantasm",
+        "rarity": 4,
+        "source": ["Tainted Hydro Phantasms"],
+        "thumbnail": "Item_Newborn_Tainted_Hydro_Phantasm.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Newborn_Tainted_Hydro_Phantasm"
+    }, {
+        "object_type": "item",
+        "name": "Rift Core",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Breacher Primus",
+        "rarity": 2,
+        "source": ["Breacher Primus"],
+        "thumbnail": "Item_Rift_Core.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Rift_Core"
+    }, {
+        "object_type": "item",
+        "name": "Foreign Synapse",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Breacher Primus",
+        "rarity": 3,
+        "source": ["Breacher Primus"],
+        "thumbnail": "Item_Foreign_Synapse.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Foreign_Synapse"
+    }, {
+        "object_type": "item",
+        "name": "Alien Life Core",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Breacher Primus",
+        "rarity": 4,
+        "source": ["Breacher Primus"],
+        "thumbnail": "Item_Alien_Life_Core.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Alien_Life_Core"
+    }, {
+        "object_type": "item",
+        "name": "Old Operative's Pocket Watch",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fatui Operative",
+        "rarity": 2,
+        "source": ["Frost Operative", "Wind Operative"],
+        "thumbnail": "Item_Old_Operative's_Pocket_Watch.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Old_Operative's_Pocket_Watch"
+    }, {
+        "object_type": "item",
+        "name": "Operative's Standard Pocket Watch",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fatui Operative",
+        "rarity": 3,
+        "source": ["Frost Operative", "Wind Operative"],
+        "thumbnail": "Item_Operative's_Standard_Pocket_Watch.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Operative's_Standard_Pocket_Watch"
+    }, {
+        "object_type": "item",
+        "name": "Operative's Constancy",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Fatui Operative",
+        "rarity": 4,
+        "source": ["Frost Operative", "Wind Operative"],
+        "thumbnail": "Item_Operative's_Constancy.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Operative's_Constancy"
+    }, {
+        "object_type": "item",
+        "name": "Feathery Fin",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Xuanwen Beast",
+        "rarity": 2,
+        "source": ["Xuanwen Beast"],
+        "thumbnail": "Item_Feathery_Fin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Feathery_Fin"
+    }, {
+        "object_type": "item",
+        "name": "Lunar Fin",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Xuanwen Beast",
+        "rarity": 3,
+        "source": ["Xuanwen Beast"],
+        "thumbnail": "Item_Lunar_Fin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lunar_Fin"
+    }, {
+        "object_type": "item",
+        "name": "Chasmlight Fin",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Xuanwen Beast",
+        "rarity": 4,
+        "source": ["Xuanwen Beast"],
+        "thumbnail": "Item_Chasmlight_Fin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chasmlight_Fin"
+    }, {
+        "object_type": "item",
+        "name": "Ruined Hilt",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Praetorian Golem",
+        "rarity": 2,
+        "source": ["Praetorian Golem"],
+        "thumbnail": "Item_Ruined_Hilt.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ruined_Hilt"
+    }, {
+        "object_type": "item",
+        "name": "Splintered Hilt",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Praetorian Golem",
+        "rarity": 3,
+        "source": ["Praetorian Golem"],
+        "thumbnail": "Item_Splintered_Hilt.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Splintered_Hilt"
+    }, {
+        "object_type": "item",
+        "name": "Still-Smoldering Hilt",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Praetorian Golem",
+        "rarity": 4,
+        "source": ["Praetorian Golem"],
+        "thumbnail": "Item_Still-Smoldering_Hilt.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Still-Smoldering_Hilt"
+    }, {
+        "object_type": "item",
+        "name": "Shard of a Shattered Will",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Wayob Manifestations",
+        "rarity": 2,
+        "source": ["Wayob Manifestations"],
+        "thumbnail": "Item_Shard_of_a_Shattered_Will.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shard_of_a_Shattered_Will"
+    }, {
+        "object_type": "item",
+        "name": "Locus of a Clear Will",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Wayob Manifestations",
+        "rarity": 2,
+        "source": ["Wayob Manifestations"],
+        "thumbnail": "Item_Locus_of_a_Clear_Will.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Locus_of_a_Clear_Will"
+    }, {
+        "object_type": "item",
+        "name": "Sigil of a Striding Will",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Wayob Manifestations",
+        "rarity": 4,
+        "source": ["Wayob Manifestations"],
+        "thumbnail": "Item_Sigil_of_a_Striding_Will.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sigil_of_a_Striding_Will"
+    }, {
+        "object_type": "item",
+        "name": "Axis of the Secret Source",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Secret Source",
+        "rarity": 2,
+        "source": ["Wayob Manifestations"],
+        "thumbnail": "Item_Shard_of_a_Shattered_Will.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shard_of_a_Shattered_Will"
+    }, {
+        "object_type": "item",
+        "name": "Locus of a Clear Will",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Secret Source",
+        "rarity": 2,
+        "source": ["Wayob Manifestations"],
+        "thumbnail": "Item_Locus_of_a_Clear_Will.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Locus_of_a_Clear_Will"
+    }, {
+        "object_type": "item",
+        "name": "Sigil of a Striding Will",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Secret Source",
+        "rarity": 4,
+        "source": ["Wayob Manifestations"],
+        "thumbnail": "Item_Sigil_of_a_Striding_Will.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sigil_of_a_Striding_Will"
+    }, {
+        "object_type": "item",
+        "name": "Axis of the Secret Source",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Secret Source",
+        "rarity": 2,
+        "source": ["Secret Source Automaton: Hunter-Seeker"],
+        "thumbnail": "Item_Axis_of_the_Secret_Source.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Axis_of_the_Secret_Source"
+    }, {
+        "object_type": "item",
+        "name": "Sheath of the Secret Source",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Secret Source",
+        "rarity": 2,
+        "source": ["Secret Source Automaton: Hunter-Seeker"],
+        "thumbnail": "Item_Sheath_of_the_Secret_Source.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sheath_of_the_Secret_Source"
+    }, {
+        "object_type": "item",
+        "name": "Heart of the Secret Source",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Secret Source",
+        "rarity": 4,
+        "source": ["Secret Source Automaton: Hunter-Seeker"],
+        "thumbnail": "Item_Heart_of_the_Secret_Source.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Heart_of_the_Secret_Source"
+    }, {
+        "object_type": "item",
+        "name": "Ignited Stone",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Avatars of Lava",
+        "rarity": 2,
+        "source": ["Avatars of Lava"],
+        "thumbnail": "Item_Ignited_Stone.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ignited_Stone"
+    }, {
+        "object_type": "item",
+        "name": "Ignited Seed of Life",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Avatars of Lava",
+        "rarity": 3,
+        "source": ["Avatars of Lava"],
+        "thumbnail": "Item_Ignited_Seed_of_Life.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ignited_Seed_of_Life"
+    }, {
+        "object_type": "item",
+        "name": "Ignited Seeing Eye",
+        "type": "Elite Common Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Avatars of Lava",
+        "rarity": 4,
+        "source": ["Avatars of Lava"],
+        "thumbnail": "Item_Ignited_Seeing_Eye.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ignited_Seeing_Eye"
+    }, {
+        "object_type": "item",
+        "group_type": "dvalin-material",
+        "name": "Dvalin's Plume",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Mondstadt",
+        "source": ["Dvalin"],
+        "thumbnail": "Item_Dvalin's_Plume.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dvalin's_Plume"
+    }, {
+        "object_type": "item",
+        "group_type": "dvalin-material",
+        "name": "Dvalin's Claw",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Mondstadt",
+        "source": ["Dvalin"],
+        "thumbnail": "Item_Dvalin's_Claw.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dvalin's_Claw"
+    }, {
+        "object_type": "item",
+        "group_type": "dvalin-material",
+        "name": "Dvalin's Sigh",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Mondstadt",
+        "source": ["Dvalin"],
+        "thumbnail": "Item_Dvalin's_Sigh.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dvalin's_Sigh"
+    }, {
+        "object_type": "item",
+        "group_type": "andrius-material",
+        "name": "Tail of Boreas",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Mondstadt",
+        "source": ["Andrius"],
+        "thumbnail": "Item_Tail_of_Boreas.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Tail_of_Boreas"
+    }, {
+        "object_type": "item",
+        "group_type": "andrius-material",
+        "name": "Ring of Boreas",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Mondstadt",
+        "source": ["Andrius"],
+        "thumbnail": "Item_Ring_of_Boreas.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ring_of_Boreas"
+    }, {
+        "object_type": "item",
+        "group_type": "andrius-material",
+        "name": "Spirit Locket of Boreas",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Mondstadt",
+        "source": ["Andrius"],
+        "thumbnail": "Item_Spirit_Locket_of_Boreas.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Spirit_Locket_of_Boreas"
+    }, {
+        "object_type": "item",
+        "group_type": "childe-material",
+        "name": "Tusk of Monoceros Caeli",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Liyue",
+        "source": ["Childe"],
+        "thumbnail": "Item_Tusk_of_Monoceros_Caeli.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Tusk_of_Monoceros_Caeli"
+    }, {
+        "object_type": "item",
+        "group_type": "childe-material",
+        "name": "Shard of a Foul Legacy",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Liyue",
+        "source": ["Childe"],
+        "thumbnail": "Item_Shard_of_a_Foul_Legacy.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shard_of_a_Foul_Legacy"
+    }, {
+        "object_type": "item",
+        "group_type": "childe-material",
+        "name": "Shadow of the Warrior",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Liyue",
+        "source": ["Childe"],
+        "thumbnail": "Item_Shadow_of_the_Warrior.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shadow_of_the_Warrior"
+    }, {
+        "object_type": "item",
+        "group_type": "azhdaha-material",
+        "name": "Dragon Lord's Crown",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Liyue",
+        "source": ["Azhdaha"],
+        "thumbnail": "Item_Dragon_Lord's_Crown.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dragon_Lord's_Crown"
+    }, {
+        "object_type": "item",
+        "group_type": "azhdaha-material",
+        "name": "Bloodjade Branch",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Liyue",
+        "source": ["Azhdaha"],
+        "thumbnail": "Item_Bloodjade_Branch.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Bloodjade_Branch"
+    }, {
+        "object_type": "item",
+        "group_type": "azhdaha-material",
+        "name": "Gilded Scale",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Liyue",
+        "source": ["Azhdaha"],
+        "thumbnail": "Item_Gilded_Scale.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Gilded_Scale"
+    }, {
+        "object_type": "item",
+        "group_type": "signora-material",
+        "name": "Molten Moment",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Inazuma",
+        "source": ["Signora"],
+        "thumbnail": "Item_Molten_Moment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Molten_Moment"
+    }, {
+        "object_type": "item",
+        "group_type": "signora-material",
+        "name": "Hellfire Butterfly",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Inazuma",
+        "source": ["Signora"],
+        "thumbnail": "Item_Hellfire_Butterfly.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Hellfire_Butterfly"
+    }, {
+        "object_type": "item",
+        "group_type": "signora-material",
+        "name": "Ashen Heart",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Inazuma",
+        "source": ["Signora"],
+        "thumbnail": "Item_Ashen_Heart.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Ashen_Heart"
+    }, {
+        "object_type": "item",
+        "group_type": "raiden-material",
+        "name": "Mudra of the Malefic General",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Inazuma",
+        "source": ["End of the Oneiric Euthymia"],
+        "thumbnail": "Item_Mudra_of_the_Malefic_General.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mudra_of_the_Malefic_General"
+    }, {
+        "object_type": "item",
+        "group_type": "raiden-material",
+        "name": "Tears of the Calamitous God",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Inazuma",
+        "source": ["End of the Oneiric Euthymia"],
+        "thumbnail": "Item_Tears_of_the_Calamitous_God.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Tears_of_the_Calamitous_God"
+    }, {
+        "object_type": "item",
+        "group_type": "raiden-material",
+        "name": "The Meaning of Aeons",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Inazuma",
+        "source": ["End of the Oneiric Euthymia"],
+        "thumbnail": "Item_The_Meaning_of_Aeons.png",
+        "link": "https://genshin-impact.fandom.com/wiki/The_Meaning_of_Aeons"
+    }, {
+        "object_type": "item",
+        "group_type": "scaramouche-material",
+        "name": "Puppet Strings",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Sumeru",
+        "source": ["Joururi Workshop"],
+        "thumbnail": "Item_Puppet_Strings.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Puppet_Strings"
+    }, {
+        "object_type": "item",
+        "group_type": "scaramouche-material",
+        "name": "Mirror of Mushin",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Sumeru",
+        "source": ["Joururi Workshop"],
+        "thumbnail": "Item_Mirror_of_Mushin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mirror_of_Mushin"
+    }, {
+        "object_type": "item",
+        "group_type": "scaramouche-material",
+        "name": "Daka's Bell",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Sumeru",
+        "source": ["Joururi Workshop"],
+        "thumbnail": "Item_Daka's_Bell.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Daka's_Bell"
+    }, {
+        "object_type": "item",
+        "group_type": "guardian-of-apep",
+        "name": "Worldspan Fern",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Sumeru",
+        "source": ["The Realm of Beginnings"],
+        "thumbnail": "Item_Worldspan_Fern.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Worldspan_Fern"
+    }, {
+        "object_type": "item",
+        "group_type": "guardian-of-apep",
+        "name": "Primordial Greenbloom",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Sumeru",
+        "source": ["The Realm of Beginnings"],
+        "thumbnail": "Item_Primordial_Greenbloom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Primordial_Greenbloom"
+    }, {
+        "object_type": "item",
+        "group_type": "guardian-of-apep",
+        "name": "Everamber",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Sumeru",
+        "source": ["The Realm of Beginnings"],
+        "thumbnail": "Item_Everamber.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Everamber"
+    }, {
+        "object_type": "item",
+        "group_type": "all-devouring-narwhal",
+        "name": "Lightless Silk String",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Fontaine",
+        "source": ["All-Devouring Narwhal"],
+        "thumbnail": "Item_Lightless_Silk_String.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lightless_Silk_String"
+    }, {
+        "object_type": "item",
+        "group_type": "all-devouring-narwhal",
+        "name": "Lightless Eye of the Maelstrom",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Fontaine",
+        "source": ["All-Devouring Narwhal"],
+        "thumbnail": "Item_Lightless_Eye_of_the_Maelstrom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lightless_Eye_of_the_Maelstrom"
+    }, {
+        "object_type": "item",
+        "group_type": "all-devouring-narwhal",
+        "name": "Lightless Mass",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Fontaine",
+        "source": ["All-Devouring Narwhal"],
+        "thumbnail": "Item_Lightless_Mass.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lightless_Mass"
+    }, {
+        "object_type": "item",
+        "group_type": "the-knave",
+        "name": "Fading Candle",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Fontaine",
+        "source": ["The Knave"],
+        "thumbnail": "Item_Fading_Candle.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fading_Candle"
+    }, {
+        "object_type": "item",
+        "group_type": "the-knave",
+        "name": "Silken Feather",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Fontaine",
+        "source": ["The Knave"],
+        "thumbnail": "Item_Silken_Feather.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Silken_Feather"
+    }, {
+        "object_type": "item",
+        "group_type": "the-knave",
+        "name": "Denial and Judgment",
+        "type": "Elite Boss Material",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "region": "Fontaine",
+        "source": ["The Knave"],
+        "thumbnail": "Item_Denial_and_Judgment.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Denial_and_Judgment"
+    }, {
+        "object_type": "item",
+        "group_type": "special-item",
+        "name": "Crown of Insight",
+        "type": "Limited-duration Event Materials",
+        "category": "Character Development Items",
+        "rarity": 5,
+        "thumbnail": "Item_Crown_of_Insight.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Crown_of_Insight"
+    }, {
+        "object_type": "item",
+        "name": "Tile of Decarabian's Tower",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Decarabian Tiles",
+        "rarity": 2,
+        "thumbnail": "Item_Tile_of_Decarabian's_Tower.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Tile_of_Decarabian's_Tower"
+    }, {
+        "object_type": "item",
+        "name": "Debris of Decarabian's City",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Decarabian Tiles",
+        "rarity": 3,
+        "thumbnail": "Item_Debris_of_Decarabian's_City.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Debris_of_Decarabian's_City"
+    }, {
+        "object_type": "item",
+        "name": "Fragment of Decarabian's Epic",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Decarabian Tiles",
+        "rarity": 4,
+        "thumbnail": "Item_Fragment_of_Decarabian's_Epic.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fragment_of_Decarabian's_Epic"
+    }, {
+        "object_type": "item",
+        "name": "Scattered Piece of Decarabian's Dream",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Decarabian Tiles",
+        "rarity": 5,
+        "thumbnail": "Item_Scattered_Piece_of_Decarabian's_Dream.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Scattered_Piece_of_Decarabian's_Dream"
+    }, {
+        "object_type": "item",
+        "name": "Boreal Wolf's Milk Tooth",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Boreal Wolf Teeth",
+        "rarity": 2,
+        "thumbnail": "Item_Boreal_Wolf's_Milk_Tooth.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Boreal_Wolf's_Milk_Tooth"
+    }, {
+        "object_type": "item",
+        "name": "Boreal Wolf's Cracked Tooth",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Boreal Wolf Teeth",
+        "rarity": 3,
+        "thumbnail": "Item_Boreal_Wolf's_Cracked_Tooth.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Boreal_Wolf's_Cracked_Tooth"
+    }, {
+        "object_type": "item",
+        "name": "Boreal Wolf's Broken Fang",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Boreal Wolf Teeth",
+        "rarity": 4,
+        "thumbnail": "Item_Boreal_Wolf's_Broken_Fang.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Boreal_Wolf's_Broken_Fang"
+    }, {
+        "object_type": "item",
+        "name": "Boreal Wolf's Nostalgia",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Boreal Wolf Teeth",
+        "rarity": 5,
+        "thumbnail": "Item_Boreal_Wolf's_Nostalgia.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Boreal_Wolf's_Nostalgia"
+    }, {
+        "object_type": "item",
+        "name": "Fetters of the Dandelion Gladiator",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Gladiator Shackles",
+        "rarity": 2,
+        "thumbnail": "Item_Fetters_of_the_Dandelion_Gladiator.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fetters_of_the_Dandelion_Gladiator"
+    }, {
+        "object_type": "item",
+        "name": "Chains of the Dandelion Gladiator",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Gladiator Shackles",
+        "rarity": 3,
+        "thumbnail": "Item_Chains_of_the_Dandelion_Gladiator.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chains_of_the_Dandelion_Gladiator"
+    }, {
+        "object_type": "item",
+        "name": "Shackles of the Dandelion Gladiator",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Gladiator Shackles",
+        "rarity": 4,
+        "thumbnail": "Item_Shackles_of_the_Dandelion_Gladiator.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Shackles_of_the_Dandelion_Gladiator"
+    }, {
+        "object_type": "item",
+        "name": "Dream of the Dandelion Gladiator",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Gladiator Shackles",
+        "rarity": 5,
+        "thumbnail": "Item_Dream_of_the_Dandelion_Gladiator.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dream_of_the_Dandelion_Gladiator"
+    }, {
+        "object_type": "item",
+        "name": "Luminous Sands from Guyun",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Guyun Pillars",
+        "rarity": 2,
+        "thumbnail": "Item_Luminous_Sands_from_Guyun.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Luminous_Sands_from_Guyun"
+    }, {
+        "object_type": "item",
+        "name": "Lustrous Stone from Guyun",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Guyun Pillars",
+        "rarity": 3,
+        "thumbnail": "Item_Lustrous_Stone_from_Guyun.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Lustrous_Stone_from_Guyun"
+    }, {
+        "object_type": "item",
+        "name": "Relic from Guyun",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Guyun Pillars",
+        "rarity": 4,
+        "thumbnail": "Item_Relic_from_Guyun.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Relic_from_Guyun"
+    }, {
+        "object_type": "item",
+        "name": "Divine Body from Guyun",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Guyun Pillars",
+        "rarity": 5,
+        "thumbnail": "Item_Divine_Body_from_Guyun.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Divine_Body_from_Guyun"
+    }, {
+        "object_type": "item",
+        "name": "Mist Veiled Lead Elixir",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Elixirs",
+        "rarity": 2,
+        "thumbnail": "Item_Mist_Veiled_Lead_Elixir.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mist_Veiled_Lead_Elixir"
+    }, {
+        "object_type": "item",
+        "name": "Mist Veiled Mercury Elixir",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Elixirs",
+        "rarity": 3,
+        "thumbnail": "Item_Mist_Veiled_Mercury_Elixir.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mist_Veiled_Mercury_Elixir"
+    }, {
+        "object_type": "item",
+        "name": "Mist Veiled Gold Elixir",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Elixirs",
+        "rarity": 4,
+        "thumbnail": "Item_Mist_Veiled_Gold_Elixir.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mist_Veiled_Gold_Elixir"
+    }, {
+        "object_type": "item",
+        "name": "Mist Veiled Primo Elixir",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Elixirs",
+        "rarity": 5,
+        "thumbnail": "Item_Mist_Veiled_Primo_Elixir.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mist_Veiled_Primo_Elixir"
+    }, {
+        "object_type": "item",
+        "name": "Grain of Aerosiderite",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Aerosiderite",
+        "rarity": 2,
+        "thumbnail": "Item_Grain_of_Aerosiderite.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Grain_of_Aerosiderite"
+    }, {
+        "object_type": "item",
+        "name": "Piece of Aerosiderite",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Aerosiderite",
+        "rarity": 3,
+        "thumbnail": "Item_Piece_of_Aerosiderite.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Piece_of_Aerosiderite"
+    }, {
+        "object_type": "item",
+        "name": "Bit of Aerosiderite",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Aerosiderite",
+        "rarity": 4,
+        "thumbnail": "Item_Bit_of_Aerosiderite.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Bit_of_Aerosiderite"
+    }, {
+        "object_type": "item",
+        "name": "Chunk of Aerosiderite",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Aerosiderite",
+        "rarity": 5,
+        "thumbnail": "Item_Chunk_of_Aerosiderite.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chunk_of_Aerosiderite"
+    }, {
+        "object_type": "item",
+        "name": "Coral Branch of a Distant Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Branches of a Distant Sea",
+        "rarity": 2,
+        "thumbnail": "Item_Coral_Branch_of_a_Distant_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Coral_Branch_of_a_Distant_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Jeweled Branch of a Distant Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Branches of a Distant Sea",
+        "rarity": 3,
+        "thumbnail": "Item_Jeweled_Branch_of_a_Distant_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Jeweled_Branch_of_a_Distant_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Jade Branch of a Distant Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Branches of a Distant Sea",
+        "rarity": 4,
+        "thumbnail": "Item_Jade_Branch_of_a_Distant_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Jade_Branch_of_a_Distant_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Golden Branch of a Distant Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Branches of a Distant Sea",
+        "rarity": 5,
+        "thumbnail": "Item_Golden_Branch_of_a_Distant_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Golden_Branch_of_a_Distant_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Narukami's Wisdom",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Narukami's Magatamas",
+        "rarity": 2,
+        "thumbnail": "Item_Narukami's_Wisdom.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Narukami's_Wisdom"
+    }, {
+        "object_type": "item",
+        "name": "Narukami's Joy",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Narukami's Magatamas",
+        "rarity": 3,
+        "thumbnail": "Item_Narukami's_Joy.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Narukami's_Joy"
+    }, {
+        "object_type": "item",
+        "name": "Narukami's Affection",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Narukami's Magatamas",
+        "rarity": 4,
+        "thumbnail": "Item_Narukami's_Affection.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Narukami's_Affection"
+    }, {
+        "object_type": "item",
+        "name": "Narukami's Valor",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Narukami's Magatamas",
+        "rarity": 5,
+        "thumbnail": "Item_Narukami's_Valor.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Narukami's_Valor"
+    }, {
+        "object_type": "item",
+        "name": "Mask of the Wicked Lieutenant",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oni Masks",
+        "rarity": 2,
+        "thumbnail": "Item_Mask_of_the_Wicked_Lieutenant.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mask_of_the_Wicked_Lieutenant"
+    }, {
+        "object_type": "item",
+        "name": "Mask of the Tiger's Bite",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oni Masks",
+        "rarity": 3,
+        "thumbnail": "Item_Mask_of_the_Tiger's_Bite.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mask_of_the_Tiger's_Bite"
+    }, {
+        "object_type": "item",
+        "name": "Mask of the One-Horned",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oni Masks",
+        "rarity": 4,
+        "thumbnail": "Item_Mask_of_the_One-Horned.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mask_of_the_One-Horned"
+    }, {
+        "object_type": "item",
+        "name": "Mask of the Kijin",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oni Masks",
+        "rarity": 5,
+        "thumbnail": "Item_Mask_of_the_Kijin.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Mask_of_the_Kijin"
+    }, {
+        "object_type": "item",
+        "name": "Copper Talisman of the Forest Dew",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Talisman of the Forest Dew",
+        "rarity": 2,
+        "thumbnail": "Item_Copper_Talisman_of_the_Forest_Dew.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Copper_of_the_Forest_Dew"
+    }, {
+        "object_type": "item",
+        "name": "Iron Talisman of the Forest Dew",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Talisman of the Forest Dew",
+        "rarity": 3,
+        "thumbnail": "Item_Iron_Talisman_of_the_Forest_Dew.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Iron_Talisman_of_the_Forest_Dew"
+    }, {
+        "object_type": "item",
+        "name": "Silver Talisman of the Forest Dew",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Talisman of the Forest Dew",
+        "rarity": 4,
+        "thumbnail": "Item_Silver_Talisman_of_the_Forest_Dew.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Silver_Talisman_of_the_Forest_Dew"
+    }, {
+        "object_type": "item",
+        "name": "Golden Talisman of the Forest Dew",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Talisman of the Forest Dew",
+        "rarity": 5,
+        "thumbnail": "Item_Golden_Talisman_of_the_Forest_Dew.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Golden_Talisman_of_the_Forest_Dew"
+    }, {
+        "object_type": "item",
+        "name": "Oasis Garden's Reminiscence",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oasis Gardens",
+        "rarity": 2,
+        "thumbnail": "Item_Oasis_Garden's_Reminiscence.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Oasis_Garden's_Reminiscence"
+    }, {
+        "object_type": "item",
+        "name": "Oasis Garden's Kindness",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oasis Gardens",
+        "rarity": 3,
+        "thumbnail": "Item_Oasis_Garden's_Kindness.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Oasis_Garden's_Kindness"
+    }, {
+        "object_type": "item",
+        "name": "Oasis Garden's Mourning",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oasis Gardens",
+        "rarity": 4,
+        "thumbnail": "Item_Oasis_Garden's_Mourning.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Oasis_Garden's_Mourning"
+    }, {
+        "object_type": "item",
+        "name": "Oasis Garden's Truth",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Oasis Gardens",
+        "rarity": 5,
+        "thumbnail": "Item_Oasis_Garden's_Truth.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Oasis_Garden's_Truth"
+    }, {
+        "object_type": "item",
+        "name": "Echo of Scorching Might",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Scorching Mights",
+        "rarity": 2,
+        "thumbnail": "Item_Echo_of_Scorching_Might.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Echo_of_Scorching_Might"
+    }, {
+        "object_type": "item",
+        "name": "Remnant Glow of Scorching Might",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Scorching Mights",
+        "rarity": 3,
+        "thumbnail": "Item_Remnant_Glow_of_Scorching_Might.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Remnant_Glow_of_Scorching_Might"
+    }, {
+        "object_type": "item",
+        "name": "Dream of Scorching Might",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Scorching Mights",
+        "rarity": 4,
+        "thumbnail": "Item_Dream_of_Scorching_Might.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dream_of_Scorching_Might"
+    }, {
+        "object_type": "item",
+        "name": "Olden Days of Scorching Might",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Scorching Mights",
+        "rarity": 5,
+        "thumbnail": "Item_Olden_Days_of_Scorching_Might.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Olden_Days_of_Scorching_Might"
+    }, {
+        "object_type": "item",
+        "name": "Fragment of an Ancient Chord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ancient Chords",
+        "rarity": 2,
+        "thumbnail": "Item_Fragment_of_an_Ancient_Chord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Fragment_of_an_Ancient_Chord"
+    }, {
+        "object_type": "item",
+        "name": "Chapter of an Ancient Chord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ancient Chords",
+        "rarity": 3,
+        "thumbnail": "Item_Chapter_of_an_Ancient_Chord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Chapter_of_an_Ancient_Chord"
+    }, {
+        "object_type": "item",
+        "name": "Movement of an Ancient Chord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ancient Chords",
+        "rarity": 4,
+        "thumbnail": "Item_Movement_of_an_Ancient_Chord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Movement_of_an_Ancient_Chord"
+    }, {
+        "object_type": "item",
+        "name": "Echo of an Ancient Chord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Ancient Chords",
+        "rarity": 5,
+        "thumbnail": "Item_Echo_of_an_Ancient_Chord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Echo_of_an_Ancient_Chord"
+    }, {
+        "object_type": "item",
+        "name": "Dross of Pure Sacred Dewdrop",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Sacred Dewdrops",
+        "rarity": 2,
+        "thumbnail": "Item_Dross_of_Pure_Sacred_Dewdrop.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Dross_of_Pure_Sacred_Dewdrop"
+    }, {
+        "object_type": "item",
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Sacred Dewdrops",
+        "rarity": 3,
+        "thumbnail": "Item_Sublimation_of_Pure_Sacred_Dewdrop.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Sublimation_of_Pure_Sacred_Dewdrop"
+    }, {
+        "object_type": "item",
+        "name": "Spring of Pure Sacred Dewdrop",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Sacred Dewdrops",
+        "rarity": 4,
+        "thumbnail": "Item_Spring_of_Pure_Sacred_Dewdrop.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Spring_of_Pure_Sacred_Dewdrop"
+    }, {
+        "object_type": "item",
+        "name": "Essence of Pure Sacred Dewdrop",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Sacred Dewdrops",
+        "rarity": 5,
+        "thumbnail": "Item_Essence_of_Pure_Sacred_Dewdrop.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Essence_of_Pure_Sacred_Dewdrop"
+    }, {
+        "object_type": "item",
+        "name": "Broken Goblet of the Pristine Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Goblets of the Pristine Sea",
+        "rarity": 2,
+        "thumbnail": "Item_Broken_Goblet_of_the_Pristine_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Broken_Goblet_of_the_Pristine_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Wine Goblet of the Pristine Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Goblets of the Pristine Sea",
+        "rarity": 3,
+        "thumbnail": "Item_Wine_Goblet_of_the_Pristine_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Wine_Goblet_of_the_Pristine_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Silver Goblet of the Pristine Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Goblets of the Pristine Sea",
+        "rarity": 4,
+        "thumbnail": "Item_Silver_Goblet_of_the_Pristine_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Silver_Goblet_of_the_Pristine_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Golden Goblet of the Pristine Sea",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Goblets of the Pristine Sea",
+        "rarity": 5,
+        "thumbnail": "Item_Golden_Goblet_of_the_Pristine_Sea.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Golden_Goblet_of_the_Pristine_Sea"
+    }, {
+        "object_type": "item",
+        "name": "Blazing Sacrificial Heart's Terror",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Blazing Sacrificial Heart",
+        "rarity": 2,
+        "thumbnail": "Item_Blazing_Sacrificial_Heart's_Terror.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Blazing_Sacrificial_Heart's_Terror"
+    }, {
+        "object_type": "item",
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Blazing Sacrificial Heart",
+        "rarity": 3,
+        "thumbnail": "Item_Blazing_Sacrificial_Heart's_Hesitance.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Blazing_Sacrificial_Heart's_Hesitance"
+    }, {
+        "object_type": "item",
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Blazing Sacrificial Heart",
+        "rarity": 4,
+        "thumbnail": "Item_Blazing_Sacrificial_Heart's_Resolve.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Blazing_Sacrificial_Heart's_Resolve"
+    }, {
+        "object_type": "item",
+        "name": "Blazing Sacrificial Heart's Splendor",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Blazing Sacrificial Heart",
+        "rarity": 5,
+        "thumbnail": "Item_Blazing_Sacrificial_Heart's_Splendor.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Blazing_Sacrificial_Heart's_Splendor"
+    }, {
+        "object_type": "item",
+        "name": "Delirious Decadence of the Sacred Lord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Delirious Sacred Lord",
+        "rarity": 2,
+        "thumbnail": "Item_Delirious_Decadence_of_the_Sacred_Lord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Delirious_Decadence_of_the_Sacred_Lord"
+    }, {
+        "object_type": "item",
+        "name": "Delirious Desolation of the Sacred Lord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Delirious Sacred Lord",
+        "rarity": 3,
+        "thumbnail": "Item_Delirious_Desolation_of_the_Sacred_Lord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Delirious_Desolation_of_the_Sacred_Lord"
+    }, {
+        "object_type": "item",
+        "name": "Delirious Demeanor of the Sacred Lord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Delirious Sacred Lord",
+        "rarity": 4,
+        "thumbnail": "Item_Delirious_Demeanor_of_the_Sacred_Lord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Delirious_Demeanor_of_the_Sacred_Lord"
+    }, {
+        "object_type": "item",
+        "name": "Delirious Divinity of the Sacred Lord",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Delirious Sacred Lord",
+        "rarity": 5,
+        "thumbnail": "Item_Delirious_Divinity_of_the_Sacred_Lord.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Delirious_Divinity_of_the_Sacred_Lord"
+    }, {
+        "object_type": "item",
+        "name": "Night-Wind's Mystic Consideration",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Night-Wind's Mystic",
+        "rarity": 2,
+        "thumbnail": "Item_Night-Wind's_Mystic_Consideration.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Night-Wind's_Mystic_Consideration"
+    }, {
+        "object_type": "item",
+        "name": "Night-Wind's Mystic Premonition",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Night-Wind's Mystic",
+        "rarity": 3,
+        "thumbnail": "Item_Night-Wind's_Mystic_Premonition.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Night-Wind's_Mystic_Premonition"
+    }, {
+        "object_type": "item",
+        "name": "Night-Wind's Mystic Augury",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Night-Wind's Mystic",
+        "rarity": 4,
+        "thumbnail": "Item_Night-Wind's_Mystic_Augury.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Night-Wind's_Mystic_Augury"
+    }, {
+        "object_type": "item",
+        "name": "Night-Wind's Mystic Revelation",
+        "type": "Weapon Ascension Materials",
+        "category": "Character Development Items",
+        "group": "Night-Wind's Mystic",
+        "rarity": 5,
+        "thumbnail": "Item_Night-Wind's_Mystic_Revelation.png",
+        "link": "https://genshin-impact.fandom.com/wiki/Night-Wind's_Mystic_Revelation"
+    }]
+}

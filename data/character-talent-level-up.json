@@ -1,0 +1,3884 @@
+{
+    "version": "2022-09-13",
+    "data": [{
+        "object_type": "talent-level-up-levels",
+        "levels": [{
+            "level": 1,
+            "min_level": 1,
+            "max_level": 2,
+            "required_ascension_phase": 2,
+            "materials": [{
+                "name": "Mora",
+                "count": 12500
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 2,
+                "count": 3
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 1,
+                "count": 6
+            }]
+        }, {
+            "level": 2,
+            "min_level": 2,
+            "max_level": 3,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 17500
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 3,
+                "count": 2
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 2,
+                "count": 3
+            }]
+        }, {
+            "level": 3,
+            "min_level": 3,
+            "max_level": 4,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 25000
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 3,
+                "count": 4
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 2,
+                "count": 4
+            }]
+        }, {
+            "level": 4,
+            "min_level": 4,
+            "max_level": 5,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 30000
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 3,
+                "count": 6
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 2,
+                "count": 6
+            }]
+        }, {
+            "level": 5,
+            "min_level": 5,
+            "max_level": 6,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 37500
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 3,
+                "count": 9
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 2,
+                "count": 9
+            }]
+        }, {
+            "level": 6,
+            "min_level": 6,
+            "max_level": 7,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 120000
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 4,
+                "count": 4
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 3,
+                "count": 4
+            }, {
+                "type": "Elite Boss Material",
+                "rarity": 5,
+                "count": 1
+            }]
+        }, {
+            "level": 7,
+            "min_level": 7,
+            "max_level": 8,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 260000
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 4,
+                "count": 6
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 3,
+                "count": 6
+            }, {
+                "type": "Elite Boss Material",
+                "rarity": 5,
+                "count": 1
+            }]
+        }, {
+            "level": 8,
+            "min_level": 8,
+            "max_level": 9,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 450000
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 4,
+                "count": 12
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 3,
+                "count": 9
+            }, {
+                "type": "Elite Boss Material",
+                "rarity": 5,
+                "count": 2
+            }]
+        }, {
+            "level": 9,
+            "min_level": 9,
+            "max_level": 10,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 700000
+            }, {
+                "type": "Talent Level-Up Material",
+                "rarity": 4,
+                "count": 16
+            }, {
+                "type": "Common Ascension Materials",
+                "rarity": 3,
+                "count": 12
+            }, {
+                "type": "Elite Boss Material",
+                "rarity": 5,
+                "count": 2
+            }, {
+                "name": "Crown of Insight",
+                "count": 1
+            }]
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Albedo",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tusk of Monoceros Caeli"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ballad"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Alhaitham",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Faded Red Satin"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Trimmed Red Silk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Rich Red Brocade"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Mirror of Mushin"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ingenuity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Aloy",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Spectral Husk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Spectral Heart"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Spectral Nucleus"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Molten Moment"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Freedom"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Amber",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Firm Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sharp Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Weathered Arrowhead"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Sigh"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Freedom"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Arataki Itto",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Ashen Heart"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Elegance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Arlecchino",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Fading Candle"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Order"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Baizhu",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Fungal Spores"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Luminescent Pollen"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Crystalline Cyst Dust"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Worldspan Fern"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Gold"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Barbara",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Ring of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Freedom"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Beidou",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Sigh"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Gold"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Bennett",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Plume"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Resistance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Candace",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Faded Red Satin"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Trimmed Red Silk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Rich Red Brocade"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tears of the Calamitous God"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Admonition"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Charlotte",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Meshing Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Mechanical Spur Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Artificed Dynamic Gear"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Silk String"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Justice"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Chevreuse",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Meshing Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Mechanical Spur Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Artificed Dynamic Gear"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Eye of the Maelstrom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Order"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Chiori",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Spectral Husk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Spectral Heart"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Spectral Nucleus"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Silk String"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Light"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Chongyun",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Sigh"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Diligence"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Clorinde",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Transoceanic Pearl"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Transoceanic Chunk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Xenochromatic Crystal"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Everamber"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Justice"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Collei",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Firm Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sharp Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Weathered Arrowhead"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tears of the Calamitous God"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Praxis"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Cyno",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Mudra of the Malefic General"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Admonition"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Dehya",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Faded Red Satin"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Trimmed Red Silk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Rich Red Brocade"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Puppet Strings"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Praxis"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Diluc",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Plume"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Resistance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Diona",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Firm Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sharp Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Weathered Arrowhead"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Shard of a Foul Legacy"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Freedom"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Dori",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Faded Red Satin"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Trimmed Red Silk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Rich Red Brocade"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Bloodjade Branch"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ingenuity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Emilie",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Meshing Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Mechanical Spur Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Artificed Dynamic Gear"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Silken Feather"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Order"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Eula",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dragon Lord's Crown"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Resistance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Faruzan",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Faded Red Satin"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Trimmed Red Silk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Rich Red Brocade"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Puppet Strings"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Admonition"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Fischl",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Firm Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sharp Arrowhead"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Weathered Arrowhead"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Spirit Locket of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ballad"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Freminet",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Transoceanic Pearl"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Transoceanic Chunk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Xenochromatic Crystal"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Worldspan Fern"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Justice"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Furina",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Mass"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Justice"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Justice"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Gaming",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Mass"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Prosperity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Ganyu",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Shadow of the Warrior"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Diligence"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Gorou",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Spectral Husk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Spectral Heart"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Spectral Nucleus"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Molten Moment"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Light"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Hu Tao",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Shard of a Foul Legacy"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Diligence"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Jean",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Plume"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Resistance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kachina",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Sentry's Wooden Whistle"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Warrior's Metal Whistle"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Saurian-Crowned Warrior's Golden Whistle"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Fading Candle"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Conflict"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Conflict"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Conflict"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kaedehara Kazuha",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Gilded Scale"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Diligence"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kaeya",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Spirit Locket of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ballad"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kamisato Ayaka",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Old Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Kageuchi Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Famed Handguard"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Bloodjade Branch"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Elegance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kamisato Ayato",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Old Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Kageuchi Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Famed Handguard"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Mudra of the Malefic General"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Elegance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kaveh",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Fungal Spores"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Luminescent Pollen"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Crystalline Cyst Dust"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Primordial Greenbloom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ingenuity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Keqing",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Ring of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Prosperity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kirara",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Spectral Husk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Spectral Heart"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Spectral Nucleus"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Everamber"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Transience"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Klee",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Ring of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Freedom"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kujou Sara",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Ashen Heart"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Elegance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Kuki Shinobu",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Spectral Husk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Spectral Heart"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Spectral Nucleus"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tears of the Calamitous God"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Elegance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Elegance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Layla",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Mirror of Mushin"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ingenuity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Lisa",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Claw"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ballad"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Lynette",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Meshing Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Mechanical Spur Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Artificed Dynamic Gear"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Everamber"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Order"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Lyney",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Primordial Greenbloom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Equity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Mika",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Mirror of Mushin"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ballad"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Mona",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Ring of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Resistance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Mualani",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Sentry's Wooden Whistle"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Warrior's Metal Whistle"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Saurian-Crowned Warrior's Golden Whistle"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Mass"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Contention"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Contention"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Contention"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Nahida",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Fungal Spores"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Luminescent Pollen"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Crystalline Cyst Dust"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Puppet Strings"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ingenuity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ingenuity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Navia",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Transoceanic Pearl"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Transoceanic Chunk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Xenochromatic Crystal"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Silk String"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Equity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Nilou",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Fungal Spores"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Luminescent Pollen"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Crystalline Cyst Dust"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tears of the Calamitous God"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Praxis"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Ningguang",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Spirit Locket of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Prosperity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Noelle",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Claw"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Resistance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Neuvillette",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Transoceanic Pearl"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Transoceanic Chunk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Xenochromatic Crystal"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Everamber"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Equity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Qiqi",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tail of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Prosperity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Raiden Shogun",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Old Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Kageuchi Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Famed Handguard"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Molten Moment"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Light"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Razor",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Claw"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Resistance"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Resistance"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Rosaria",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Shadow of the Warrior"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ballad"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Sangonomiya Kokomi",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Spectral Husk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Spectral Heart"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Spectral Nucleus"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Hellfire Butterfly"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Transience"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Sayu",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Gilded Scale"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Light"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Sethos",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Faded Red Satin"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Trimmed Red Silk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Rich Red Brocade"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Daka's Bell"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Praxis"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Shenhe",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Hellfire Butterfly"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Prosperity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Shikanoin Heizou",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "The Meaning of Aeons"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Transience"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Sigewinne",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Transoceanic Pearl"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Transoceanic Chunk"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Xenochromatic Crystal"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Eye of the Maelstrom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Equity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Equity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Sucrose",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Whopperflower Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Shimmering Nectar"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Energy Nectar"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Spirit Locket of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Freedom"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Tartaglia",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Shard of a Foul Legacy"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Freedom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Freedom"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Thoma",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Hellfire Butterfly"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Transience"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Tighnari",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Fungal Spores"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Luminescent Pollen"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Crystalline Cyst Dust"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "The Meaning of Aeons"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Admonition"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Admonition"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Traveler (Anemo)",
+        "levels": [{
+            "level": 1,
+            "min_level": 1,
+            "max_level": 2,
+            "required_ascension_phase": 2,
+            "materials": [{
+                "name": "Mora",
+                "count": 12500
+            }, {
+                "name": "Teachings of Freedom",
+                "count": 3
+            }, {
+                "name": "Divining Scroll",
+                "count": 6
+            }]
+        }, {
+            "level": 2,
+            "min_level": 2,
+            "max_level": 3,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 17500
+            }, {
+                "name": "Guide to Resistance",
+                "count": 2
+            }, {
+                "name": "Sealed Scroll",
+                "count": 3
+            }]
+        }, {
+            "level": 3,
+            "min_level": 3,
+            "max_level": 4,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 25000
+            }, {
+                "name": "Guide to Ballad",
+                "count": 4
+            }, {
+                "name": "Sealed Scroll",
+                "count": 4
+            }]
+        }, {
+            "level": 4,
+            "min_level": 4,
+            "max_level": 5,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 30000
+            }, {
+                "name": "Guide to Freedom",
+                "count": 6
+            }, {
+                "name": "Sealed Scroll",
+                "count": 6
+            }]
+        }, {
+            "level": 5,
+            "min_level": 5,
+            "max_level": 6,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 37500
+            }, {
+                "name": "Guide to Resistance",
+                "count": 9
+            }, {
+                "name": "Sealed Scroll",
+                "count": 9
+            }]
+        }, {
+            "level": 6,
+            "min_level": 6,
+            "max_level": 7,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 120000
+            }, {
+                "name": "Philosophies of Ballad",
+                "count": 4
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 4
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 1
+            }]
+        }, {
+            "level": 7,
+            "min_level": 7,
+            "max_level": 8,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 260000
+            }, {
+                "name": "Philosophies of Freedom",
+                "count": 6
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 6
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 1
+            }]
+        }, {
+            "level": 8,
+            "min_level": 8,
+            "max_level": 9,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 450000
+            }, {
+                "name": "Philosophies of Resistance",
+                "count": 12
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 9
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 2
+            }]
+        }, {
+            "level": 9,
+            "min_level": 9,
+            "max_level": 10,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 700000
+            }, {
+                "name": "Philosophies of Ballad",
+                "count": 16
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 12
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 2
+            }, {
+                "name": "Crown of Insight",
+                "count": 1
+            }]
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Traveler (Dendro)",
+        "levels": [{
+            "level": 1,
+            "min_level": 1,
+            "max_level": 2,
+            "required_ascension_phase": 2,
+            "materials": [{
+                "name": "Mora",
+                "count": 12500
+            }, {
+                "name": "Teachings of Admonition",
+                "count": 3
+            }, {
+                "name": "Fungal Spores",
+                "count": 6
+            }]
+        }, {
+            "level": 2,
+            "min_level": 2,
+            "max_level": 3,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 17500
+            }, {
+                "name": "Guide to Ingenuity",
+                "count": 2
+            }, {
+                "name": "Luminescent Pollen",
+                "count": 3
+            }]
+        }, {
+            "level": 3,
+            "min_level": 3,
+            "max_level": 4,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 25000
+            }, {
+                "name": "Guide to Praxis",
+                "count": 4
+            }, {
+                "name": "Luminescent Pollen",
+                "count": 4
+            }]
+        }, {
+            "level": 4,
+            "min_level": 4,
+            "max_level": 5,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 30000
+            }, {
+                "name": "Guide to Admonition",
+                "count": 6
+            }, {
+                "name": "Luminescent Pollen",
+                "count": 6
+            }]
+        }, {
+            "level": 5,
+            "min_level": 5,
+            "max_level": 6,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 37500
+            }, {
+                "name": "Guide to Ingenuity",
+                "count": 9
+            }, {
+                "name": "Luminescent Pollen",
+                "count": 9
+            }]
+        }, {
+            "level": 6,
+            "min_level": 6,
+            "max_level": 7,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 120000
+            }, {
+                "name": "Philosophies of Praxis",
+                "count": 4
+            }, {
+                "name": "Crystalline Cyst Dust",
+                "count": 4
+            }, {
+                "name": "Mudra of the Malefic General",
+                "count": 1
+            }]
+        }, {
+            "level": 7,
+            "min_level": 7,
+            "max_level": 8,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 260000
+            }, {
+                "name": "Philosophies of Admonition",
+                "count": 6
+            }, {
+                "name": "Crystalline Cyst Dust",
+                "count": 6
+            }, {
+                "name": "Mudra of the Malefic General",
+                "count": 1
+            }]
+        }, {
+            "level": 8,
+            "min_level": 8,
+            "max_level": 9,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 450000
+            }, {
+                "name": "Philosophies of Ingenuity",
+                "count": 12
+            }, {
+                "name": "Crystalline Cyst Dust",
+                "count": 9
+            }, {
+                "name": "Mudra of the Malefic General",
+                "count": 2
+            }]
+        }, {
+            "level": 9,
+            "min_level": 9,
+            "max_level": 10,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 700000
+            }, {
+                "name": "Philosophies of Praxis",
+                "count": 16
+            }, {
+                "name": "Crystalline Cyst Dust",
+                "count": 12
+            }, {
+                "name": "Mudra of the Malefic General",
+                "count": 2
+            }, {
+                "name": "Crown of Insight",
+                "count": 1
+            }]
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Traveler (Electro)",
+        "levels": [{
+            "level": 1,
+            "min_level": 1,
+            "max_level": 2,
+            "required_ascension_phase": 2,
+            "materials": [{
+                "name": "Mora",
+                "count": 12500
+            }, {
+                "name": "Teachings of Transience",
+                "count": 3
+            }, {
+                "name": "Old Handguard",
+                "count": 6
+            }]
+        }, {
+            "level": 2,
+            "min_level": 2,
+            "max_level": 3,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 17500
+            }, {
+                "name": "Guide to Elegance",
+                "count": 2
+            }, {
+                "name": "Kageuchi Handguard",
+                "count": 3
+            }]
+        }, {
+            "level": 3,
+            "min_level": 3,
+            "max_level": 4,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 25000
+            }, {
+                "name": "Guide to Light",
+                "count": 4
+            }, {
+                "name": "Kageuchi Handguard",
+                "count": 4
+            }]
+        }, {
+            "level": 4,
+            "min_level": 4,
+            "max_level": 5,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 30000
+            }, {
+                "name": "Guide to Transience",
+                "count": 6
+            }, {
+                "name": "Kageuchi Handguard",
+                "count": 6
+            }]
+        }, {
+            "level": 5,
+            "min_level": 5,
+            "max_level": 6,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 37500
+            }, {
+                "name": "Guide to Elegance",
+                "count": 9
+            }, {
+                "name": "Kageuchi Handguard",
+                "count": 9
+            }]
+        }, {
+            "level": 6,
+            "min_level": 6,
+            "max_level": 7,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 120000
+            }, {
+                "name": "Philosophies of Light",
+                "count": 4
+            }, {
+                "name": "Famed Handguard",
+                "count": 4
+            }, {
+                "name": "Dragon Lord's Crown",
+                "count": 1
+            }]
+        }, {
+            "level": 7,
+            "min_level": 7,
+            "max_level": 8,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 260000
+            }, {
+                "name": "Philosophies of Transience",
+                "count": 6
+            }, {
+                "name": "Famed Handguard",
+                "count": 6
+            }, {
+                "name": "Dragon Lord's Crown",
+                "count": 1
+            }]
+        }, {
+            "level": 8,
+            "min_level": 8,
+            "max_level": 9,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 450000
+            }, {
+                "name": "Philosophies of Elegance",
+                "count": 12
+            }, {
+                "name": "Famed Handguard",
+                "count": 9
+            }, {
+                "name": "Dragon Lord's Crown",
+                "count": 2
+            }]
+        }, {
+            "level": 9,
+            "min_level": 9,
+            "max_level": 10,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 700000
+            }, {
+                "name": "Philosophies of Light",
+                "count": 16
+            }, {
+                "name": "Famed Handguard",
+                "count": 12
+            }, {
+                "name": "Dragon Lord's Crown",
+                "count": 2
+            }, {
+                "name": "Crown of Insight",
+                "count": 1
+            }]
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Traveler (Geo)",
+        "normal_attack_levels": [{
+            "level": 1,
+            "min_level": 1,
+            "max_level": 2,
+            "required_ascension_phase": 2,
+            "materials": [{
+                "name": "Mora",
+                "count": 12500
+            }, {
+                "name": "Teachings of Freedom",
+                "count": 3
+            }, {
+                "name": "Divining Scroll",
+                "count": 6
+            }]
+        }, {
+            "level": 2,
+            "min_level": 2,
+            "max_level": 3,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 17500
+            }, {
+                "name": "Guide to Resistance",
+                "count": 2
+            }, {
+                "name": "Sealed Scroll",
+                "count": 3
+            }]
+        }, {
+            "level": 3,
+            "min_level": 3,
+            "max_level": 4,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 25000
+            }, {
+                "name": "Guide to Ballad",
+                "count": 4
+            }, {
+                "name": "Sealed Scroll",
+                "count": 4
+            }]
+        }, {
+            "level": 4,
+            "min_level": 4,
+            "max_level": 5,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 30000
+            }, {
+                "name": "Guide to Freedom",
+                "count": 6
+            }, {
+                "name": "Sealed Scroll",
+                "count": 6
+            }]
+        }, {
+            "level": 5,
+            "min_level": 5,
+            "max_level": 6,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 37500
+            }, {
+                "name": "Guide to Resistance",
+                "count": 9
+            }, {
+                "name": "Sealed Scroll",
+                "count": 9
+            }]
+        }, {
+            "level": 6,
+            "min_level": 6,
+            "max_level": 7,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 120000
+            }, {
+                "name": "Philosophies of Ballad",
+                "count": 4
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 4
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 1
+            }]
+        }, {
+            "level": 7,
+            "min_level": 7,
+            "max_level": 8,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 260000
+            }, {
+                "name": "Philosophies of Freedom",
+                "count": 6
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 6
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 1
+            }]
+        }, {
+            "level": 8,
+            "min_level": 8,
+            "max_level": 9,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 450000
+            }, {
+                "name": "Philosophies of Resistance",
+                "count": 12
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 9
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 2
+            }]
+        }, {
+            "level": 9,
+            "min_level": 9,
+            "max_level": 10,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 700000
+            }, {
+                "name": "Philosophies of Ballad",
+                "count": 16
+            }, {
+                "name": "Forbidden Curse Scroll",
+                "count": 12
+            }, {
+                "name": "Dvalin's Sigh",
+                "count": 2
+            }, {
+                "name": "Crown of Insight",
+                "count": 1
+            }]
+        }],
+        "levels": [{
+            "level": 1,
+            "min_level": 1,
+            "max_level": 2,
+            "required_ascension_phase": 2,
+            "materials": [{
+                "name": "Mora",
+                "count": 12500
+            }, {
+                "name": "Teachings of Prosperity",
+                "count": 3
+            }, {
+                "name": "Firm Arrowhead",
+                "count": 6
+            }]
+        }, {
+            "level": 2,
+            "min_level": 2,
+            "max_level": 3,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 17500
+            }, {
+                "name": "Guide to Diligence",
+                "count": 2
+            }, {
+                "name": "Sharp Arrowhead",
+                "count": 3
+            }]
+        }, {
+            "level": 3,
+            "min_level": 3,
+            "max_level": 4,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 25000
+            }, {
+                "name": "Guide to Gold",
+                "count": 4
+            }, {
+                "name": "Sharp Arrowhead",
+                "count": 4
+            }]
+        }, {
+            "level": 4,
+            "min_level": 4,
+            "max_level": 5,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 30000
+            }, {
+                "name": "Guide to Prosperity",
+                "count": 6
+            }, {
+                "name": "Sharp Arrowhead",
+                "count": 6
+            }]
+        }, {
+            "level": 5,
+            "min_level": 5,
+            "max_level": 6,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 37500
+            }, {
+                "name": "Guide to Diligence",
+                "count": 9
+            }, {
+                "name": "Sharp Arrowhead",
+                "count": 9
+            }]
+        }, {
+            "level": 6,
+            "min_level": 6,
+            "max_level": 7,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 120000
+            }, {
+                "name": "Philosophies of Gold",
+                "count": 4
+            }, {
+                "name": "Weathered Arrowhead",
+                "count": 4
+            }, {
+                "name": "Tail of Boreas",
+                "count": 1
+            }]
+        }, {
+            "level": 7,
+            "min_level": 7,
+            "max_level": 8,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 260000
+            }, {
+                "name": "Philosophies of Prosperity",
+                "count": 6
+            }, {
+                "name": "Weathered Arrowhead",
+                "count": 6
+            }, {
+                "name": "Tail of Boreas",
+                "count": 1
+            }]
+        }, {
+            "level": 8,
+            "min_level": 8,
+            "max_level": 9,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 450000
+            }, {
+                "name": "Philosophies of Diligence",
+                "count": 12
+            }, {
+                "name": "Weathered Arrowhead",
+                "count": 9
+            }, {
+                "name": "Tail of Boreas",
+                "count": 2
+            }]
+        }, {
+            "level": 9,
+            "min_level": 9,
+            "max_level": 10,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 700000
+            }, {
+                "name": "Philosophies of Gold",
+                "count": 16
+            }, {
+                "name": "Weathered Arrowhead",
+                "count": 12
+            }, {
+                "name": "Tail of Boreas",
+                "count": 2
+            }, {
+                "name": "Crown of Insight",
+                "count": 1
+            }]
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Traveler (Hydro)",
+        "levels": [{
+            "level": 1,
+            "min_level": 1,
+            "max_level": 2,
+            "required_ascension_phase": 2,
+            "materials": [{
+                "name": "Mora",
+                "count": 12500
+            }, {
+                "name": "Teachings of Equity",
+                "count": 3
+            }, {
+                "name": "Transoceanic Pearl",
+                "count": 6
+            }]
+        }, {
+            "level": 2,
+            "min_level": 2,
+            "max_level": 3,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 17500
+            }, {
+                "name": "Guide to Justice",
+                "count": 2
+            }, {
+                "name": "Transoceanic Chunk",
+                "count": 3
+            }]
+        }, {
+            "level": 3,
+            "min_level": 3,
+            "max_level": 4,
+            "required_ascension_phase": 3,
+            "materials": [{
+                "name": "Mora",
+                "count": 25000
+            }, {
+                "name": "Guide to Order",
+                "count": 4
+            }, {
+                "name": "Transoceanic Chunk",
+                "count": 4
+            }]
+        }, {
+            "level": 4,
+            "min_level": 4,
+            "max_level": 5,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 30000
+            }, {
+                "name": "Guide to Equity",
+                "count": 6
+            }, {
+                "name": "Transoceanic Chunk",
+                "count": 6
+            }]
+        }, {
+            "level": 5,
+            "min_level": 5,
+            "max_level": 6,
+            "required_ascension_phase": 4,
+            "materials": [{
+                "name": "Mora",
+                "count": 37500
+            }, {
+                "name": "Guide to Justice",
+                "count": 9
+            }, {
+                "name": "Transoceanic Chunk",
+                "count": 9
+            }]
+        }, {
+            "level": 6,
+            "min_level": 6,
+            "max_level": 7,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 120000
+            }, {
+                "name": "Philosophies of Order",
+                "count": 4
+            }, {
+                "name": "Xenochromatic Crystal",
+                "count": 4
+            }, {
+                "name": "Worldspan Fern",
+                "count": 1
+            }]
+        }, {
+            "level": 7,
+            "min_level": 7,
+            "max_level": 8,
+            "required_ascension_phase": 5,
+            "materials": [{
+                "name": "Mora",
+                "count": 260000
+            }, {
+                "name": "Philosophies of Equity",
+                "count": 6
+            }, {
+                "name": "Xenochromatic Crystal",
+                "count": 6
+            }, {
+                "name": "Worldspan Fern",
+                "count": 1
+            }]
+        }, {
+            "level": 8,
+            "min_level": 8,
+            "max_level": 9,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 450000
+            }, {
+                "name": "Philosophies of Justice",
+                "count": 12
+            }, {
+                "name": "Xenochromatic Crystal",
+                "count": 9
+            }, {
+                "name": "Worldspan Fern",
+                "count": 2
+            }]
+        }, {
+            "level": 9,
+            "min_level": 9,
+            "max_level": 10,
+            "required_ascension_phase": 6,
+            "materials": [{
+                "name": "Mora",
+                "count": 700000
+            }, {
+                "name": "Philosophies of Order",
+                "count": 16
+            }, {
+                "name": "Xenochromatic Crystal",
+                "count": 12
+            }, {
+                "name": "Worldspan Fern",
+                "count": 2
+            }, {
+                "name": "Crown of Insight",
+                "count": 1
+            }]
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Venti",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tail of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Ballad"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Ballad"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Wanderer",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Old Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Kageuchi Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Famed Handguard"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Daka's Bell"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Praxis"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Praxis"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Wriothesley",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Meshing Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Mechanical Spur Gear"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Artificed Dynamic Gear"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Primordial Greenbloom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Order"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Order"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Xiangling",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dvalin's Claw"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Diligence"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Xianyun",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Lightless Eye of the Maelstrom"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Gold"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Xiao",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Shadow of the Warrior"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Prosperity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Xilonen",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Sentry's Wooden Whistle"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Warrior's Metal Whistle"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Saurian-Crowned Warrior's Golden Whistle"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Mirror of Mushin"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Kindling"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Kindling"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Kindling"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Xingqiu",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tail of Boreas"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Gold"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Xinyan",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tusk of Monoceros Caeli"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Gold"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Yae Miko",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Old Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Kageuchi Handguard"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Famed Handguard"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "The Meaning of Aeons"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Light"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Light"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Yanfei",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Treasure Hoarder Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Silver Raven Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Golden Raven Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Bloodjade Branch"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Gold"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Yaoyao",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Daka's Bell"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Diligence"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Yelan",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Recruit's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sergeant's Insignia"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Lieutenant's Insignia"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Gilded Scale"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Prosperity"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Prosperity"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Yoimiya",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Divining Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Sealed Scroll"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Forbidden Curse Scroll"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Dragon Lord's Crown"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Transience"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Transience"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Yun Jin",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Damaged Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Stained Mask"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Ominous Mask"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Ashen Heart"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Diligence"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Diligence"
+        }]
+    }, {
+        "object_type": "talent-level-up-materials",
+        "name": "Zhongli",
+        "materials": [{
+            "type": "Common Ascension Materials",
+            "rarity": 1,
+            "name": "Slime Condensate"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 2,
+            "name": "Slime Secretions"
+        }, {
+            "type": "Common Ascension Materials",
+            "rarity": 3,
+            "name": "Slime Concentrate"
+        }, {
+            "type": "Elite Boss Material",
+            "rarity": 5,
+            "name": "Tusk of Monoceros Caeli"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 2,
+            "name": "Teachings of Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 3,
+            "name": "Guide to Gold"
+        }, {
+            "type": "Talent Level-Up Material",
+            "rarity": 4,
+            "name": "Philosophies of Gold"
+        }]
+    }]
+}
