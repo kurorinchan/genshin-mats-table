@@ -15,7 +15,9 @@ mod asset;
 const RESOURCES_FILE: &str = "resources.json";
 const LEVEL_UP_MAT: &str = "Talent Level-Up Material";
 
-#[derive(Debug, EnumString, Clone, Serialize, Deserialize)]
+#[derive(
+    EnumIter, Debug, AsRefStr, EnumString, Clone, Serialize, Deserialize, PartialEq, Eq, Hash,
+)]
 pub enum DayOfWeek {
     Monday,
     Tuesday,
@@ -161,6 +163,68 @@ impl Character {
 
         self.talent_materials[0].mat_type == other.talent_materials[0].mat_type
     }
+}
+
+// TODO: Might be better to have this in a JSON and read it.
+
+pub fn day_to_mat_type() -> HashMap<DayOfWeek, Vec<TalentLevelUpMaterialType>> {
+    type MatType = TalentLevelUpMaterialType;
+    let mapping = [
+        (
+            DayOfWeek::Monday,
+            vec![
+                MatType::Freedom,
+                MatType::Prosperity,
+                MatType::Transience,
+                MatType::Admonition,
+                MatType::Equity,
+                MatType::Contention,
+            ],
+        ),
+        (
+            DayOfWeek::Tuesday,
+            vec![
+                MatType::Resistance,
+                MatType::Diligence,
+                MatType::Elegance,
+                MatType::Ingenuity,
+                MatType::Justice,
+                MatType::Kindling,
+            ],
+        ),
+        (
+            DayOfWeek::Wednesday,
+            vec![
+                MatType::Ballad,
+                MatType::Gold,
+                MatType::Light,
+                MatType::Praxis,
+                MatType::Order,
+                MatType::Conflict,
+            ],
+        ),
+    ];
+
+    let mut map = HashMap::new();
+    for (day, mat_types) in mapping {
+        map.insert(day, mat_types.clone());
+    }
+
+    map.insert(
+        DayOfWeek::Thursday,
+        map.get(&DayOfWeek::Monday).unwrap().clone(),
+    );
+    map.insert(
+        DayOfWeek::Friday,
+        map.get(&DayOfWeek::Tuesday).unwrap().clone(),
+    );
+    map.insert(
+        DayOfWeek::Saturday,
+        map.get(&DayOfWeek::Wednesday).unwrap().clone(),
+    );
+
+    map.insert(DayOfWeek::Sunday, MatType::iter().collect());
+    map
 }
 
 pub fn group_by_material(

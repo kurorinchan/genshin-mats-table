@@ -1,6 +1,8 @@
+use crate::logic::{
+    self, day_to_mat_type, group_by_material, Character, DayOfWeek, TalentLevelUpMaterialType,
+};
 use leptos::*;
-
-use crate::logic::{self, group_by_material, Character};
+use strum::IntoEnumIterator;
 
 fn display_character_name(characters: &[Character]) -> String {
     characters
@@ -9,6 +11,7 @@ fn display_character_name(characters: &[Character]) -> String {
         .collect::<Vec<_>>()
         .join(", ")
 }
+
 #[component]
 fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
     let characters = create_resource(
@@ -22,7 +25,9 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
 
     view! {
         <div>
-        {mat_type.as_ref().to_string()}
+            <div class="text-warning">
+            {mat_type.as_ref().to_string()}
+            </div>
         <Suspense
             fallback=move || view! { <p>"Loading..."</p> }
         >
@@ -44,22 +49,40 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
 }
 
 #[component]
-pub fn DisplayMats(characters: Vec<logic::Character>) -> impl IntoView {
-    characters
-        .iter()
-        .map(|character| {
-            if character.talent_materials.is_empty() {
-                return view! {
-                    <div>{format!("{} has not talent materials.", character.name)}</div>
-                }
-                .into_view();
-            }
-            let material = &character.talent_materials[0];
+fn ShowByDayOfWeek(day_of_week: logic::DayOfWeek) -> impl IntoView {
+    let day_to_mat = day_to_mat_type();
 
+    let mat_types = day_to_mat.get(&day_of_week).expect("All days exist");
+
+    let mat_views = mat_types
+        .iter()
+        .map(|mat_type| {
             view! {
-                <MaterialsView mat_type={material.mat_type} />
+                <div>
+                    <MaterialsView mat_type={*mat_type} />
+                </div>
             }
-            .into_view()
+        })
+        .collect::<Vec<_>>();
+
+    view! {
+        <div>
+            <div class="text-primary">
+            {day_of_week.as_ref().to_string()}
+            </div>
+
+            {mat_views}
+        </div>
+    }
+}
+
+#[component]
+pub fn DisplayMats(characters: Vec<logic::Character>) -> impl IntoView {
+    DayOfWeek::iter()
+        .map(|day_of_week| {
+            view! {
+                <ShowByDayOfWeek day_of_week={day_of_week} />
+            }
         })
         .collect::<Vec<_>>()
 }
