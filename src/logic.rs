@@ -353,7 +353,7 @@ mod tests {
         // TODO: Prefer self contained tests. Don't read from data set here. Instead create a
         // toy dataset in this test.
         let characters = read_character_mats().unwrap();
-        let group = group_by_material(&characters);
+        let group = group_by_material(characters);
         assert_ge!(group.len(), 1);
 
         // Pick one material type that should be used by more than one character
@@ -362,9 +362,9 @@ mod tests {
         let characters = group.get(&mat_type).unwrap();
         assert_gt!(characters.len(), 1);
 
-        let character = characters[0];
+        let character = &characters[0];
         for c in characters {
-            assert!(c.uses_same_material(character));
+            assert!(c.uses_same_material(&character));
         }
 
         Ok(())
