@@ -4,6 +4,7 @@ use serde::Deserialize;
 use serde::Serialize;
 use std::collections::HashMap;
 use std::hash::Hash;
+use std::path::Path;
 use std::str::FromStr;
 use strum::IntoEnumIterator;
 use strum_macros::AsRefStr;
@@ -79,10 +80,13 @@ pub struct TalentLevelUpMaterial {
 pub struct Character {
     pub name: String,
     pub talent_materials: Vec<TalentLevelUpMaterial>,
+    pub thumbnail: String,
 }
 
 mod serde_data {
-    use serde::Deserialize;
+    use serde::{Deserialize, Serialize};
+    use serde_json::Value;
+
     #[derive(Deserialize, Debug)]
     pub struct Material {
         #[serde(rename = "type")]
@@ -118,6 +122,7 @@ mod serde_data {
         pub data: Vec<CharacterTalentLevelUpEntry>,
     }
 
+    // For reading resources.json.
     #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
     #[serde(rename_all = "camelCase")]
     pub struct ResourcesRoot {
@@ -146,13 +151,69 @@ mod serde_data {
         #[serde(rename = "group_type")]
         pub group_type: Option<String>,
     }
+
+    // For reading characters.json.
+    #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+    #[serde(rename_all = "camelCase")]
+    pub struct CharactersRoot {
+        #[serde(skip)]
+        pub version: String,
+        pub data: Vec<CharacterEntry>,
+    }
+
+    #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+    #[serde(rename_all = "camelCase")]
+    pub struct CharacterEntry {
+        #[serde(rename = "object_type")]
+        pub object_type: String,
+        pub name: String,
+        #[serde(rename = "type")]
+        pub type_field: String,
+        pub rarity: i64,
+        pub element: String,
+        pub weapon: String,
+        // This is Value because it could be a String or an array of Strings.
+        #[serde(skip)]
+        pub region: Value,
+        pub talents: Vec<Talent>,
+        pub constellations: Vec<Constellation>,
+        pub thumbnail: String,
+        pub link: String,
+        #[serde(rename = "display_name")]
+        pub display_name: Option<String>,
+    }
+
+    #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+    #[serde(rename_all = "camelCase")]
+    pub struct Talent {
+        #[serde(rename = "object_type")]
+        pub object_type: String,
+        pub name: String,
+        #[serde(rename = "type")]
+        pub type_field: String,
+        pub thumbnail: String,
+        pub link: String,
+        pub constellation: Option<i64>,
+    }
+
+    #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+    #[serde(rename_all = "camelCase")]
+    pub struct Constellation {
+        #[serde(rename = "object_type")]
+        pub object_type: String,
+        pub name: String,
+        pub level: i64,
+        pub thumbnail: String,
+        pub link: String,
+    }
 }
 
 impl Character {
-    pub fn new(character_name: &str, materials: &[TalentLevelUpMaterial]) -> Self {
+    pub fn new(character_name: &str, materials: &[TalentLevelUpMaterial], thumbnail: &str) -> Self {
         Self {
             name: character_name.to_owned(),
             talent_materials: materials.to_vec(),
+            thumbnail: thumbnail.to_owned(),
         }
     }
 
@@ -235,13 +296,14 @@ pub fn group_by_material(
         if character.talent_materials.is_empty() {
             continue;
         }
-        let mat_type = character.talent_materials[0].mat_type.clone();
+        let mat_type = character.talent_materials[0].mat_type;
         map.entry(mat_type).or_insert_with(Vec::new).push(character);
     }
     map
 }
 
 pub fn read_character_mats() -> Result<Vec<Character>> {
+    let character_entries = read_characters()?;
     let resources = read_resources()?;
     let f =
         asset::Asset::get("character-talent-level-up.json").context("failed to find json file")?;
@@ -296,7 +358,21 @@ pub fn read_character_mats() -> Result<Vec<Character>> {
                     })
                 })
                 .collect();
-            Character::new(&talent_mat.character_name, &talent_mats)
+
+            // Find thumbnail image from characters.
+            let thumbnail = character_entries.iter().find_map(|entry| {
+                if entry.name == talent_mat.character_name {
+                    Some(&entry.thumbnail)
+                } else {
+                    None
+                }
+            });
+            Character::new(
+                &talent_mat.character_name,
+                &talent_mats,
+                // TODO: unwrap is probably not good here? Handle gracefully.
+                &thumbnail.unwrap(),
+            )
         })
         .collect();
     Ok(characters)
@@ -314,6 +390,15 @@ fn read_resources() -> Result<Vec<serde_data::ResourceEntry>> {
         .collect();
 
     Ok(resources)
+}
+
+const CHARACTERS_FILE: &str = "characters.json";
+
+fn read_characters() -> Result<Vec<serde_data::CharacterEntry>> {
+    let f = asset::Asset::get(CHARACTERS_FILE).context("failed to find json file")?;
+    let root: serde_data::CharactersRoot = serde_json::from_slice(&f.data)?;
+    let entries = root.data;
+    Ok(entries)
 }
 
 #[cfg(test)]

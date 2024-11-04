@@ -13,6 +13,20 @@ fn display_character_name(characters: &[Character]) -> String {
 }
 
 #[component]
+fn CharacterComponent(character: Character) -> impl IntoView {
+    view! {
+        <div>
+            <div>
+            {character.name.clone()}
+            </div>
+            <div>
+            <img src={format!("img/{}", &character.thumbnail)} />
+            </div>
+        </div>
+    }
+}
+
+#[component]
 fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
     let characters = create_resource(
         || (),
@@ -38,7 +52,12 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
                         Some(characters) =>
                             view! {
                                 <div>
-                                {display_character_name(&characters)}
+                                //{display_character_name(&characters)}
+                                {characters.iter().map(|character| {
+                                    view! {
+                                        <CharacterComponent character={character.clone()} />
+                                    }
+                                }).collect::<Vec<_>>()}
                                 </div>
                             }.into_view()
                     }
