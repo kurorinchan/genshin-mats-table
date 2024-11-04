@@ -77,47 +77,29 @@ fn ShowByDayOfWeek(day_of_week: logic::DayOfWeek) -> impl IntoView {
 }
 
 #[component]
-pub fn DisplayMats(characters: Vec<logic::Character>) -> impl IntoView {
-    DayOfWeek::iter()
+pub fn DisplayMats() -> impl IntoView {
+    let days = DayOfWeek::iter()
         .map(|day_of_week| {
             view! {
+                <div class="col">
                 <ShowByDayOfWeek day_of_week={day_of_week} />
+                </div>
             }
         })
-        .collect::<Vec<_>>()
+        .collect::<Vec<_>>();
+
+    view! {
+        <div class="row">
+        {days}
+        </div>
+    }
 }
 
 #[component]
 pub fn App() -> impl IntoView {
-    let once = create_resource(
-        || (),
-        |_| async move {
-            let characters = logic::read_character_mats();
-            let Ok(characters) = characters else {
-                return None;
-            };
-            Some(characters)
-        },
-    );
-
     view! {
-        <div>
-            <div>
-                <Suspense fallback=move || view! { <p>"Loading..."</p> }>
-                <div>
-                    {move || {
-                        once.get().map(|mats|{
-                            match mats {
-                                None => view! {<p>"error!"</p>}.into_view(),
-                                Some(mats) => view! {
-                                    <DisplayMats characters={mats} />
-                                }.into_view(),
-                            }
-                        })
-                    }}
-                </div>
-                </Suspense>
-            </div>
+        <div class="container">
+            <DisplayMats />
         </div>
     }
 }
