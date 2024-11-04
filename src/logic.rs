@@ -3,6 +3,7 @@ use anyhow::Result;
 use serde::Deserialize;
 use serde::Serialize;
 use std::collections::HashMap;
+use std::hash::Hash;
 use std::str::FromStr;
 use strum::IntoEnumIterator;
 use strum_macros::AsRefStr;
@@ -25,7 +26,7 @@ pub enum DayOfWeek {
     Sunday,
 }
 
-#[derive(EnumIter, Debug, AsRefStr, Clone, Hash, PartialEq, Eq, Serialize, Deserialize)]
+#[derive(EnumIter, Debug, AsRefStr, Clone, Hash, PartialEq, Eq, Serialize, Deserialize, Copy)]
 pub enum TalentLevelUpMaterialType {
     // Mondstadt.
     Freedom,
@@ -59,6 +60,7 @@ pub enum TalentLevelUpMaterialType {
 }
 
 impl TalentLevelUpMaterialType {
+    // Gethe the type name from the full name of the material.
     fn from_full_name(fullname: &str) -> Option<Self> {
         Self::iter().find(|mat_type| fullname.contains(mat_type.as_ref()))
     }
@@ -162,15 +164,15 @@ impl Character {
 }
 
 pub fn group_by_material(
-    characters: &[Character],
-) -> HashMap<TalentLevelUpMaterialType, Vec<&Character>> {
+    characters: Vec<Character>,
+) -> HashMap<TalentLevelUpMaterialType, Vec<Character>> {
     let mut map = HashMap::new();
     for character in characters {
-        for material in &character.talent_materials {
-            map.entry(material.mat_type.clone())
-                .or_insert_with(Vec::new)
-                .push(character);
+        if character.talent_materials.is_empty() {
+            continue;
         }
+        let mat_type = character.talent_materials[0].mat_type.clone();
+        map.entry(mat_type).or_insert_with(Vec::new).push(character);
     }
     map
 }
