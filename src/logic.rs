@@ -319,7 +319,7 @@ fn png2webp_extension(filename: &str) -> String {
 }
 
 pub fn read_character_mats() -> Result<Vec<Character>> {
-    let words = read_words()?;
+    let en_to_jp = read_en_to_jp()?;
     let character_entries = read_characters()?;
     let resources = read_resources()?;
     let f =
@@ -385,14 +385,9 @@ pub fn read_character_mats() -> Result<Vec<Character>> {
                 }
             });
 
-            // TODO: Handle all these unwraps gracefully.
-            let entry = words.get(&talent_mat.character_name);
-            let mut character_name = &talent_mat.character_name.clone();
-            if let Some(entry) = entry {
-                if let Some(ja) = &entry.ja {
-                    character_name = ja;
-                }
-            }
+            let character_name = en_to_jp
+                .get(&talent_mat.character_name)
+                .unwrap_or(&talent_mat.character_name);
             Character::new(character_name, &talent_mats, &thumbnail.unwrap())
         })
         .collect();
@@ -433,6 +428,25 @@ fn read_words() -> Result<HashMap<String, WordEntry>> {
     Ok(map)
 }
 
+fn read_en_to_jp() -> Result<HashMap<String, String>> {
+    let en = asset::Asset::get("en_itemid.json").context("failed to find json file")?;
+    let jp = asset::Asset::get("jp_itemid.json").context("failed to find json file")?;
+
+    let en: HashMap<String, u32> = serde_json::from_slice(&en.data)?;
+    let jp: HashMap<String, u32> = serde_json::from_slice(&jp.data)?;
+
+    let mut en_to_jp = HashMap::new();
+    for (en_key, en_itemid) in &en {
+        for (jp_key, jp_itemid) in &jp {
+            if en_itemid == jp_itemid {
+                en_to_jp.insert(en_key.to_owned(), jp_key.to_owned());
+            }
+        }
+    }
+
+    Ok(en_to_jp)
+}
+
 // TODO: write a function that returns "relevant" day of weeks and their "display name".
 // Which should be MTW, each mapped to (Mon, Thurs), (Tue, Fri), (Wed, Sat) respectively.
 
@@ -459,7 +473,7 @@ mod tests {
         assert_ge!(characters.len(), 1);
         let furina = characters
             .iter()
-            .find(|character| character.name == "Furina")
+            .find(|character| character.name == "フリーナ")
             .unwrap();
         assert_ge!(furina.talent_materials.len(), 1);
 
@@ -495,5 +509,12 @@ mod tests {
         let words = read_words()?;
         assert_ge!(words.len(), 1);
         Ok(())
+    }
+
+    #[test]
+    fn test_read_en_to_jp() {
+        let en_to_jp = read_en_to_jp().unwrap();
+        assert_ge!(en_to_jp.len(), 1);
+        assert_eq!(en_to_jp.get("Diluc").unwrap(), "ディルック");
     }
 }
