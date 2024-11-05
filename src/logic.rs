@@ -2,6 +2,7 @@ use anyhow::Context;
 use anyhow::Result;
 use serde::Deserialize;
 use serde::Serialize;
+use serde_data::WordEntry;
 use std::collections::HashMap;
 use std::hash::Hash;
 use std::path::Path;
@@ -206,6 +207,15 @@ mod serde_data {
         pub thumbnail: String,
         pub link: String,
     }
+
+    // For words.json.
+    // For now, it is only used to go from English to Japanese.
+    #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+    pub struct WordEntry {
+        pub en: String,
+        // Some entries do not have it, this must be Option.
+        pub ja: Option<String>,
+    }
 }
 
 impl Character {
@@ -309,6 +319,7 @@ fn png2webp_extension(filename: &str) -> String {
 }
 
 pub fn read_character_mats() -> Result<Vec<Character>> {
+    let words = read_words()?;
     let character_entries = read_characters()?;
     let resources = read_resources()?;
     let f =
@@ -373,12 +384,16 @@ pub fn read_character_mats() -> Result<Vec<Character>> {
                     None
                 }
             });
-            Character::new(
-                &talent_mat.character_name,
-                &talent_mats,
-                // TODO: unwrap is probably not good here? Handle gracefully.
-                &thumbnail.unwrap(),
-            )
+
+            // TODO: Handle all these unwraps gracefully.
+            let entry = words.get(&talent_mat.character_name);
+            let mut character_name = &talent_mat.character_name.clone();
+            if let Some(entry) = entry {
+                if let Some(ja) = &entry.ja {
+                    character_name = ja;
+                }
+            }
+            Character::new(character_name, &talent_mats, &thumbnail.unwrap())
         })
         .collect();
     Ok(characters)
@@ -405,6 +420,17 @@ fn read_characters() -> Result<Vec<serde_data::CharacterEntry>> {
     let root: serde_data::CharactersRoot = serde_json::from_slice(&f.data)?;
     let entries = root.data;
     Ok(entries)
+}
+
+fn read_words() -> Result<HashMap<String, WordEntry>> {
+    let f = asset::Asset::get("words.json").context("failed to find json file")?;
+    let root: Vec<serde_data::WordEntry> = serde_json::from_slice(&f.data)?;
+    let mut map = HashMap::new();
+    for entry in root {
+        map.insert(entry.en.clone(), entry);
+    }
+
+    Ok(map)
 }
 
 // TODO: write a function that returns "relevant" day of weeks and their "display name".
@@ -461,6 +487,13 @@ mod tests {
             assert!(c.uses_same_material(&character));
         }
 
+        Ok(())
+    }
+
+    #[test]
+    fn test_read_words() -> Result<()> {
+        let words = read_words()?;
+        assert_ge!(words.len(), 1);
         Ok(())
     }
 }
