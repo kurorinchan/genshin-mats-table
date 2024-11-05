@@ -1,0 +1,10 @@
+.character {
+    max-width: 100px;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+.character-name {
+    text-align: center;
+    width: 100%;
+}

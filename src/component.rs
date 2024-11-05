@@ -15,13 +15,11 @@ fn display_character_name(characters: &[Character]) -> String {
 #[component]
 fn CharacterComponent(character: Character) -> impl IntoView {
     view! {
-        <div>
-            <div>
-            {character.name.clone()}
-            </div>
-            <div>
-            <img width="100" src={format!("img/{}", &character.thumbnail)} />
-            </div>
+        <div class="col border character">
+                <div class="text-nowrap character-name">
+                    {character.name.clone()}
+                </div>
+                <img class="character border" src={format!("img/{}", &character.thumbnail)} />
         </div>
     }
 }
@@ -51,13 +49,14 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
                         None => view! {<p>"error!"</p>}.into_view(),
                         Some(characters) =>
                             view! {
-                                <div>
-                                //{display_character_name(&characters)}
-                                {characters.iter().map(|character| {
-                                    view! {
-                                        <CharacterComponent character={character.clone()} />
-                                    }
-                                }).collect::<Vec<_>>()}
+                                <div class="container">
+                                    <div class="row">
+                                    {characters.iter().map(|character| {
+                                        view! {
+                                            <CharacterComponent character={character.clone()} />
+                                        }
+                                    }).collect::<Vec<_>>()}
+                                    </div>
                                 </div>
                             }.into_view()
                     }
