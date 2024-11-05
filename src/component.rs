@@ -20,7 +20,7 @@ fn CharacterComponent(character: Character) -> impl IntoView {
             {character.name.clone()}
             </div>
             <div>
-            <img src={format!("img/{}", &character.thumbnail)} />
+            <img width="100" src={format!("img/{}", &character.thumbnail)} />
             </div>
         </div>
     }
@@ -97,11 +97,13 @@ fn ShowByDayOfWeek(day_of_week: logic::DayOfWeek) -> impl IntoView {
 
 #[component]
 pub fn DisplayMats() -> impl IntoView {
-    let days = DayOfWeek::iter()
+    let relevant_days = [DayOfWeek::Monday, DayOfWeek::Tuesday, DayOfWeek::Wednesday];
+    let days = relevant_days
+        .iter()
         .map(|day_of_week| {
             view! {
                 <div class="col">
-                <ShowByDayOfWeek day_of_week={day_of_week} />
+                <ShowByDayOfWeek day_of_week={day_of_week.clone()} />
                 </div>
             }
         })

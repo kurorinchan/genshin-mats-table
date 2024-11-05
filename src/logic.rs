@@ -302,6 +302,12 @@ pub fn group_by_material(
     map
 }
 
+// This converts the filename from png to webp. Does not actually convert a file to webp file.
+fn png2webp_extension(filename: &str) -> String {
+    let out = Path::new(filename).with_extension("webp");
+    out.to_string_lossy().to_string()
+}
+
 pub fn read_character_mats() -> Result<Vec<Character>> {
     let character_entries = read_characters()?;
     let resources = read_resources()?;
@@ -362,7 +368,7 @@ pub fn read_character_mats() -> Result<Vec<Character>> {
             // Find thumbnail image from characters.
             let thumbnail = character_entries.iter().find_map(|entry| {
                 if entry.name == talent_mat.character_name {
-                    Some(&entry.thumbnail)
+                    Some(png2webp_extension(&entry.thumbnail))
                 } else {
                     None
                 }
@@ -400,6 +406,9 @@ fn read_characters() -> Result<Vec<serde_data::CharacterEntry>> {
     let entries = root.data;
     Ok(entries)
 }
+
+// TODO: write a function that returns "relevant" day of weeks and their "display name".
+// Which should be MTW, each mapped to (Mon, Thurs), (Tue, Fri), (Wed, Sat) respectively.
 
 #[cfg(test)]
 mod tests {
