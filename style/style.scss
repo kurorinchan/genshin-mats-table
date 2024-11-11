@@ -1,0 +1,41 @@
+$text_color :#fcca74;
+$whole_background_color : #002912;
+
+$today_background_color : rgb(46, 0, 41);
+
+.legend-today {
+    background-color: $today_background_color;
+    padding: 5px;
+}
+
+.background {
+    background-color: $whole_background_color;
+    color: $text_color;
+}
+
+.character-component {
+    padding: 0;
+}
+
+.character {
+    max-width: 100px;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+.character img {
+    max-width: 100%;
+}
+
+.character-name {
+    text-align: center;
+    width: 100%;
+}
+
+.dayofweek {}
+
+.dayofweek-on {
+    background-color: $today_background_color;
+}
+
+.dayofweek-off {}

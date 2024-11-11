@@ -4,11 +4,13 @@ use leptos::*;
 #[component]
 fn CharacterComponent(character: Character) -> impl IntoView {
     view! {
-        <div class="col border character">
+        <div class="col character-component">
+            <div class="border character">
                 <div class="text-nowrap character-name">
                     {character.name.clone()}
                 </div>
-                <img class="character border" src={format!("img/{}", &character.thumbnail)} />
+                <img class="border" src={format!("img/{}", &character.thumbnail)} />
+            </div>
         </div>
     }
 }
@@ -39,7 +41,7 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
                         Some(characters) =>
                             view! {
                                 <div class="container">
-                                    <div class="row">
+                                    <div class="row row-cols-4">
                                     {characters.iter().map(|character| {
                                         view! {
                                             <CharacterComponent character={character.clone()} />
@@ -56,11 +58,11 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
 }
 
 #[component]
-fn ShowByDayOfWeek(relevant_days: logic::RelevantDays) -> impl IntoView {
+fn ShowByDayOfWeek(relevant_day: logic::RelevantDay) -> impl IntoView {
     let day_to_mat = day_to_mat_type();
 
     let mat_types = day_to_mat
-        .get(&relevant_days.day_of_week)
+        .get(&relevant_day.day_of_week)
         .expect("All days exist");
 
     let mat_views = mat_types
@@ -76,8 +78,8 @@ fn ShowByDayOfWeek(relevant_days: logic::RelevantDays) -> impl IntoView {
 
     view! {
         <div>
-            <div class="text-primary">
-            {relevant_days.display_name.clone()}
+            <div class="text-primary fs-3">
+            {relevant_day.display_name.clone()}
             </div>
 
             {mat_views}
@@ -88,20 +90,40 @@ fn ShowByDayOfWeek(relevant_days: logic::RelevantDays) -> impl IntoView {
 #[component]
 pub fn DisplayMats() -> impl IntoView {
     let relevant_days = relevant_days();
+
     let days = relevant_days
         .iter()
         .map(|day| {
+            let today = day.is_today;
+            let class_name = move || {
+                if today {
+                    "dayofweek dayofweek-on border border-primary-subtle"
+                } else {
+                    "dayofweek dayofweek-off border border-secondary-subtle"
+                }
+            };
             view! {
-                <div class="col">
-                <ShowByDayOfWeek relevant_days={day.clone()} />
+                <div class="col" class={class_name}>
+                <ShowByDayOfWeek relevant_day={day.clone()} />
                 </div>
             }
         })
         .collect::<Vec<_>>();
 
     view! {
-        <div class="row">
+        <div class="row row-cols-3">
         {days}
+        </div>
+    }
+}
+
+#[component]
+fn TableLegend() -> impl IntoView {
+    view! {
+        <div>
+            <div class="legend-today">
+            "本日取れる素材はこの背景色"
+            </div>
         </div>
     }
 }
@@ -109,6 +131,8 @@ pub fn DisplayMats() -> impl IntoView {
 #[component]
 pub fn App() -> impl IntoView {
     view! {
+        <h1 class="fs-1">"原神曜日別素材"</h1>
+        <TableLegend />
         <div class="container">
             <DisplayMats />
         </div>

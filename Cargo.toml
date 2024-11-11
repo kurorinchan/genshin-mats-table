@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.92"
+chrono = "0.4.38"
 leptos = { version = "0.6.15", features = ["csr"] }
 rust-embed = { version = "8.5.0", features = ["debug-embed", "include-exclude"] }
 serde = { version = "1.0.214", features = ["derive"] }

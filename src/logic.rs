@@ -1,5 +1,7 @@
 use anyhow::Context;
 use anyhow::Result;
+use chrono::Datelike;
+use chrono::Local;
 use serde::Deserialize;
 use serde::Serialize;
 use serde_data::WordEntry;
@@ -448,24 +450,44 @@ fn read_en_to_jp() -> Result<HashMap<String, String>> {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct RelevantDays {
+pub struct RelevantDay {
     pub day_of_week: DayOfWeek,
     pub display_name: String,
+    pub is_today: bool,
 }
 
-pub fn relevant_days() -> Vec<RelevantDays> {
+pub fn relevant_days() -> Vec<RelevantDay> {
+    let weekday = Local::now().weekday();
+    let weekday = match weekday {
+        chrono::Weekday::Mon => DayOfWeek::Monday,
+        chrono::Weekday::Tue => DayOfWeek::Tuesday,
+        chrono::Weekday::Wed => DayOfWeek::Wednesday,
+        chrono::Weekday::Thu => DayOfWeek::Thursday,
+        chrono::Weekday::Fri => DayOfWeek::Friday,
+        chrono::Weekday::Sat => DayOfWeek::Saturday,
+        chrono::Weekday::Sun => DayOfWeek::Sunday,
+    };
     vec![
-        RelevantDays {
+        RelevantDay {
             day_of_week: DayOfWeek::Monday,
             display_name: "月/木".to_string(),
+            is_today: weekday == DayOfWeek::Monday
+                || weekday == DayOfWeek::Thursday
+                || weekday == DayOfWeek::Sunday,
         },
-        RelevantDays {
+        RelevantDay {
             day_of_week: DayOfWeek::Tuesday,
             display_name: "火/金".to_string(),
+            is_today: weekday == DayOfWeek::Tuesday
+                || weekday == DayOfWeek::Friday
+                || weekday == DayOfWeek::Sunday,
         },
-        RelevantDays {
+        RelevantDay {
             day_of_week: DayOfWeek::Wednesday,
             display_name: "水/土".to_string(),
+            is_today: weekday == DayOfWeek::Wednesday
+                || weekday == DayOfWeek::Saturday
+                || weekday == DayOfWeek::Sunday,
         },
     ]
 }
