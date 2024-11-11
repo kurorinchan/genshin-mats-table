@@ -1,16 +1,5 @@
-use crate::logic::{
-    self, day_to_mat_type, group_by_material, Character, DayOfWeek, TalentLevelUpMaterialType,
-};
+use crate::logic::{self, day_to_mat_type, group_by_material, relevant_days, Character};
 use leptos::*;
-use strum::IntoEnumIterator;
-
-fn display_character_name(characters: &[Character]) -> String {
-    characters
-        .iter()
-        .map(|c| c.name.clone())
-        .collect::<Vec<_>>()
-        .join(", ")
-}
 
 #[component]
 fn CharacterComponent(character: Character) -> impl IntoView {
@@ -67,10 +56,12 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
 }
 
 #[component]
-fn ShowByDayOfWeek(day_of_week: logic::DayOfWeek) -> impl IntoView {
+fn ShowByDayOfWeek(relevant_days: logic::RelevantDays) -> impl IntoView {
     let day_to_mat = day_to_mat_type();
 
-    let mat_types = day_to_mat.get(&day_of_week).expect("All days exist");
+    let mat_types = day_to_mat
+        .get(&relevant_days.day_of_week)
+        .expect("All days exist");
 
     let mat_views = mat_types
         .iter()
@@ -86,7 +77,7 @@ fn ShowByDayOfWeek(day_of_week: logic::DayOfWeek) -> impl IntoView {
     view! {
         <div>
             <div class="text-primary">
-            {day_of_week.as_ref().to_string()}
+            {relevant_days.display_name.clone()}
             </div>
 
             {mat_views}
@@ -96,13 +87,13 @@ fn ShowByDayOfWeek(day_of_week: logic::DayOfWeek) -> impl IntoView {
 
 #[component]
 pub fn DisplayMats() -> impl IntoView {
-    let relevant_days = [DayOfWeek::Monday, DayOfWeek::Tuesday, DayOfWeek::Wednesday];
+    let relevant_days = relevant_days();
     let days = relevant_days
         .iter()
-        .map(|day_of_week| {
+        .map(|day| {
             view! {
                 <div class="col">
-                <ShowByDayOfWeek day_of_week={day_of_week.clone()} />
+                <ShowByDayOfWeek relevant_days={day.clone()} />
                 </div>
             }
         })

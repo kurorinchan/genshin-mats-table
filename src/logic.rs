@@ -447,8 +447,28 @@ fn read_en_to_jp() -> Result<HashMap<String, String>> {
     Ok(en_to_jp)
 }
 
-// TODO: write a function that returns "relevant" day of weeks and their "display name".
-// Which should be MTW, each mapped to (Mon, Thurs), (Tue, Fri), (Wed, Sat) respectively.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct RelevantDays {
+    pub day_of_week: DayOfWeek,
+    pub display_name: String,
+}
+
+pub fn relevant_days() -> Vec<RelevantDays> {
+    vec![
+        RelevantDays {
+            day_of_week: DayOfWeek::Monday,
+            display_name: "月/木".to_string(),
+        },
+        RelevantDays {
+            day_of_week: DayOfWeek::Tuesday,
+            display_name: "火/金".to_string(),
+        },
+        RelevantDays {
+            day_of_week: DayOfWeek::Wednesday,
+            display_name: "水/土".to_string(),
+        },
+    ]
+}
 
 #[cfg(test)]
 mod tests {
@@ -498,7 +518,7 @@ mod tests {
 
         let character = &characters[0];
         for c in characters {
-            assert!(c.uses_same_material(&character));
+            assert!(c.uses_same_material(character));
         }
 
         Ok(())
