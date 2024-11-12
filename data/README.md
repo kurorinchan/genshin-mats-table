@@ -1,3 +1,10 @@
+When:
+- a new file is added
+- a file is renamed
+- a file is deleted
+
+Update this readme and the fetch script.
+
 ## words.json
 This file contains the translation of "words" in the game.
 It is from
