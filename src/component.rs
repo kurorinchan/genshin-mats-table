@@ -20,9 +20,12 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
     let characters = create_resource(
         || (),
         move |_| async move {
-            let characters = logic::read_character_mats().ok()?;
+            let Ok(characters) = logic::read_character_mats() else {
+                return vec![];
+            };
             let mat_to_characters = group_by_material(characters);
-            mat_to_characters.get(&mat_type).cloned()
+            let characters = mat_to_characters.get(&mat_type).cloned();
+            characters.unwrap_or(vec![])
         },
     );
 
@@ -36,22 +39,18 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
         >
             {move || {
                 characters.get().map(|characters| {
-                    match characters {
-                        None => view! {<p>"error!"</p>}.into_view(),
-                        Some(characters) =>
-                            view! {
-                                <div class="container">
-                                    <div class="row row-cols-4">
-                                    {characters.iter().map(|character| {
-                                        view! {
-                                            <CharacterComponent character={character.clone()} />
-                                        }
-                                    }).collect::<Vec<_>>()}
-                                    </div>
-                                </div>
-                            }.into_view()
-                    }
-                })}}
+                    view! {
+                        <div class="container">
+                            <div class="row row-cols-4">
+                            {characters.iter().map(|character| {
+                                view! {
+                                    <CharacterComponent character={character.clone()} />
+                                }
+                            }).collect::<Vec<_>>()}
+                            </div>
+                        </div>
+                    }.into_view()
+            })}}
         </Suspense>
         </div>
     }
