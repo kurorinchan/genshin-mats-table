@@ -1,3 +1,4 @@
+use anyhow::bail;
 use anyhow::Context;
 use anyhow::Result;
 use chrono::Datelike;
@@ -314,6 +315,43 @@ pub fn group_by_material(
     map
 }
 
+// Extracts string inside the quotation symbols: 「」
+fn extract_str_in_ja_quotes(ja: &str) -> Option<&str> {
+    let start = ja.find("「")?;
+    let end = ja.find("」")?;
+    if start > end {
+        return None;
+    }
+
+    let s = &ja[start..end];
+    // s contains 「. So remove it. Note that its not just start+1 because the character is non
+    // ascii.
+    s.chars().next().map(|c| &s[c.len_utf8()..])
+}
+
+// Returns the display name for mat_type.
+pub fn mat_type_to_name(mat_type: TalentLevelUpMaterialType) -> Result<String> {
+    let words = read_words()?;
+    let teaching = format!("Teachings of {}", mat_type.as_ref());
+
+    let entry = words
+        .get(&teaching)
+        .with_context(|| format!("failed to find {}", &teaching))?;
+
+    let ja = entry
+        .ja
+        .as_ref()
+        .with_context(|| format!("No japanese translationf for {}", &teaching))?;
+
+    let contains_ja_quotes = ja.contains("「") && ja.contains("」");
+    if !contains_ja_quotes {
+        bail!("failed to find 「」in {}", &teaching);
+    }
+
+    let ja = extract_str_in_ja_quotes(ja).context("failed to extract string")?;
+    Ok(ja.to_owned())
+}
+
 // This converts the filename from png to webp. Does not actually convert a file to webp file.
 fn png2webp_extension(filename: &str) -> String {
     let out = Path::new(filename).with_extension("webp");
@@ -495,6 +533,7 @@ pub fn relevant_days() -> Vec<RelevantDay> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use anyhow::Ok;
     use more_asserts::*;
 
     #[test]
@@ -558,5 +597,13 @@ mod tests {
         let en_to_jp = read_en_to_jp().unwrap();
         assert_ge!(en_to_jp.len(), 1);
         assert_eq!(en_to_jp.get("Diluc").unwrap(), "ディルック");
+    }
+
+    #[test]
+    fn test_mat_type_to_name() -> Result<()> {
+        let justice = mat_type_to_name(TalentLevelUpMaterialType::Justice)?;
+        assert_eq!("正義", justice);
+
+        Ok(())
     }
 }

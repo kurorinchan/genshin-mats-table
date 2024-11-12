@@ -1,4 +1,6 @@
-use crate::logic::{self, day_to_mat_type, group_by_material, relevant_days, Character};
+use crate::logic::{
+    self, day_to_mat_type, group_by_material, mat_type_to_name, relevant_days, Character,
+};
 use leptos::*;
 
 #[component]
@@ -29,10 +31,12 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
         },
     );
 
+    let mat_name = mat_type_to_name(mat_type).unwrap_or("".to_string());
+
     view! {
         <div>
             <div class="text-warning">
-            {mat_type.as_ref().to_string()}
+            {mat_name.clone()}
             </div>
         <Suspense
             fallback=move || view! { <p>"Loading..."</p> }
@@ -40,7 +44,7 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
             {move || {
                 characters.get().map(|characters| {
                     view! {
-                        <div class="container">
+                        <div class="container material">
                             <div class="row row-cols-4">
                             {characters.iter().map(|character| {
                                 view! {
