@@ -222,11 +222,15 @@ mod serde_data {
 }
 
 impl Character {
-    pub fn new(character_name: &str, materials: &[TalentLevelUpMaterial], thumbnail: &str) -> Self {
+    pub fn new(
+        name: String,
+        talent_materials: Vec<TalentLevelUpMaterial>,
+        thumbnail: String,
+    ) -> Self {
         Self {
-            name: character_name.to_owned(),
-            talent_materials: materials.to_vec(),
-            thumbnail: thumbnail.to_owned(),
+            name,
+            talent_materials,
+            thumbnail,
         }
     }
 
@@ -358,6 +362,41 @@ fn png2webp_extension(filename: &str) -> String {
     out.to_string_lossy().to_string()
 }
 
+// Now create TalentLevelUpMaterial from |materials| by joining the data from resources.
+fn convert_to_talent_mats(
+    talent_mat: &serde_data::CharacterTalentMat,
+    resources: &HashMap<String, serde_data::ResourceEntry>,
+) -> Vec<TalentLevelUpMaterial> {
+    let talent_mats: Vec<TalentLevelUpMaterial> = talent_mat
+        .materials
+        .iter()
+        .filter_map(|mat| {
+            if mat.mat_type != LEVEL_UP_MAT {
+                return None;
+            }
+
+            // Now find the material name in resources to get all the day of week.
+            let days_of_week = resources
+                .get(&mat.name)
+                .map(|resource| resource.days.as_ref())?;
+
+            let days_of_week: Vec<DayOfWeek> = days_of_week?
+                .iter()
+                .map(|day_of_week| DayOfWeek::from_str(day_of_week).unwrap())
+                .collect();
+
+            let mat_type = TalentLevelUpMaterialType::from_full_name(&mat.name)?;
+
+            Some(TalentLevelUpMaterial {
+                name: mat.name.clone(),
+                mat_type,
+                days: days_of_week,
+            })
+        })
+        .collect();
+    talent_mats
+}
+
 pub fn read_character_mats() -> Result<Vec<Character>> {
     let en_to_jp = read_en_to_jp()?;
     let character_entries = read_characters()?;
@@ -378,71 +417,37 @@ pub fn read_character_mats() -> Result<Vec<Character>> {
         })
         .collect();
 
-    // TODO: This is too long. Make it a function.
     let characters = talent_materials
         .iter()
         .map(|talent_mat| {
-            // Now create TalentLevelUpMaterial from |materials| by joining the data from resources.
-            // TODO: Make this a function or somehow give it some meaningful name.
-            let talent_mats: Vec<TalentLevelUpMaterial> = talent_mat
-                .materials
-                .iter()
-                .filter_map(|mat| {
-                    if mat.mat_type != LEVEL_UP_MAT {
-                        return None;
-                    }
+            let thumbnail = character_entries
+                .get(&talent_mat.character_name)
+                .map(|entry| png2webp_extension(&entry.thumbnail));
 
-                    // Now find the material name in resources to get all the day of week.
-                    let days_of_week = resources.iter().find_map(|resource| {
-                        if mat.name == resource.name {
-                            resource.days.as_ref()
-                        } else {
-                            None
-                        }
-                    })?;
-
-                    let days_of_week: Vec<DayOfWeek> = days_of_week
-                        .iter()
-                        .map(|day_of_week| DayOfWeek::from_str(day_of_week).unwrap())
-                        .collect();
-
-                    let mat_type = TalentLevelUpMaterialType::from_full_name(&mat.name)?;
-
-                    Some(TalentLevelUpMaterial {
-                        name: mat.name.clone(),
-                        mat_type,
-                        days: days_of_week,
-                    })
-                })
-                .collect();
-
-            // Find thumbnail image from characters.
-            let thumbnail = character_entries.iter().find_map(|entry| {
-                if entry.name == talent_mat.character_name {
-                    Some(png2webp_extension(&entry.thumbnail))
-                } else {
-                    None
-                }
-            });
-
+            // Best to keep the English name displayed if it fails to find the translation.
             let character_name = en_to_jp
                 .get(&talent_mat.character_name)
                 .unwrap_or(&talent_mat.character_name);
-            Character::new(character_name, &talent_mats, &thumbnail.unwrap())
+            Character::new(
+                character_name.to_owned(),
+                convert_to_talent_mats(talent_mat, &resources),
+                thumbnail.unwrap(),
+            )
         })
         .collect();
     Ok(characters)
 }
 
-fn read_resources() -> Result<Vec<serde_data::ResourceEntry>> {
+fn read_resources() -> Result<HashMap<String, serde_data::ResourceEntry>> {
     let f = asset::Asset::get(RESOURCES_FILE).context("failed to find json file")?;
     let root: serde_data::ResourcesRoot = serde_json::from_slice(&f.data)?;
     let resources = root.data;
 
     // Preserve "Talent Level-Up Material" only.
-    let resources: Vec<serde_data::ResourceEntry> = resources
-        .into_iter()
+    let resources: HashMap<String, serde_data::ResourceEntry> = resources
+        .iter()
         .filter(|resource| resource.object_type == "item" && resource.type_field == LEVEL_UP_MAT)
+        .map(|resource| (resource.name.clone(), resource.clone()))
         .collect();
 
     Ok(resources)
@@ -450,10 +455,16 @@ fn read_resources() -> Result<Vec<serde_data::ResourceEntry>> {
 
 const CHARACTERS_FILE: &str = "characters.json";
 
-fn read_characters() -> Result<Vec<serde_data::CharacterEntry>> {
+fn read_characters() -> Result<HashMap<String, serde_data::CharacterEntry>> {
     let f = asset::Asset::get(CHARACTERS_FILE).context("failed to find json file")?;
     let root: serde_data::CharactersRoot = serde_json::from_slice(&f.data)?;
     let entries = root.data;
+
+    let entries: HashMap<String, serde_data::CharacterEntry> = entries
+        .iter()
+        .map(|entry| (entry.name.clone(), entry.clone()))
+        .collect();
+
     Ok(entries)
 }
 
@@ -539,7 +550,7 @@ mod tests {
     #[test]
     fn test_read_resources() -> Result<()> {
         let resources = read_resources()?;
-        for resource in resources {
+        for resource in resources.values() {
             assert_eq!(resource.type_field, "Talent Level-Up Material");
         }
 
