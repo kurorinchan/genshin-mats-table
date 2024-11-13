@@ -233,14 +233,6 @@ impl Character {
             thumbnail,
         }
     }
-
-    pub fn uses_same_material(&self, other: &Self) -> bool {
-        if self.talent_materials.is_empty() || other.talent_materials.is_empty() {
-            return false;
-        }
-
-        self.talent_materials[0].mat_type == other.talent_materials[0].mat_type
-    }
 }
 
 // TODO: Might be better to have this in a JSON and read it.
@@ -587,11 +579,6 @@ mod tests {
         let mat_type = TalentLevelUpMaterialType::Justice;
         let characters = group.get(&mat_type).unwrap();
         assert_gt!(characters.len(), 1);
-
-        let character = &characters[0];
-        for c in characters {
-            assert!(c.uses_same_material(character));
-        }
 
         Ok(())
     }
