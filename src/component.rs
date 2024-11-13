@@ -19,17 +19,16 @@ fn CharacterComponent(character: Character) -> impl IntoView {
 
 #[component]
 fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
-    let characters = create_resource(
-        || (),
-        move |_| async move {
-            let Ok(characters) = logic::read_character_mats() else {
-                return vec![];
-            };
-            let mat_to_characters = group_by_material(characters);
-            let characters = mat_to_characters.get(&mat_type).cloned();
-            characters.unwrap_or(vec![])
-        },
-    );
+    let all_characters = use_context::<Resource<(), Vec<Character>>>()
+        .expect("An anscestor must load all characters.");
+    let characters = move || {
+        let Some(characters) = all_characters.get() else {
+            return vec![];
+        };
+        let mat_to_characters = group_by_material(characters);
+        let characters = mat_to_characters.get(&mat_type).cloned();
+        characters.unwrap_or_default()
+    };
 
     let mat_name = mat_type_to_name(mat_type).unwrap_or("".to_string());
 
@@ -41,20 +40,17 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
         <Suspense
             fallback=move || view! { <p>"Loading..."</p> }
         >
-            {move || {
-                characters.get().map(|characters| {
-                    view! {
-                        <div class="container material">
-                            <div class="row row-cols-4">
-                            {characters.iter().map(|character| {
-                                view! {
-                                    <CharacterComponent character={character.clone()} />
-                                }
-                            }).collect::<Vec<_>>()}
-                            </div>
-                        </div>
-                    }.into_view()
-            })}}
+        {view! {
+            <div class="container material">
+                <div class="row row-cols-4">
+                    {characters().iter().map(|character| {
+                        view! {
+                            <CharacterComponent character={character.clone()} />
+                        }
+                    }).collect::<Vec<_>>()}
+                </div>
+            </div>
+        }}
         </Suspense>
         </div>
     }
@@ -133,6 +129,14 @@ fn TableLegend() -> impl IntoView {
 
 #[component]
 pub fn App() -> impl IntoView {
+    // Load up character info once here and provide as context. Then the
+    // descendant components don't need to re-load.
+    let characters = create_resource(
+        || (),
+        move |_| async move { logic::read_character_mats().unwrap_or_default() },
+    );
+    provide_context(characters);
+
     view! {
         <h1 class="fs-1">"原神曜日別素材"</h1>
         <TableLegend />
