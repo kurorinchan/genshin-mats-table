@@ -67,9 +67,69 @@ pub enum TalentLevelUpMaterialType {
 }
 
 impl TalentLevelUpMaterialType {
-    // Gethe the type name from the full name of the material.
+    // Get the type name from the full name of the material.
+    // e.g. "Teaching of Justice" -> Justice
     fn from_full_name(fullname: &str) -> Option<Self> {
         Self::iter().find(|mat_type| fullname.contains(mat_type.as_ref()))
+    }
+
+    fn day_of_week(&self) -> Vec<DayOfWeek> {
+        match self {
+            TalentLevelUpMaterialType::Freedom => {
+                vec![DayOfWeek::Monday, DayOfWeek::Thursday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Resistance => {
+                vec![DayOfWeek::Tuesday, DayOfWeek::Friday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Ballad => {
+                vec![DayOfWeek::Wednesday, DayOfWeek::Saturday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Prosperity => {
+                vec![DayOfWeek::Monday, DayOfWeek::Thursday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Diligence => {
+                vec![DayOfWeek::Tuesday, DayOfWeek::Friday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Gold => {
+                vec![DayOfWeek::Wednesday, DayOfWeek::Saturday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Transience => {
+                vec![DayOfWeek::Monday, DayOfWeek::Thursday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Elegance => {
+                vec![DayOfWeek::Tuesday, DayOfWeek::Friday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Light => {
+                vec![DayOfWeek::Wednesday, DayOfWeek::Saturday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Admonition => {
+                vec![DayOfWeek::Monday, DayOfWeek::Thursday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Ingenuity => {
+                vec![DayOfWeek::Tuesday, DayOfWeek::Friday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Praxis => {
+                vec![DayOfWeek::Wednesday, DayOfWeek::Saturday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Equity => {
+                vec![DayOfWeek::Monday, DayOfWeek::Thursday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Justice => {
+                vec![DayOfWeek::Tuesday, DayOfWeek::Friday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Order => {
+                vec![DayOfWeek::Wednesday, DayOfWeek::Saturday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Contention => {
+                vec![DayOfWeek::Monday, DayOfWeek::Thursday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Kindling => {
+                vec![DayOfWeek::Tuesday, DayOfWeek::Friday, DayOfWeek::Sunday]
+            }
+            TalentLevelUpMaterialType::Conflict => {
+                vec![DayOfWeek::Wednesday, DayOfWeek::Saturday, DayOfWeek::Sunday]
+            }
+        }
     }
 }
 
@@ -88,6 +148,8 @@ pub struct Character {
 }
 
 mod serde_data {
+    use std::collections::HashMap;
+
     use serde::{Deserialize, Serialize};
     use serde_json::Value;
 
@@ -154,6 +216,19 @@ mod serde_data {
         pub days: Option<Vec<String>>,
         #[serde(rename = "group_type")]
         pub group_type: Option<String>,
+    }
+
+    #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+    pub struct BetterTalentMaterial {
+        pub name: String,
+    }
+
+    #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+    pub struct BetterCharacterEntry {
+        pub name: String,
+        pub names: HashMap<String, String>,
+        pub thumbnail: String,
+        pub talent_materials: Vec<BetterTalentMaterial>,
     }
 
     // For reading characters.json.
@@ -387,6 +462,47 @@ fn convert_to_talent_mats(
         })
         .collect();
     talent_mats
+}
+
+fn read_better_characters() -> Result<Vec<serde_data::BetterCharacterEntry>> {
+    const CHARACTERS_FILE: &str = "clean-characters.json";
+    let f = asset::Asset::get(CHARACTERS_FILE)
+        .with_context(|| format!("failed to find json {}", CHARACTERS_FILE))?;
+    let root: Vec<serde_data::BetterCharacterEntry> = serde_json::from_slice(&f.data)?;
+    Ok(root)
+}
+
+pub fn read_better_character_mats() -> Result<Vec<Character>> {
+    let better_characters = read_better_characters()?;
+
+    let characters = better_characters.iter().filter_map(|better_character| {
+        const CHARACTER_NAME_LANGUAGE: &str = "JP";
+        if better_character.name == "Traveler" {
+            return None;
+        }
+        let name = better_character.names[CHARACTER_NAME_LANGUAGE].clone();
+        let thumbnail = format!(
+            "Character_{}_Thumb.webp",
+            &better_character.name.replace(" ", "_")
+        );
+
+        let talent_materials = better_character
+            .talent_materials
+            .iter()
+            .map(|talent_material| {
+                let mat_type =
+                    TalentLevelUpMaterialType::from_full_name(&talent_material.name).unwrap();
+                TalentLevelUpMaterial {
+                    name: talent_material.name.clone(),
+                    mat_type: mat_type.clone(),
+                    days: mat_type.day_of_week(),
+                }
+            })
+            .collect();
+        Some(Character::new(name, talent_materials, thumbnail))
+    });
+
+    Ok(characters.collect())
 }
 
 pub fn read_character_mats() -> Result<Vec<Character>> {

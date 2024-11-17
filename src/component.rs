@@ -133,7 +133,7 @@ pub fn App() -> impl IntoView {
     // descendant components don't need to re-load.
     let characters = create_resource(
         || (),
-        move |_| async move { logic::read_character_mats().unwrap_or_default() },
+        move |_| async move { logic::read_better_character_mats().unwrap_or_default() },
     );
     provide_context(characters);
 

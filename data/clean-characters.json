@@ -1,0 +1,1502 @@
+[
+    {
+        "name": "Ganyu",
+        "names": {
+            "EN": "Ganyu",
+            "CHS": "\u7518\u96e8",
+            "KR": "\uac10\uc6b0",
+            "JP": "\u7518\u96e8"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Ganyu.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Diligence"
+            }
+        ]
+    },
+    {
+        "name": "Xingqiu",
+        "names": {
+            "EN": "Xingqiu",
+            "CHS": "\u884c\u79cb",
+            "KR": "\ud589\ucd94",
+            "JP": "\u884c\u79cb"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Xingqiu.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Gold"
+            }
+        ]
+    },
+    {
+        "name": "Navia",
+        "names": {
+            "EN": "Navia",
+            "CHS": "\u5a1c\u7ef4\u5a05",
+            "KR": "\ub098\ube44\uc544",
+            "JP": "\u30ca\u30f4\u30a3\u30a2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Navia.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Equity"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerGirl.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Transience"
+            }
+        ]
+    },
+    {
+        "name": "Gaming",
+        "names": {
+            "EN": "Gaming",
+            "CHS": "\u5609\u660e",
+            "KR": "\uac00\uba85",
+            "JP": "\u5609\u660e"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Gaming.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Prosperity"
+            }
+        ]
+    },
+    {
+        "name": "Bennett",
+        "names": {
+            "EN": "Bennett",
+            "CHS": "\u73ed\u5c3c\u7279",
+            "KR": "\ubca0\ub137",
+            "JP": "\u30d9\u30cd\u30c3\u30c8"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Bennett.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Resistance"
+            }
+        ]
+    },
+    {
+        "name": "Thoma",
+        "names": {
+            "EN": "Thoma",
+            "CHS": "\u6258\u9a6c",
+            "KR": "\ud1a0\ub9c8",
+            "JP": "\u30c8\u30fc\u30de"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Tohma.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Transience"
+            }
+        ]
+    },
+    {
+        "name": "Ororon",
+        "names": {
+            "EN": "Ororon",
+            "CHS": "\u6b27\u6d1b\u4f26",
+            "KR": "\uc62c\ub85c\ub8ec",
+            "JP": "\u30aa\u30ed\u30eb\u30f3"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Olorun.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Kindling"
+            }
+        ]
+    },
+    {
+        "name": "Freminet",
+        "names": {
+            "EN": "Freminet",
+            "CHS": "\u83f2\u7c73\u5c3c",
+            "KR": "\ud504\ub808\ubbf8\ub124",
+            "JP": "\u30d5\u30ec\u30df\u30cd"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Freminet.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Justice"
+            }
+        ]
+    },
+    {
+        "name": "Lynette",
+        "names": {
+            "EN": "Lynette",
+            "CHS": "\u7433\u59ae\u7279",
+            "KR": "\ub9ac\ub137",
+            "JP": "\u30ea\u30cd\u30c3\u30c8"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Linette.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Order"
+            }
+        ]
+    },
+    {
+        "name": "Kuki Shinobu",
+        "names": {
+            "EN": "Kuki Shinobu",
+            "CHS": "\u4e45\u5c90\u5fcd",
+            "KR": "\ucfe0\ud0a4 \uc2dc\ub178\ubd80",
+            "JP": "\u4e45\u5c90\u5fcd"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Shinobu.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Elegance"
+            }
+        ]
+    },
+    {
+        "name": "Kamisato Ayaka",
+        "names": {
+            "EN": "Kamisato Ayaka",
+            "CHS": "\u795e\u91cc\u7eeb\u534e",
+            "KR": "\uce74\ubbf8\uc0ac\ud1a0 \uc544\uc57c\uce74",
+            "JP": "\u795e\u91cc\u7dbe\u83ef"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Ayaka.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Elegance"
+            }
+        ]
+    },
+    {
+        "name": "Kaeya",
+        "names": {
+            "EN": "Kaeya",
+            "CHS": "\u51ef\u4e9a",
+            "KR": "\ucf00\uc774\uc544",
+            "JP": "\u30ac\u30a4\u30a2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Kaeya.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ballad"
+            }
+        ]
+    },
+    {
+        "name": "Keqing",
+        "names": {
+            "EN": "Keqing",
+            "CHS": "\u523b\u6674",
+            "KR": "\uac01\uccad",
+            "JP": "\u523b\u6674"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Keqing.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Prosperity"
+            }
+        ]
+    },
+    {
+        "name": "Sucrose",
+        "names": {
+            "EN": "Sucrose",
+            "CHS": "\u7802\u7cd6",
+            "KR": "\uc124\ud0d5",
+            "JP": "\u30b9\u30af\u30ed\u30fc\u30b9"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Sucrose.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Kachina",
+        "names": {
+            "EN": "Kachina",
+            "CHS": "\u5361\u9f50\u5a1c",
+            "KR": "\uce74\uce58\ub098",
+            "JP": "\u30ab\u30c1\u30fc\u30ca"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Kachina.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Conflict"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerGirl.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerGirl.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Sigewinne",
+        "names": {
+            "EN": "Sigewinne",
+            "CHS": "\u5e0c\u683c\u96ef",
+            "KR": "\uc2dc\uadf8\uc708",
+            "JP": "\u30b7\u30b0\u30a6\u30a3\u30f3"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Sigewinne.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Equity"
+            }
+        ]
+    },
+    {
+        "name": "Tartaglia",
+        "names": {
+            "EN": "Tartaglia",
+            "CHS": "\u8fbe\u8fbe\u5229\u4e9a",
+            "KR": "\ud0c0\ub974\ud0c8\ub9ac\uc544",
+            "JP": "\u30bf\u30eb\u30bf\u30ea\u30e4"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Tartaglia.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Nahida",
+        "names": {
+            "EN": "Nahida",
+            "CHS": "\u7eb3\u897f\u59b2",
+            "KR": "\ub098\ud788\ub2e4",
+            "JP": "\u30ca\u30d2\u30fc\u30c0"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Nahida.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ingenuity"
+            }
+        ]
+    },
+    {
+        "name": "Cyno",
+        "names": {
+            "EN": "Cyno",
+            "CHS": "\u8d5b\u8bfa",
+            "KR": "\uc0ac\uc774\ub178",
+            "JP": "\u30bb\u30ce"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Cyno.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Admonition"
+            }
+        ]
+    },
+    {
+        "name": "Lisa",
+        "names": {
+            "EN": "Lisa",
+            "CHS": "\u4e3d\u838e",
+            "KR": "\ub9ac\uc0ac",
+            "JP": "\u30ea\u30b5"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Lisa.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ballad"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerGirl.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Equity"
+            }
+        ]
+    },
+    {
+        "name": "Charlotte",
+        "names": {
+            "EN": "Charlotte",
+            "CHS": "\u590f\u6d1b\u8482",
+            "KR": "\uc0e4\ub97c\ub85c\ud2b8",
+            "JP": "\u30b7\u30e3\u30eb\u30ed\u30c3\u30c8"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Charlotte.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Justice"
+            }
+        ]
+    },
+    {
+        "name": "Chiori",
+        "names": {
+            "EN": "Chiori",
+            "CHS": "\u5343\u7ec7",
+            "KR": "\uce58\uc624\ub9ac",
+            "JP": "\u5343\u7e54"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Chiori.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Light"
+            }
+        ]
+    },
+    {
+        "name": "Xinyan",
+        "names": {
+            "EN": "Xinyan",
+            "CHS": "\u8f9b\u7131",
+            "KR": "\uc2e0\uc5fc",
+            "JP": "\u8f9b\u708e"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Xinyan.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Gold"
+            }
+        ]
+    },
+    {
+        "name": "Wanderer",
+        "names": {
+            "EN": "Wanderer",
+            "CHS": "\u6d41\u6d6a\u8005",
+            "KR": "\ubc29\ub791\uc790",
+            "JP": "\u653e\u6d6a\u8005"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Wanderer.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Praxis"
+            }
+        ]
+    },
+    {
+        "name": "Raiden Shogun",
+        "names": {
+            "EN": "Raiden Shogun",
+            "CHS": "\u96f7\u7535\u5c06\u519b",
+            "KR": "\ub77c\uc774\ub374 \uc1fc\uad70",
+            "JP": "\u96f7\u96fb\u5c06\u8ecd"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Shougun.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Light"
+            }
+        ]
+    },
+    {
+        "name": "Mualani",
+        "names": {
+            "EN": "Mualani",
+            "CHS": "\u739b\u62c9\u59ae",
+            "KR": "\ub9d0\ub77c\ub2c8",
+            "JP": "\u30e0\u30a2\u30e9\u30cb"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Mualani.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Contention"
+            }
+        ]
+    },
+    {
+        "name": "Amber",
+        "names": {
+            "EN": "Amber",
+            "CHS": "\u5b89\u67cf",
+            "KR": "\uc5e0\ubc84",
+            "JP": "\u30a2\u30f3\u30d0\u30fc"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Ambor.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Sangonomiya Kokomi",
+        "names": {
+            "EN": "Sangonomiya Kokomi",
+            "CHS": "\u73ca\u745a\u5bab\u5fc3\u6d77",
+            "KR": "\uc0b0\uace0\ub178\ubbf8\uc57c \ucf54\ucf54\ubbf8",
+            "JP": "\u73ca\u745a\u5bae\u5fc3\u6d77"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Kokomi.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Transience"
+            }
+        ]
+    },
+    {
+        "name": "Yae Miko",
+        "names": {
+            "EN": "Yae Miko",
+            "CHS": "\u516b\u91cd\u795e\u5b50",
+            "KR": "\uc57c\uc5d0 \ubbf8\ucf54",
+            "JP": "\u516b\u91cd\u795e\u5b50"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Yae.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Light"
+            }
+        ]
+    },
+    {
+        "name": "Hu Tao",
+        "names": {
+            "EN": "Hu Tao",
+            "CHS": "\u80e1\u6843",
+            "KR": "\ud638\ub450",
+            "JP": "\u80e1\u6843"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Hutao.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Diligence"
+            }
+        ]
+    },
+    {
+        "name": "Noelle",
+        "names": {
+            "EN": "Noelle",
+            "CHS": "\u8bfa\u827e\u5c14",
+            "KR": "\ub178\uc5d8",
+            "JP": "\u30ce\u30a8\u30eb"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Noel.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Resistance"
+            }
+        ]
+    },
+    {
+        "name": "Xianyun",
+        "names": {
+            "EN": "Xianyun",
+            "CHS": "\u95f2\u4e91",
+            "KR": "\ud55c\uc6b4",
+            "JP": "\u9591\u96f2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Liuyun.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Gold"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerGirl.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Admonition"
+            }
+        ]
+    },
+    {
+        "name": "Arlecchino",
+        "names": {
+            "EN": "Arlecchino",
+            "CHS": "\u963f\u857e\u5947\u8bfa",
+            "KR": "\uc544\ub97c\ub808\ud0a4\ub178",
+            "JP": "\u30a2\u30eb\u30ec\u30c3\u30ad\u30fc\u30ce"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Arlecchino.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Order"
+            }
+        ]
+    },
+    {
+        "name": "Baizhu",
+        "names": {
+            "EN": "Baizhu",
+            "CHS": "\u767d\u672f",
+            "KR": "\ubc31\ucd9c",
+            "JP": "\u767d\u672e"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Baizhuer.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Gold"
+            }
+        ]
+    },
+    {
+        "name": "Chongyun",
+        "names": {
+            "EN": "Chongyun",
+            "CHS": "\u91cd\u4e91",
+            "KR": "\uc911\uc6b4",
+            "JP": "\u91cd\u96f2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Chongyun.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Diligence"
+            }
+        ]
+    },
+    {
+        "name": "Yoimiya",
+        "names": {
+            "EN": "Yoimiya",
+            "CHS": "\u5bb5\u5bab",
+            "KR": "\uc694\uc774\ubbf8\uc57c",
+            "JP": "\u5bb5\u5bae"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Yoimiya.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Transience"
+            }
+        ]
+    },
+    {
+        "name": "Furina",
+        "names": {
+            "EN": "Furina",
+            "CHS": "\u8299\u5b81\u5a1c",
+            "KR": "\ud478\ub9ac\ub098",
+            "JP": "\u30d5\u30ea\u30fc\u30ca"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Furina.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Justice"
+            }
+        ]
+    },
+    {
+        "name": "Eula",
+        "names": {
+            "EN": "Eula",
+            "CHS": "\u4f18\u83c8",
+            "KR": "\uc720\ub77c",
+            "JP": "\u30a8\u30a6\u30eb\u30a2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Eula.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Resistance"
+            }
+        ]
+    },
+    {
+        "name": "Yun Jin",
+        "names": {
+            "EN": "Yun Jin",
+            "CHS": "\u4e91\u5807",
+            "KR": "\uc6b4\uadfc",
+            "JP": "\u96f2\u83eb"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Yunjin.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Diligence"
+            }
+        ]
+    },
+    {
+        "name": "Faruzan",
+        "names": {
+            "EN": "Faruzan",
+            "CHS": "\u73d0\u9732\u73ca",
+            "KR": "\ud30c\ub8e8\uc794",
+            "JP": "\u30d5\u30a1\u30eb\u30b6\u30f3"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Faruzan.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Admonition"
+            }
+        ]
+    },
+    {
+        "name": "Shenhe",
+        "names": {
+            "EN": "Shenhe",
+            "CHS": "\u7533\u9e64",
+            "KR": "\uc2e0\ud559",
+            "JP": "\u7533\u9db4"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Shenhe.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Prosperity"
+            }
+        ]
+    },
+    {
+        "name": "Jean",
+        "names": {
+            "EN": "Jean",
+            "CHS": "\u7434",
+            "KR": "\uc9c4",
+            "JP": "\u30b8\u30f3"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Qin.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Resistance"
+            }
+        ]
+    },
+    {
+        "name": "Yelan",
+        "names": {
+            "EN": "Yelan",
+            "CHS": "\u591c\u5170",
+            "KR": "\uc57c\ub780",
+            "JP": "\u591c\u862d"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Yelan.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Prosperity"
+            }
+        ]
+    },
+    {
+        "name": "Collei",
+        "names": {
+            "EN": "Collei",
+            "CHS": "\u67ef\u83b1",
+            "KR": "\ucf5c\ub808\uc774",
+            "JP": "\u30b3\u30ec\u30a4"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Collei.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Praxis"
+            }
+        ]
+    },
+    {
+        "name": "Ningguang",
+        "names": {
+            "EN": "Ningguang",
+            "CHS": "\u51dd\u5149",
+            "KR": "\uc751\uad11",
+            "JP": "\u51dd\u5149"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Ningguang.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Prosperity"
+            }
+        ]
+    },
+    {
+        "name": "Klee",
+        "names": {
+            "EN": "Klee",
+            "CHS": "\u53ef\u8389",
+            "KR": "\ud074\ub808",
+            "JP": "\u30af\u30ec\u30fc"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Klee.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerBoy.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Arataki Itto",
+        "names": {
+            "EN": "Arataki Itto",
+            "CHS": "\u8352\u6cf7\u4e00\u6597",
+            "KR": "\uc544\ub77c\ud0c0\ud0a4 \uc774\ud1a0",
+            "JP": "\u8352\u7027\u4e00\u6597"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Itto.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Elegance"
+            }
+        ]
+    },
+    {
+        "name": "Kamisato Ayato",
+        "names": {
+            "EN": "Kamisato Ayato",
+            "CHS": "\u795e\u91cc\u7eeb\u4eba",
+            "KR": "\uce74\ubbf8\uc0ac\ud1a0 \uc544\uc57c\ud1a0",
+            "JP": "\u795e\u91cc\u7dbe\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Ayato.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Elegance"
+            }
+        ]
+    },
+    {
+        "name": "Yaoyao",
+        "names": {
+            "EN": "Yaoyao",
+            "CHS": "\u7476\u7476",
+            "KR": "\uc694\uc694",
+            "JP": "\u30e8\u30a9\u30fc\u30e8"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Yaoyao.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Diligence"
+            }
+        ]
+    },
+    {
+        "name": "Albedo",
+        "names": {
+            "EN": "Albedo",
+            "CHS": "\u963f\u8d1d\u591a",
+            "KR": "\uc54c\ubca0\ub3c4",
+            "JP": "\u30a2\u30eb\u30d9\u30c9"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Albedo.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ballad"
+            }
+        ]
+    },
+    {
+        "name": "Clorinde",
+        "names": {
+            "EN": "Clorinde",
+            "CHS": "\u514b\u6d1b\u7433\u5fb7",
+            "KR": "\ud074\ub85c\ub9b0\ub4dc",
+            "JP": "\u30af\u30ed\u30ea\u30f3\u30c7"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Clorinde.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Justice"
+            }
+        ]
+    },
+    {
+        "name": "Kinich",
+        "names": {
+            "EN": "Kinich",
+            "CHS": "\u57fa\u5c3c\u5947",
+            "KR": "\ud0a4\ub2c8\uce58",
+            "JP": "\u30ad\u30a3\u30cb\u30c1"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Kinich.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Kindling"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerBoy.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Equity"
+            }
+        ]
+    },
+    {
+        "name": "Layla",
+        "names": {
+            "EN": "Layla",
+            "CHS": "\u83b1\u4f9d\u62c9",
+            "KR": "\ub808\uc77c\ub77c",
+            "JP": "\u30ec\u30a4\u30e9"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Layla.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ingenuity"
+            }
+        ]
+    },
+    {
+        "name": "Barbara",
+        "names": {
+            "EN": "Barbara",
+            "CHS": "\u82ad\u82ad\u62c9",
+            "KR": "\ubc14\ubc14\ub77c",
+            "JP": "\u30d0\u30fc\u30d0\u30e9"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Barbara.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Beidou",
+        "names": {
+            "EN": "Beidou",
+            "CHS": "\u5317\u6597",
+            "KR": "\ubd81\ub450",
+            "JP": "\u5317\u6597"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Beidou.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Gold"
+            }
+        ]
+    },
+    {
+        "name": "Candace",
+        "names": {
+            "EN": "Candace",
+            "CHS": "\u574e\u8482\u4e1d",
+            "KR": "\uce94\ub514\uc2a4",
+            "JP": "\u30ad\u30e3\u30f3\u30c7\u30a3\u30b9"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Candace.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Admonition"
+            }
+        ]
+    },
+    {
+        "name": "Emilie",
+        "names": {
+            "EN": "Emilie",
+            "CHS": "\u827e\u6885\u8389\u57c3",
+            "KR": "\uc5d0\ubc00\ub9ac",
+            "JP": "\u30a8\u30df\u30ea\u30a8"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Emilie.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Order"
+            }
+        ]
+    },
+    {
+        "name": "Kirara",
+        "names": {
+            "EN": "Kirara",
+            "CHS": "\u7eee\u826f\u826f",
+            "KR": "\ud0a4\ub77c\ub77c",
+            "JP": "\u7dba\u826f\u3005"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Momoka.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Transience"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerBoy.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Transience"
+            }
+        ]
+    },
+    {
+        "name": "Razor",
+        "names": {
+            "EN": "Razor",
+            "CHS": "\u96f7\u6cfd",
+            "KR": "\ub808\uc774\uc800",
+            "JP": "\u30ec\u30b6\u30fc"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Razor.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Resistance"
+            }
+        ]
+    },
+    {
+        "name": "Yanfei",
+        "names": {
+            "EN": "Yanfei",
+            "CHS": "\u70df\u7eef",
+            "KR": "\uc5f0\ube44",
+            "JP": "\u7159\u7dcb"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Feiyan.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Gold"
+            }
+        ]
+    },
+    {
+        "name": "Dori",
+        "names": {
+            "EN": "Dori",
+            "CHS": "\u591a\u8389",
+            "KR": "\ub3c4\ub9ac",
+            "JP": "\u30c9\u30ea\u30fc"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Dori.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ingenuity"
+            }
+        ]
+    },
+    {
+        "name": "Venti",
+        "names": {
+            "EN": "Venti",
+            "CHS": "\u6e29\u8fea",
+            "KR": "\ubca4\ud2f0",
+            "JP": "\u30a6\u30a7\u30f3\u30c6\u30a3"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Venti.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ballad"
+            }
+        ]
+    },
+    {
+        "name": "Mika",
+        "names": {
+            "EN": "Mika",
+            "CHS": "\u7c73\u5361",
+            "KR": "\ubbf8\uce74",
+            "JP": "\u30df\u30ab"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Mika.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ballad"
+            }
+        ]
+    },
+    {
+        "name": "Gorou",
+        "names": {
+            "EN": "Gorou",
+            "CHS": "\u4e94\u90ce",
+            "KR": "\uace0\ub85c",
+            "JP": "\u30b4\u30ed\u30fc"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Gorou.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Light"
+            }
+        ]
+    },
+    {
+        "name": "Xiao",
+        "names": {
+            "EN": "Xiao",
+            "CHS": "\u9b48",
+            "KR": "\uc18c",
+            "JP": "\u9b48"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Xiao.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Prosperity"
+            }
+        ]
+    },
+    {
+        "name": "Kaveh",
+        "names": {
+            "EN": "Kaveh",
+            "CHS": "\u5361\u7ef4",
+            "KR": "\uce74\ubca0",
+            "JP": "\u30ab\u30fc\u30f4\u30a7"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Kaveh.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ingenuity"
+            }
+        ]
+    },
+    {
+        "name": "Alhaitham",
+        "names": {
+            "EN": "Alhaitham",
+            "CHS": "\u827e\u5c14\u6d77\u68ee",
+            "KR": "\uc54c\ud558\uc774\ud0d0",
+            "JP": "\u30a2\u30eb\u30cf\u30a4\u30bc\u30f3"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Alhatham.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ingenuity"
+            }
+        ]
+    },
+    {
+        "name": "Chevreuse",
+        "names": {
+            "EN": "Chevreuse",
+            "CHS": "\u590f\u6c83\u857e",
+            "KR": "\uc288\ube0c\ub974\uc988",
+            "JP": "\u30b7\u30e5\u30f4\u30eb\u30fc\u30ba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Chevreuse.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Order"
+            }
+        ]
+    },
+    {
+        "name": "Sethos",
+        "names": {
+            "EN": "Sethos",
+            "CHS": "\u8d5b\u7d22\u65af",
+            "KR": "\uc138\ud1a0\uc2a4",
+            "JP": "\u30bb\u30c8\u30b9"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Sethos.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Praxis"
+            }
+        ]
+    },
+    {
+        "name": "Sayu",
+        "names": {
+            "EN": "Sayu",
+            "CHS": "\u65e9\u67da",
+            "KR": "\uc0ac\uc720",
+            "JP": "\u65e9\u67da"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Sayu.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Light"
+            }
+        ]
+    },
+    {
+        "name": "Nilou",
+        "names": {
+            "EN": "Nilou",
+            "CHS": "\u59ae\u9732",
+            "KR": "\ub2d0\ub8e8",
+            "JP": "\u30cb\u30a3\u30ed\u30a6"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Nilou.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Praxis"
+            }
+        ]
+    },
+    {
+        "name": "Fischl",
+        "names": {
+            "EN": "Fischl",
+            "CHS": "\u83f2\u8c22\u5c14",
+            "KR": "\ud53c\uc2ac",
+            "JP": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30eb"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Fischl.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ballad"
+            }
+        ]
+    },
+    {
+        "name": "Rosaria",
+        "names": {
+            "EN": "Rosaria",
+            "CHS": "\u7f57\u838e\u8389\u4e9a",
+            "KR": "\ub85c\uc790\ub9ac\uc544",
+            "JP": "\u30ed\u30b5\u30ea\u30a2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Rosaria.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Ballad"
+            }
+        ]
+    },
+    {
+        "name": "Dehya",
+        "names": {
+            "EN": "Dehya",
+            "CHS": "\u8fea\u5e0c\u96c5",
+            "KR": "\ub370\ud788\uc57c",
+            "JP": "\u30c7\u30a3\u30b7\u30a2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Dehya.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Praxis"
+            }
+        ]
+    },
+    {
+        "name": "Qiqi",
+        "names": {
+            "EN": "Qiqi",
+            "CHS": "\u4e03\u4e03",
+            "KR": "\uce58\uce58",
+            "JP": "\u4e03\u4e03"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Qiqi.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Prosperity"
+            }
+        ]
+    },
+    {
+        "name": "Chasca",
+        "names": {
+            "EN": "Chasca",
+            "CHS": "\u6070\u65af\u5361",
+            "KR": "\ucc28\uc2a4\uce74",
+            "JP": "\u30c1\u30e3\u30b9\u30ab"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Chasca.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Conflict"
+            }
+        ]
+    },
+    {
+        "name": "Kaedehara Kazuha",
+        "names": {
+            "EN": "Kaedehara Kazuha",
+            "CHS": "\u67ab\u539f\u4e07\u53f6",
+            "KR": "\uce74\uc5d0\ub370\ud558\ub77c \uce74\uc988\ud558",
+            "JP": "\u6953\u539f\u4e07\u8449"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Kazuha.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Diligence"
+            }
+        ]
+    },
+    {
+        "name": "Wriothesley",
+        "names": {
+            "EN": "Wriothesley",
+            "CHS": "\u83b1\u6b27\u65af\u5229",
+            "KR": "\ub77c\uc774\uc624\uc2ac\ub9ac",
+            "JP": "\u30ea\u30aa\u30bb\u30b9\u30ea"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Wriothesley.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Order"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerBoy.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Neuvillette",
+        "names": {
+            "EN": "Neuvillette",
+            "CHS": "\u90a3\u7ef4\u83b1\u7279",
+            "KR": "\ub290\ube44\uc608\ud2b8",
+            "JP": "\u30cc\u30f4\u30a3\u30ec\u30c3\u30c8"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Neuvillette.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Equity"
+            }
+        ]
+    },
+    {
+        "name": "Xiangling",
+        "names": {
+            "EN": "Xiangling",
+            "CHS": "\u9999\u83f1",
+            "KR": "\ud5a5\ub989",
+            "JP": "\u9999\u83f1"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Xiangling.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Diligence"
+            }
+        ]
+    },
+    {
+        "name": "Mona",
+        "names": {
+            "EN": "Mona",
+            "CHS": "\u83ab\u5a1c",
+            "KR": "\ubaa8\ub098",
+            "JP": "\u30e2\u30ca"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Mona.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Resistance"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerBoy.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Admonition"
+            }
+        ]
+    },
+    {
+        "name": "Kujou Sara",
+        "names": {
+            "EN": "Kujou Sara",
+            "CHS": "\u4e5d\u6761\u88df\u7f57",
+            "KR": "\ucfe0\uc8e0 \uc0ac\ub77c",
+            "JP": "\u4e5d\u6761\u88df\u7f85"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Sara.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Elegance"
+            }
+        ]
+    },
+    {
+        "name": "Diona",
+        "names": {
+            "EN": "Diona",
+            "CHS": "\u8fea\u5965\u5a1c",
+            "KR": "\ub514\uc624\ub098",
+            "JP": "\u30c7\u30a3\u30aa\u30ca"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Diona.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Aloy",
+        "names": {
+            "EN": "Aloy",
+            "CHS": "\u57c3\u6d1b\u4f0a",
+            "KR": "\uc5d0\uc77c\ub85c\uc774",
+            "JP": "\u30a2\u30fc\u30ed\u30a4"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Aloy.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Freedom"
+            }
+        ]
+    },
+    {
+        "name": "Tighnari",
+        "names": {
+            "EN": "Tighnari",
+            "CHS": "\u63d0\u7eb3\u91cc",
+            "KR": "\ud0c0\uc774\ub098\ub9ac",
+            "JP": "\u30c6\u30a3\u30ca\u30ea"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Tighnari.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Admonition"
+            }
+        ]
+    },
+    {
+        "name": "Diluc",
+        "names": {
+            "EN": "Diluc",
+            "CHS": "\u8fea\u5362\u514b",
+            "KR": "\ub2e4\uc774\ub8e8\ud06c",
+            "JP": "\u30c7\u30a3\u30eb\u30c3\u30af"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Diluc.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Resistance"
+            }
+        ]
+    },
+    {
+        "name": "Xilonen",
+        "names": {
+            "EN": "Xilonen",
+            "CHS": "\u5e0c\u8bfa\u5b81",
+            "KR": "\uc2e4\ub85c\ub2cc",
+            "JP": "\u30b7\u30ed\u30cd\u30f3"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Xilonen.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Kindling"
+            }
+        ]
+    },
+    {
+        "name": "Shikanoin Heizou",
+        "names": {
+            "EN": "Shikanoin Heizou",
+            "CHS": "\u9e7f\u91ce\u9662\u5e73\u85cf",
+            "KR": "\uc2dc\uce74\ub178\uc778 \ud5e4\uc774\uc870",
+            "JP": "\u9e7f\u91ce\u9662\u5e73\u8535"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Heizo.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Transience"
+            }
+        ]
+    },
+    {
+        "name": "Lyney",
+        "names": {
+            "EN": "Lyney",
+            "CHS": "\u6797\u5c3c",
+            "KR": "\ub9ac\ub2c8",
+            "JP": "\u30ea\u30cd"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Liney.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Equity"
+            }
+        ]
+    },
+    {
+        "name": "Zhongli",
+        "names": {
+            "EN": "Zhongli",
+            "CHS": "\u949f\u79bb",
+            "KR": "\uc885\ub824",
+            "JP": "\u937e\u96e2"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Zhongli.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Gold"
+            }
+        ]
+    }
+]
