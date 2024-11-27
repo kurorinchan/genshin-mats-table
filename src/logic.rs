@@ -1,6 +1,4 @@
 // Things to edit (in this file) when adding new characters
-// - day_to_mat_type() function. Add day of week to material type mapping.
-//   - See TODO for this. This is derivable.
 // - Add new materials to TalentLevelUpMaterialType enum.
 
 use anyhow::bail;
@@ -38,7 +36,20 @@ pub enum DayOfWeek {
     Sunday,
 }
 
-#[derive(EnumIter, Debug, AsRefStr, Clone, Hash, PartialEq, Eq, Serialize, Deserialize, Copy)]
+#[derive(
+    EnumIter,
+    Debug,
+    AsRefStr,
+    Clone,
+    Hash,
+    PartialEq,
+    Eq,
+    Serialize,
+    Deserialize,
+    Copy,
+    PartialOrd,
+    Ord,
+)]
 pub enum TalentLevelUpMaterialType {
     // Mondstadt.
     Freedom,
@@ -166,69 +177,28 @@ impl Character {
     }
 }
 
-// TODO: Might be better to have this in a JSON and read it.
-// Or this is actually derivable from resources.json. So that is probably better.
 pub fn day_to_mat_type() -> HashMap<DayOfWeek, Vec<TalentLevelUpMaterialType>> {
     type MatType = TalentLevelUpMaterialType;
-    let mapping = [
-        (
-            DayOfWeek::Monday,
-            vec![
-                MatType::Contention,
-                MatType::Equity,
-                MatType::Admonition,
-                MatType::Transience,
-                MatType::Prosperity,
-                MatType::Freedom,
-            ],
-        ),
-        (
-            DayOfWeek::Tuesday,
-            vec![
-                MatType::Kindling,
-                MatType::Justice,
-                MatType::Ingenuity,
-                MatType::Elegance,
-                MatType::Diligence,
-                MatType::Resistance,
-            ],
-        ),
-        (
-            DayOfWeek::Wednesday,
-            vec![
-                MatType::Conflict,
-                MatType::Order,
-                MatType::Praxis,
-                MatType::Light,
-                MatType::Gold,
-                MatType::Ballad,
-            ],
-        ),
-    ];
-
     let mut map = HashMap::new();
-    for (day, mat_types) in mapping {
-        map.insert(day, mat_types.clone());
+    // TODO: Don't unwrap here in case of failure.
+    let resources = read_resources().unwrap();
+    for (name, resource) in &resources {
+        if !name.contains("Teachings of ") {
+            continue;
+        }
+        let days = resource.days.as_ref().unwrap();
+        for day in days {
+            let day = DayOfWeek::from_str(day).unwrap();
+            let mat_type = MatType::from_full_name(name).unwrap();
+            map.entry(day).or_insert_with(Vec::new).push(mat_type);
+        }
     }
 
-    // Monday, Thursday
-    // Tuesday, Friday
-    // Wednesday, Saturday
-    // have same materials. So copy them.
-    map.insert(
-        DayOfWeek::Thursday,
-        map.get(&DayOfWeek::Monday).unwrap().clone(),
-    );
-    map.insert(
-        DayOfWeek::Friday,
-        map.get(&DayOfWeek::Tuesday).unwrap().clone(),
-    );
-    map.insert(
-        DayOfWeek::Saturday,
-        map.get(&DayOfWeek::Wednesday).unwrap().clone(),
-    );
-
-    map.insert(DayOfWeek::Sunday, MatType::iter().collect());
+    // Relying on enum to be in oldest to newest.
+    for values in map.values_mut() {
+        values.sort();
+        values.reverse();
+    }
     map
 }
 
@@ -475,6 +445,30 @@ mod tests {
         let justice = mat_type_to_name(TalentLevelUpMaterialType::Justice)?;
         assert_eq!("正義", justice);
 
+        Ok(())
+    }
+
+    #[test]
+    fn test_day_to_mat_type() -> Result<()> {
+        let day_to_mat = day_to_mat_type();
+        assert_ge!(day_to_mat.len(), 1);
+
+        // Make sure there are entries for all day of the week.
+        assert_ge!(day_to_mat.get(&DayOfWeek::Monday).unwrap().len(), 1);
+        assert_ge!(day_to_mat.get(&DayOfWeek::Tuesday).unwrap().len(), 1);
+        assert_ge!(day_to_mat.get(&DayOfWeek::Wednesday).unwrap().len(), 1);
+        assert_ge!(day_to_mat.get(&DayOfWeek::Thursday).unwrap().len(), 1);
+        assert_ge!(day_to_mat.get(&DayOfWeek::Friday).unwrap().len(), 1);
+        assert_ge!(day_to_mat.get(&DayOfWeek::Saturday).unwrap().len(), 1);
+        assert_ge!(day_to_mat.get(&DayOfWeek::Sunday).unwrap().len(), 1);
+
+        let materials = day_to_mat.get(&DayOfWeek::Monday).unwrap();
+
+        let found = materials
+            .iter()
+            .find(|mat_type| *mat_type == &TalentLevelUpMaterialType::Contention);
+
+        assert!(found.is_some());
         Ok(())
     }
 }
