@@ -177,19 +177,22 @@ impl Character {
     }
 }
 
-pub fn day_to_mat_type() -> HashMap<DayOfWeek, Vec<TalentLevelUpMaterialType>> {
+pub fn day_to_mat_type() -> Result<HashMap<DayOfWeek, Vec<TalentLevelUpMaterialType>>> {
     type MatType = TalentLevelUpMaterialType;
     let mut map = HashMap::new();
-    // TODO: Don't unwrap here in case of failure.
-    let resources = read_resources().unwrap();
+    let resources = read_resources()?;
     for (name, resource) in &resources {
         if !name.contains("Teachings of ") {
             continue;
         }
-        let days = resource.days.as_ref().unwrap();
+        let days = resource
+            .days
+            .as_ref()
+            .with_context(|| format!("no days in {}", name))?;
         for day in days {
-            let day = DayOfWeek::from_str(day).unwrap();
-            let mat_type = MatType::from_full_name(name).unwrap();
+            let day = DayOfWeek::from_str(day)?;
+            let mat_type = MatType::from_full_name(name)
+                .with_context(|| format!("failed to convert to mat type for {}", name))?;
             map.entry(day).or_insert_with(Vec::new).push(mat_type);
         }
     }
@@ -199,7 +202,7 @@ pub fn day_to_mat_type() -> HashMap<DayOfWeek, Vec<TalentLevelUpMaterialType>> {
         values.sort();
         values.reverse();
     }
-    map
+    Ok(map)
 }
 
 pub fn group_by_material(
@@ -450,7 +453,7 @@ mod tests {
 
     #[test]
     fn test_day_to_mat_type() -> Result<()> {
-        let day_to_mat = day_to_mat_type();
+        let day_to_mat = day_to_mat_type().unwrap();
         assert_ge!(day_to_mat.len(), 1);
 
         // Make sure there are entries for all day of the week.

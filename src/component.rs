@@ -58,30 +58,51 @@ fn MaterialsView(mat_type: logic::TalentLevelUpMaterialType) -> impl IntoView {
 
 #[component]
 fn ShowByDayOfWeek(relevant_day: logic::RelevantDay) -> impl IntoView {
-    let day_to_mat = day_to_mat_type();
+    let day_to_mat = create_resource(
+        || (),
+        |_| async move {
+            let day_to_mat = day_to_mat_type();
+            day_to_mat.ok()
+        },
+    );
 
-    let mat_types = day_to_mat
-        .get(&relevant_day.day_of_week)
-        .expect("All days exist");
-
-    let mat_views = mat_types
-        .iter()
-        .map(|mat_type| {
-            view! {
-                <div>
-                    <MaterialsView mat_type={*mat_type} />
-                </div>
+    let mat_views = move || {
+        // Wrapped in double Option. First one to see if feature is ready. The second whether
+        // the operation succeeded.
+        let Some(day_to_mat) = day_to_mat.get() else {
+            return view! {}.into_view();
+        };
+        let Some(day_to_mat) = day_to_mat else {
+            return view! {
+                <div> "Failed to load resources" </div>
             }
-        })
-        .collect::<Vec<_>>();
+            .into_view();
+        };
 
+        let mat_types = day_to_mat
+            .get(&relevant_day.day_of_week)
+            .expect("All days exist");
+
+        let mat_views = mat_types
+            .iter()
+            .map(|mat_type| {
+                view! {
+                    <div>
+                        <MaterialsView mat_type={*mat_type} />
+                    </div>
+                }
+            })
+            .collect::<Vec<_>>();
+        mat_views.into_view()
+    };
     view! {
         <div>
             <div class="text-primary fs-3">
             {relevant_day.display_name.clone()}
             </div>
-
-            {mat_views}
+            <Suspense fallback=move || view! { <p>"Loading..."</p> }>
+            {mat_views()}
+            </Suspense>
         </div>
     }
 }
