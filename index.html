@@ -10,10 +10,10 @@
     rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous">
-  <link data-trunk rel="rust" data-wasm-opt="3" />
+  <link data-trunk rel="rust" data-wasm-opt="3" data-weak-refs />
   <link data-trunk rel="copy-dir" href="img" />
   <link data-trunk rel="scss" href="style/style.scss" />
-  <base href="/" />
+  <base data-trunk-public-url />
 </head>
 
 <body class="background">
