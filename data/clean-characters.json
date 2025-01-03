@@ -30,6 +30,21 @@
         ]
     },
     {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerGirl.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Contention"
+            }
+        ]
+    },
+    {
         "name": "Navia",
         "names": {
             "EN": "Navia",
@@ -1470,6 +1485,36 @@
         ]
     },
     {
+        "name": "Mavuika",
+        "names": {
+            "EN": "Mavuika",
+            "CHS": "\u739b\u8587\u5361",
+            "KR": "\ub9c8\ube44\uce74",
+            "JP": "\u30de\u30fc\u30f4\u30a3\u30ab"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Mavuika.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Contention"
+            }
+        ]
+    },
+    {
+        "name": "Traveler",
+        "names": {
+            "EN": "Traveler",
+            "CHS": "\u65c5\u884c\u8005",
+            "KR": "\uc5ec\ud589\uc790",
+            "JP": "\u65c5\u4eba"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_PlayerBoy.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Contention"
+            }
+        ]
+    },
+    {
         "name": "Lyney",
         "names": {
             "EN": "Lyney",
@@ -1496,6 +1541,21 @@
         "talent_materials": [
             {
                 "name": "Teachings of Gold"
+            }
+        ]
+    },
+    {
+        "name": "Citlali",
+        "names": {
+            "EN": "Citlali",
+            "CHS": "\u831c\u7279\u83c8\u8389",
+            "KR": "\uc2dc\ud2c0\ub77c\ub9ac",
+            "JP": "\u30b7\u30c8\u30e9\u30ea"
+        },
+        "thumbnail": "https://api.hakush.in/gi/UI/UI_AvatarIcon_Citlali.webp",
+        "talent_materials": [
+            {
+                "name": "Teachings of Kindling"
             }
         ]
     }
